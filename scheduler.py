@@ -1,9 +1,15 @@
 from __future__ import annotations
 from dataclasses import dataclass, field
-from typing import Dict, List, Optional, Sequence, Set, Tuple
+from typing import Dict, List, Optional, Sequence, Set, Tuple, Any
 import copy
 import json
 import os
+import random
+
+try:
+    import pandas as pd
+except ImportError:
+    pd = None
 
 @dataclass(frozen=True)
 class TimeSlot:
@@ -54,6 +60,7 @@ class Assignment:
     course_id: str
     room_id: str
     timeslot: TimeSlot
+    session_index: int = 0
 
 class Timetable:
     def __init__(self):
@@ -62,7 +69,7 @@ class Timetable:
         self.rooms: Dict[str, Room] = {}
         self.groups: Dict[str, ClassGroup] = {}
         self.timeslots: List[TimeSlot] = [TimeSlot(day, period) for day in range(5) for period in range(8)]
-        self.assignments: Dict[str, Assignment] = {}
+        self.assignments: List[Assignment] = []
 
     def add_course(self, course: Course) -> None:
         self.courses[course.id] = course
@@ -76,54 +83,80 @@ class Timetable:
     def add_group(self, group: ClassGroup) -> None:
         self.groups[group.id] = group
 
-    def add_assignment(self, course_id: str, room_id: str, timeslot: TimeSlot) -> None:
+    def add_assignment(self, course_id: str, room_id: str, timeslot: TimeSlot, session_index: int = 0) -> None:
         if course_id not in self.courses:
             raise KeyError(f"课程 {course_id} 不存在")
         if room_id not in self.rooms:
             raise KeyError(f"教室 {room_id} 不存在")
-        self.assignments[course_id] = Assignment(course_id=course_id, room_id=room_id, timeslot=timeslot)
+        self.assignments.append(Assignment(course_id=course_id, room_id=room_id, timeslot=timeslot, session_index=session_index))
 
-    def evaluate_constraints(self) -> Dict[str, int]:
+    def remove_assignment(self, assignment: Assignment) -> None:
+        self.assignments = [a for a in self.assignments if a != assignment]
+
+    def replace_assignment(self, old_assignment: Assignment, new_assignment: Assignment) -> None:
+        for index, assignment in enumerate(self.assignments):
+            if assignment == old_assignment:
+                self.assignments[index] = new_assignment
+                return
+        self.assignments.append(new_assignment)
+
+    def evaluate_constraints(self) -> Dict[str, Any]:
         room_usage: Dict[Tuple[str, TimeSlot], List[str]] = {}
         teacher_usage: Dict[Tuple[str, TimeSlot], List[str]] = {}
         group_usage: Dict[Tuple[str, TimeSlot], List[str]] = {}
 
-        hard_room_occupancy = 0
-        hard_teacher_conflict = 0
-        hard_group_conflict = 0
         hard_capacity = 0
         hard_teacher_unavailable = 0
         soft_preference_penalty = 0
         soft_teacher_preference = 0
+        soft_room_feature_penalty = 0
+        soft_checks = 0
 
-        for assignment in self.assignments.values():
+        for assignment in self.assignments:
             course = self.courses[assignment.course_id]
             room = self.rooms[assignment.room_id]
             teacher = self.teachers[course.teacher_id]
 
-            room_key = (assignment.room_id, assignment.timeslot)
-            room_usage.setdefault(room_key, []).append(course.id)
-            teacher_key = (course.teacher_id, assignment.timeslot)
-            teacher_usage.setdefault(teacher_key, []).append(course.id)
+            room_usage.setdefault((assignment.room_id, assignment.timeslot), []).append(course.id)
+            teacher_usage.setdefault((course.teacher_id, assignment.timeslot), []).append(course.id)
             for group_id in course.group_ids:
-                group_key = (group_id, assignment.timeslot)
-                group_usage.setdefault(group_key, []).append(course.id)
+                group_usage.setdefault((group_id, assignment.timeslot), []).append(course.id)
 
             if room.capacity < course.size:
                 hard_capacity += 1
             if assignment.timeslot in teacher.unavailable:
                 hard_teacher_unavailable += 1
-            if course.preferred_slots and assignment.timeslot not in course.preferred_slots:
-                soft_preference_penalty += 1
-            if teacher.preferred_slots and assignment.timeslot not in teacher.preferred_slots:
-                soft_teacher_preference += 1
+            if course.preferred_slots:
+                soft_checks += 1
+                if assignment.timeslot not in course.preferred_slots:
+                    soft_preference_penalty += 1
+            if teacher.preferred_slots:
+                soft_checks += 1
+                if assignment.timeslot not in teacher.preferred_slots:
+                    soft_teacher_preference += 1
+            if course.preferred_room_features:
+                soft_checks += 1
+                if not set(course.preferred_room_features).issubset(room.features):
+                    soft_room_feature_penalty += 1
 
         hard_room_occupancy = sum(max(0, len(courses) - 1) for courses in room_usage.values())
         hard_teacher_conflict = sum(max(0, len(courses) - 1) for courses in teacher_usage.values())
         hard_group_conflict = sum(max(0, len(courses) - 1) for courses in group_usage.values())
 
-        soft_total = soft_preference_penalty + soft_teacher_preference
-        hard_total = hard_room_occupancy + hard_teacher_conflict + hard_group_conflict + hard_capacity + hard_teacher_unavailable
+        hard_total = (
+            hard_room_occupancy
+            + hard_teacher_conflict
+            + hard_group_conflict
+            + hard_capacity
+            + hard_teacher_unavailable
+        )
+        soft_total = soft_preference_penalty + soft_teacher_preference + soft_room_feature_penalty
+
+        assignment_count = len(self.assignments)
+        hard_checks = max(1, assignment_count * 3 + len(room_usage) + len(teacher_usage) + len(group_usage))
+        hard_satisfaction_rate = max(0.0, 1.0 - hard_total / hard_checks)
+        soft_satisfaction_rate = 1.0 if soft_checks == 0 else max(0.0, 1.0 - soft_total / soft_checks)
+        overall_satisfaction_rate = (hard_satisfaction_rate + soft_satisfaction_rate) / 2
 
         return {
             "hard_room_occupancy": hard_room_occupancy,
@@ -133,15 +166,20 @@ class Timetable:
             "hard_teacher_unavailable": hard_teacher_unavailable,
             "soft_preference_penalty": soft_preference_penalty,
             "soft_teacher_preference": soft_teacher_preference,
+            "soft_room_feature_penalty": soft_room_feature_penalty,
             "hard_total": hard_total,
             "soft_total": soft_total,
-            "score": -(hard_total * 100 + soft_total),
+            "score": -(hard_total * 1000 + soft_total * 10),
+            "hard_satisfaction_rate": round(hard_satisfaction_rate, 4),
+            "soft_satisfaction_rate": round(soft_satisfaction_rate, 4),
+            "overall_satisfaction_rate": round(overall_satisfaction_rate, 4),
         }
 
 class Solution:
-    def __init__(self, timetable: Timetable):
+    def __init__(self, timetable: Timetable, strategy_name: str = "baseline"):
         self.timetable = timetable
-        self.assignments: List[Assignment] = list(timetable.assignments.values())
+        self.assignments: List[Assignment] = list(timetable.assignments)
+        self.strategy_name = strategy_name
 
 class DataLoader:
     @staticmethod
@@ -149,16 +187,35 @@ class DataLoader:
         timetable = Timetable()
 
         teachers = [
-            Teacher(id="T1", name="张老师", unavailable={TimeSlot(0, 7), TimeSlot(2, 2)}),
-            Teacher(id="T2", name="李老师", unavailable={TimeSlot(1, 3), TimeSlot(3, 0)}),
-            Teacher(id="T3", name="王老师", unavailable={TimeSlot(4, 5)}),
-            Teacher(id="T4", name="赵老师", unavailable={TimeSlot(0, 0), TimeSlot(4, 7)}),
+            Teacher(
+                id="T1",
+                name="张老师",
+                unavailable={TimeSlot(0, 7), TimeSlot(2, 2)},
+                preferred_slots=[TimeSlot(0, 1), TimeSlot(0, 2)],
+            ),
+            Teacher(
+                id="T2",
+                name="李老师",
+                unavailable={TimeSlot(1, 3), TimeSlot(3, 0)},
+                preferred_slots=[TimeSlot(1, 2), TimeSlot(3, 2)],
+            ),
+            Teacher(
+                id="T3",
+                name="王老师",
+                unavailable={TimeSlot(4, 5)},
+                preferred_slots=[TimeSlot(2, 3), TimeSlot(4, 2)],
+            ),
+            Teacher(
+                id="T4",
+                name="赵老师",
+                unavailable={TimeSlot(0, 0), TimeSlot(4, 7)},
+            ),
         ]
         for teacher in teachers:
             timetable.add_teacher(teacher)
 
         rooms = [
-            Room(id="R1", name="教室101", capacity=40, features={"投影"}),
+            Room(id="R1", name="教室101", capacity=40, features={"投影", "空调"}),
             Room(id="R2", name="教室102", capacity=30, features={"黑板"}),
             Room(id="R3", name="教室103", capacity=20, features={"投影", "空调"}),
         ]
@@ -174,12 +231,57 @@ class DataLoader:
             timetable.add_group(group)
 
         courses = [
-            Course(id="C1", name="高等数学", teacher_id="T1", group_ids=["G1"], size=35, preferred_slots=[TimeSlot(0, 1), TimeSlot(2, 1)]),
-            Course(id="C2", name="大学英语", teacher_id="T2", group_ids=["G2"], size=28, preferred_slots=[TimeSlot(1, 2), TimeSlot(3, 2)]),
-            Course(id="C3", name="程序设计", teacher_id="T3", group_ids=["G3"], size=22, preferred_slots=[TimeSlot(2, 3), TimeSlot(4, 3)]),
-            Course(id="C4", name="线性代数", teacher_id="T1", group_ids=["G1"], size=35, preferred_slots=[TimeSlot(0, 2), TimeSlot(2, 2)]),
-            Course(id="C5", name="物理", teacher_id="T4", group_ids=["G1", "G2"], size=30, preferred_slots=[TimeSlot(1, 1), TimeSlot(3, 1)]),
-            Course(id="C6", name="计算机网络", teacher_id="T3", group_ids=["G3"], size=22, preferred_slots=[TimeSlot(4, 1), TimeSlot(4, 2)]),
+            Course(
+                id="C1",
+                name="高等数学",
+                teacher_id="T1",
+                group_ids=["G1"],
+                size=35,
+                preferred_slots=[TimeSlot(0, 1), TimeSlot(2, 1)],
+                preferred_room_features=["投影"],
+            ),
+            Course(
+                id="C2",
+                name="大学英语",
+                teacher_id="T2",
+                group_ids=["G2"],
+                size=28,
+                preferred_slots=[TimeSlot(1, 2), TimeSlot(3, 2)],
+            ),
+            Course(
+                id="C3",
+                name="程序设计",
+                teacher_id="T3",
+                group_ids=["G3"],
+                size=22,
+                preferred_slots=[TimeSlot(2, 3), TimeSlot(4, 3)],
+                preferred_room_features=["空调"],
+            ),
+            Course(
+                id="C4",
+                name="线性代数",
+                teacher_id="T1",
+                group_ids=["G1"],
+                size=35,
+                preferred_slots=[TimeSlot(0, 2), TimeSlot(2, 2)],
+            ),
+            Course(
+                id="C5",
+                name="物理",
+                teacher_id="T4",
+                group_ids=["G1", "G2"],
+                size=30,
+                preferred_slots=[TimeSlot(1, 1), TimeSlot(3, 1)],
+            ),
+            Course(
+                id="C6",
+                name="计算机网络",
+                teacher_id="T3",
+                group_ids=["G3"],
+                size=22,
+                preferred_slots=[TimeSlot(4, 1), TimeSlot(4, 2)],
+                preferred_room_features=["投影"],
+            ),
         ]
         for course in courses:
             timetable.add_course(course)
@@ -190,16 +292,21 @@ class DataLoader:
 
         return timetable
 
-class HybridSolver:
+class BaseSolver:
     def __init__(self, timetable: Timetable, seed: int = 0):
         self.base_timetable = copy.deepcopy(timetable)
         self.seed = seed
+        random.seed(seed)
 
+    def solve(self, time_limit: int = 5) -> Solution:
+        raise NotImplementedError
+
+class GreedySolver(BaseSolver):
     def solve(self, time_limit: int = 5) -> Solution:
         timetable = copy.deepcopy(self.base_timetable)
         sorted_courses = sorted(
             timetable.courses.values(),
-            key=lambda c: (-len(c.group_ids), c.size),
+            key=lambda c: (-len(c.group_ids), c.size, c.id),
         )
 
         for course in sorted_courses:
@@ -211,10 +318,10 @@ class HybridSolver:
                 for timeslot in timetable.timeslots:
                     if self._is_forbidden(timetable, course, room, timeslot):
                         continue
-                    candidate_timetable = copy.deepcopy(timetable)
-                    candidate_timetable.add_assignment(course.id, room.id, timeslot)
-                    metrics = candidate_timetable.evaluate_constraints()
-                    cost = metrics['hard_total'] * 100 + metrics['soft_total']
+                    candidate = copy.deepcopy(timetable)
+                    candidate.add_assignment(course.id, room.id, timeslot)
+                    metrics = candidate.evaluate_constraints()
+                    cost = metrics['hard_total'] * 1000 + metrics['soft_total'] * 10
                     if cost < best_metric:
                         best_metric = cost
                         best_assignment = (room.id, timeslot)
@@ -224,48 +331,83 @@ class HybridSolver:
                 fallback_room = min(timetable.rooms.values(), key=lambda r: abs(r.capacity - course.size))
                 fallback_slot = timetable.timeslots[0]
                 timetable.add_assignment(course.id, fallback_room.id, fallback_slot)
-
-        self._local_improve(timetable)
-        return Solution(timetable)
+        return Solution(timetable, strategy_name="greedy")
 
     def _is_forbidden(self, timetable: Timetable, course: Course, room: Room, timeslot: TimeSlot) -> bool:
         teacher = timetable.teachers[course.teacher_id]
         if timeslot in teacher.unavailable:
             return True
-        for assignment in timetable.assignments.values():
+        for assignment in timetable.assignments:
             if assignment.timeslot == timeslot:
                 if assignment.room_id == room.id:
                     return True
-                assigned_course = timetable.courses[assignment.course_id]
-                if assigned_course.teacher_id == course.teacher_id:
+                existing_course = timetable.courses[assignment.course_id]
+                if existing_course.teacher_id == course.teacher_id:
                     return True
-                if set(assigned_course.group_ids) & set(course.group_ids):
+                if set(existing_course.group_ids) & set(course.group_ids):
                     return True
         return False
 
+class HybridSolver(GreedySolver):
+    def solve(self, time_limit: int = 5) -> Solution:
+        solution = super().solve(time_limit)
+        self._local_improve(solution.timetable)
+        solution.strategy_name = "hybrid"
+        return solution
+
     def _local_improve(self, timetable: Timetable) -> None:
         baseline = timetable.evaluate_constraints()['score']
-        for course in timetable.courses.values():
-            current = timetable.assignments.get(course.id)
-            if current is None:
-                continue
+        for assignment in list(timetable.assignments):
+            course = timetable.courses[assignment.course_id]
             for room in timetable.rooms.values():
                 for timeslot in timetable.timeslots:
-                    if room.id == current.room_id and timeslot == current.timeslot:
+                    if room.id == assignment.room_id and timeslot == assignment.timeslot:
                         continue
-                    candidate_timetable = copy.deepcopy(timetable)
-                    candidate_timetable.add_assignment(course.id, room.id, timeslot)
-                    candidate_score = candidate_timetable.evaluate_constraints()['score']
+                    if self._is_forbidden_for_swap(timetable, course, room, timeslot, assignment):
+                        continue
+                    candidate = copy.deepcopy(timetable)
+                    candidate.remove_assignment(assignment)
+                    candidate.add_assignment(course.id, room.id, timeslot, session_index=assignment.session_index)
+                    candidate_score = candidate.evaluate_constraints()['score']
                     if candidate_score > baseline:
-                        timetable.assignments = candidate_timetable.assignments
+                        timetable.replace_assignment(assignment, Assignment(course.id, room.id, timeslot, assignment.session_index))
                         baseline = candidate_score
+
+    def _is_forbidden_for_swap(
+        self,
+        timetable: Timetable,
+        course: Course,
+        room: Room,
+        timeslot: TimeSlot,
+        current_assignment: Assignment,
+    ) -> bool:
+        teacher = timetable.teachers[course.teacher_id]
+        if timeslot in teacher.unavailable:
+            return True
+        for assignment in timetable.assignments:
+            if assignment == current_assignment:
+                continue
+            if assignment.timeslot == timeslot:
+                if assignment.room_id == room.id:
+                    return True
+                existing_course = timetable.courses[assignment.course_id]
+                if existing_course.teacher_id == course.teacher_id:
+                    return True
+                if set(existing_course.group_ids) & set(course.group_ids):
+                    return True
+        return False
 
 class Evaluator:
     @staticmethod
-    def evaluate_solution(solution: Solution) -> Dict[str, int]:
+    def evaluate_solution(solution: Solution) -> Dict[str, Any]:
         if solution is None or solution.timetable is None:
             raise ValueError("无效的解")
         return solution.timetable.evaluate_constraints()
+
+class StrategyEvaluator:
+    @staticmethod
+    def compare_strategies(strategies: Dict[str, Solution]) -> Dict[str, Dict[str, Any]]:
+        return {name: Evaluator.evaluate_solution(solution) for name, solution in strategies.items()}
 
 class OutputGenerator:
     @staticmethod
@@ -309,6 +451,7 @@ class OutputGenerator:
     def generate_constraint_report(solution: Solution, path: str) -> None:
         evaluation = Evaluator.evaluate_solution(solution)
         report = {
+            "strategy": solution.strategy_name,
             "assignments": [
                 {
                     "course_id": assignment.course_id,
@@ -322,5 +465,22 @@ class OutputGenerator:
         directory = os.path.dirname(path)
         if directory:
             os.makedirs(directory, exist_ok=True)
+        with open(path, "w", encoding="utf-8") as handle:
+            json.dump(report, handle, ensure_ascii=False, indent=2)
+
+    @staticmethod
+    def generate_strategy_comparison_report(results: Dict[str, Dict[str, Any]], path: str) -> None:
+        directory = os.path.dirname(path)
+        if directory:
+            os.makedirs(directory, exist_ok=True)
+
+        if pd is not None and path.lower().endswith('.csv'):
+            df = pd.DataFrame(results).T
+            df.to_csv(path, index=True, encoding='utf-8')
+            return
+
+        report = {
+            "strategies": results,
+        }
         with open(path, "w", encoding="utf-8") as handle:
             json.dump(report, handle, ensure_ascii=False, indent=2)

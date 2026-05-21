@@ -6,7 +6,7 @@ import unittest
 import tempfile
 import os
 
-from scheduler import DataLoader, HybridSolver, Evaluator, OutputGenerator, TimeSlot
+from scheduler import DataLoader, GreedySolver, HybridSolver, StrategyEvaluator, Evaluator, OutputGenerator, TimeSlot
 
 class TestCourseScheduler(unittest.TestCase):
     """测试课程安排系统"""
@@ -49,6 +49,24 @@ class TestCourseScheduler(unittest.TestCase):
         
         # 至少应该能安排一些课程
         self.assertGreater(len(solution.assignments), 0)
+        self.assertEqual(evaluation["hard_total"], 0)
+        self.assertGreaterEqual(evaluation["overall_satisfaction_rate"], 0.0)
+        self.assertLessEqual(evaluation["overall_satisfaction_rate"], 1.0)
+    
+    def test_strategy_comparison(self):
+        """测试不同求解策略比较"""
+        greedy_solution = GreedySolver(self.timetable, seed=0).solve(time_limit=2)
+        hybrid_solution = HybridSolver(self.timetable, seed=0).solve(time_limit=2)
+        results = StrategyEvaluator.compare_strategies(
+            {
+                "greedy": greedy_solution,
+                "hybrid": hybrid_solution,
+            }
+        )
+        self.assertIn("greedy", results)
+        self.assertIn("hybrid", results)
+        self.assertIn("overall_satisfaction_rate", results["greedy"])
+        self.assertIn("overall_satisfaction_rate", results["hybrid"])
     
     def test_output_generation(self):
         """测试输出生成"""

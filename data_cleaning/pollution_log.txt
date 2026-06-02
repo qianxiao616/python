@@ -1,0 +1,3589 @@
+数据污染日志
+================================================================================
+
+总计污染: 3582 处
+
+详细记录:
+--------------------------------------------------------------------------------
+1. 课程[1261] min_working_days: 3 -> NaN (缺失值)
+2. 课程[233] teacher_id: t043 -> NaN (缺失值)
+3. 课程[1283] min_working_days: 3.0 -> NaN (缺失值)
+4. 课程[867] min_working_days: 2.0 -> NaN (缺失值)
+5. 课程[971] min_working_days: 3.0 -> NaN (缺失值)
+6. 课程[537] course_id: c0932 -> NaN (缺失值)
+7. 课程[1354] n_students: 70 -> NaN (缺失值)
+8. 课程[1193] course_id: c0026 -> NaN (缺失值)
+9. 课程[436] course_id: c0056 -> NaN (缺失值)
+10. 课程[130] n_lectures: 3 -> NaN (缺失值)
+11. 课程[397] n_lectures: 3.0 -> NaN (缺失值)
+12. 课程[241] n_lectures: 3.0 -> NaN (缺失值)
+13. 课程[163] min_working_days: 2.0 -> NaN (缺失值)
+14. 课程[434] n_lectures: 3.0 -> NaN (缺失值)
+15. 课程[261] teacher_id: t068 -> NaN (缺失值)
+16. 课程[1493] n_students: 15.0 -> NaN (缺失值)
+17. 课程[997] course_id: c0465 -> NaN (缺失值)
+18. 课程[712] teacher_id: t062 -> NaN (缺失值)
+19. 课程[1125] n_lectures: 5.0 -> NaN (缺失值)
+20. 课程[297] n_students: 100.0 -> NaN (缺失值)
+21. 课程[149] course_id: FonInfAr -> NaN (缺失值)
+22. 课程[1502] course_id: c0342 -> NaN (缺失值)
+23. 课程[23] course_id: c0066 -> NaN (缺失值)
+24. 课程[565] min_working_days: 3.0 -> NaN (缺失值)
+25. 课程[1093] teacher_id: t049 -> NaN (缺失值)
+26. 课程[354] teacher_id: t030 -> NaN (缺失值)
+27. 课程[943] n_students: 39.0 -> NaN (缺失值)
+28. 课程[209] min_working_days: 3.0 -> NaN (缺失值)
+29. 课程[901] course_id: LinGen -> NaN (缺失值)
+30. 课程[326] teacher_id: t009 -> NaN (缺失值)
+31. 课程[744] n_students: 113.0 -> NaN (缺失值)
+32. 课程[1575] course_id: c0432 -> NaN (缺失值)
+33. 课程[831] course_id: c0983 -> NaN (缺失值)
+34. 课程[567] min_working_days: 3.0 -> NaN (缺失值)
+35. 课程[1729] n_students: 52.0 -> NaN (缺失值)
+36. 课程[576] n_lectures: 3.0 -> NaN (缺失值)
+37. 课程[957] min_working_days: 3.0 -> NaN (缺失值)
+38. 课程[1152] course_id: CosMacMn -> NaN (缺失值)
+39. 课程[1188] teacher_id: t059 -> NaN (缺失值)
+40. 课程[310] n_students: 100.0 -> NaN (缺失值)
+41. 课程[606] n_lectures: 3.0 -> NaN (缺失值)
+42. 课程[25] n_lectures: 6.0 -> NaN (缺失值)
+43. 课程[1652] course_id: c0073 -> NaN (缺失值)
+44. 课程[267] n_lectures: 3.0 -> NaN (缺失值)
+45. 课程[830] course_id: c0980 -> NaN (缺失值)
+46. 课程[81] n_lectures: 3.0 -> NaN (缺失值)
+47. 课程[54] teacher_id: t023 -> NaN (缺失值)
+48. 课程[589] n_lectures: 3.0 -> NaN (缺失值)
+49. 课程[427] course_id: c0015 -> NaN (缺失值)
+50. 课程[476] min_working_days: 3.0 -> NaN (缺失值)
+51. 课程[1611] n_lectures: 3.0 -> NaN (缺失值)
+52. 课程[1621] n_students: 50.0 -> NaN (缺失值)
+53. 课程[852] n_lectures: 5.0 -> NaN (缺失值)
+54. 课程[226] n_students: 50.0 -> NaN (缺失值)
+55. 课程[1122] min_working_days: 3.0 -> NaN (缺失值)
+56. 课程[386] n_students: 50.0 -> NaN (缺失值)
+57. 课程[262] n_lectures: 5.0 -> NaN (缺失值)
+58. 课程[1693] teacher_id: t040 -> NaN (缺失值)
+59. 课程[848] n_lectures: 6.0 -> NaN (缺失值)
+60. 课程[253] teacher_id: t062 -> NaN (缺失值)
+61. 课程[580] n_lectures: 3.0 -> NaN (缺失值)
+62. 课程[513] course_id: c0722 -> NaN (缺失值)
+63. 课程[171] teacher_id: t048 -> NaN (缺失值)
+64. 课程[1489] n_lectures: 5.0 -> NaN (缺失值)
+65. 课程[1505] min_working_days: 2.0 -> NaN (缺失值)
+66. 课程[1383] n_lectures: 3.0 -> NaN (缺失值)
+67. 课程[5] teacher_id: t005 -> NaN (缺失值)
+68. 课程[1492] n_lectures: 3.0 -> NaN (缺失值)
+69. 课程[1322] n_lectures: 3.0 -> NaN (缺失值)
+70. 课程[996] n_lectures: 3.0 -> NaN (缺失值)
+71. 课程[583] n_students: 130.0 -> NaN (缺失值)
+72. 课程[1088] n_students: 74.0 -> NaN (缺失值)
+73. 课程[564] n_students: 60.0 -> NaN (缺失值)
+74. 课程[696] min_working_days: 3.0 -> NaN (缺失值)
+75. 课程[1287] min_working_days: 4.0 -> NaN (缺失值)
+76. 课程[1180] n_lectures: 3.0 -> NaN (缺失值)
+77. 课程[462] min_working_days: 3.0 -> NaN (缺失值)
+78. 课程[962] course_id: c0094 -> NaN (缺失值)
+79. 课程[274] n_students: 440.0 -> NaN (缺失值)
+80. 课程[37] course_id: c0115 -> NaN (缺失值)
+81. 课程[511] course_id: c0554 -> NaN (缺失值)
+82. 课程[820] n_students: 70.0 -> NaN (缺失值)
+83. 课程[1004] course_id: c0527 -> NaN (缺失值)
+84. 课程[534] course_id: c0883 -> NaN (缺失值)
+85. 课程[301] n_students: 150.0 -> NaN (缺失值)
+86. 课程[1042] n_lectures: 3.0 -> NaN (缺失值)
+87. 课程[895] min_working_days: 3.0 -> 10 (超限)
+88. 课程[323] n_lectures: 3.0 -> 0 (零值)
+89. 课程[1558] min_working_days: 3.0 -> 0 (零值)
+90. 课程[1155] min_working_days: 3.0 -> 10 (超限)
+91. 课程[1350] n_students: 65.0 -> 16375.0 (超大值)
+92. 课程[1222] n_students: 83.0 -> -83.0 (负数)
+93. 课程[1186] min_working_days: 4.0 -> 10 (超限)
+94. 课程[299] n_students: 70.0 -> 43738.0 (超大值)
+95. 课程[731] n_students: 124.0 -> 44531.0 (超大值)
+96. 课程[1552] n_students: 130.0 -> 42995.0 (超大值)
+97. 课程[1189] n_students: 65.0 -> -65.0 (负数)
+98. 课程[1658] min_working_days: 2.0 -> 10 (超限)
+99. 课程[1665] n_lectures: 3.0 -> 0 (零值)
+100. 课程[97] min_working_days: 3.0 -> 10 (超限)
+101. 课程[1232] n_lectures: 3.0 -> 0 (零值)
+102. 课程[1383] min_working_days: 3.0 -> 10 (超限)
+103. 课程[1623] n_lectures: 7.0 -> 0 (零值)
+104. 课程[914] n_lectures: 3.0 -> 0 (零值)
+105. 课程[91] min_working_days: 3.0 -> 0 (零值)
+106. 课程[1074] n_students: 105.0 -> -105.0 (负数)
+107. 课程[1491] n_students: 15.0 -> -15.0 (负数)
+108. 课程[551] min_working_days: 3.0 -> 10 (超限)
+109. 课程[832] n_lectures: 3.0 -> 0 (零值)
+110. 课程[454] min_working_days: 2.0 -> 10 (超限)
+111. 课程[1242] n_lectures: 3.0 -> 0 (零值)
+112. 课程[1198] n_lectures: 3.0 -> 0 (零值)
+113. 课程[1172] n_lectures: 3.0 -> 0 (零值)
+114. 课程[277] min_working_days: 3.0 -> 0 (零值)
+115. 课程[517] n_students: 37.0 -> 24801.0 (超大值)
+116. 课程[643] min_working_days: 3.0 -> 0 (零值)
+117. 课程[450] min_working_days: 3.0 -> 0 (零值)
+118. 课程[881] n_students: 16.0 -> -16.0 (负数)
+119. 课程[1258] n_students: 24.0 -> 25671.0 (超大值)
+120. 课程[201] n_lectures: 3.0 -> -3.0 (负数)
+121. 课程[500] n_lectures: 3.0 -> -3.0 (负数)
+122. 课程[1730] min_working_days: 4.0 -> 0 (零值)
+123. 课程[75] n_lectures: 3.0 -> -3.0 (负数)
+124. 课程[1248] min_working_days: 3.0 -> 10 (超限)
+125. 课程[934] n_students: 33.0 -> 38115.0 (超大值)
+126. 课程[107] n_students: 64.0 -> -64.0 (负数)
+127. 课程[1519] n_lectures: 3.0 -> -3.0 (负数)
+128. 课程[563] n_students: 60.0 -> 45051.0 (超大值)
+129. 课程[221] n_students: 70.0 -> 19023.0 (超大值)
+130. 课程[1245] n_students: 38.0 -> 47424.0 (超大值)
+131. 课程[765] n_students: 15.0 -> 41142.0 (超大值)
+132. 课程[1564] n_lectures: 3.0 -> -3.0 (负数)
+133. 课程[746] n_lectures: 3.0 -> -3.0 (负数)
+134. 课程[294] min_working_days: 3.0 -> 10 (超限)
+135. 课程[1588] min_working_days: 3.0 -> 10 (超限)
+136. 课程[959] min_working_days: 3.0 -> 10 (超限)
+137. 课程[180] n_students: 120.0 -> -120.0 (负数)
+138. 课程[1118] n_lectures: 3.0 -> -3.0 (负数)
+139. 课程[1136] min_working_days: 3.0 -> 10 (超限)
+140. 课程[668] min_working_days: 3.0 -> 0 (零值)
+141. 课程[1390] min_working_days: 3.0 -> 0 (零值)
+142. 课程[1441] n_students: 20.0 -> -20.0 (负数)
+143. 课程[1218] n_students: 80.0 -> -80.0 (负数)
+144. 课程[1334] min_working_days: 2.0 -> 0 (零值)
+145. 课程[17] min_working_days: 4.0 -> 10 (超限)
+146. 课程[267] min_working_days: 3.0 -> 10 (超限)
+147. 课程[1109] min_working_days: 3.0 -> 10 (超限)
+148. 课程[1115] n_lectures: 3.0 -> -3.0 (负数)
+149. 课程[1321] n_students: 150.0 -> 26192.0 (超大值)
+150. 课程[685] n_lectures: 3.0 -> -3.0 (负数)
+151. 课程[971] n_students: 123.0 -> -123.0 (负数)
+152. 课程[568] min_working_days: 3.0 -> 0 (零值)
+153. 课程[515] min_working_days: 3.0 -> 0 (零值)
+154. 课程[1014] min_working_days: 2.0 -> 10 (超限)
+155. 课程[874] n_lectures: 3.0 -> 0 (零值)
+156. 课程[1170] n_students: 180.0 -> 38073.0 (超大值)
+157. 课程[398] n_students: 40.0 -> 18818.0 (超大值)
+158. 课程[552] n_students: 20.0 -> 38150.0 (超大值)
+159. 课程[85] n_students: 58.0 -> 37403.0 (超大值)
+160. 课程[1275] min_working_days: 3.0 -> 10 (超限)
+161. 课程[927] min_working_days: 2.0 -> 10 (超限)
+162. 课程[695] n_students: 40.0 -> 26815.0 (超大值)
+163. 课程[1574] n_students: 60.0 -> 25377.0 (超大值)
+164. 课程[342] n_lectures: 3.0 -> -3.0 (负数)
+165. 课程[1301] n_students: 31.0 -> 20868.0 (超大值)
+166. 课程[876] n_lectures: 3.0 -> 0 (零值)
+167. 课程[1072] min_working_days: 3.0 -> 10 (超限)
+168. 课程[1035] n_students: 20.0 -> -20.0 (负数)
+169. 课程[700] min_working_days: 3.0 -> 0 (零值)
+170. 课程[722] n_students: 108.0 -> -108.0 (负数)
+171. 课程[933] n_students: 51.0 -> 26797.0 (超大值)
+172. 课程[522] n_students: 23.0 -> 31197.0 (超大值)
+173. 课程[1702] n_students: 3.0 -> 46644.0 (超大值)
+174. 课程[1721] min_working_days: 4.0 -> 0 (零值)
+175. 课程[1211] n_lectures: 3.0 -> 0 (零值)
+176. 课程[1052] min_working_days: 3.0 -> 0 (零值)
+177. 课程[1079] n_students: 112.0 -> -112.0 (负数)
+178. 课程[857] n_lectures: 4.0 -> -4.0 (负数)
+179. 课程[591] n_students: 50.0 -> 28216.0 (超大值)
+180. 课程[48] n_lectures: 3.0 -> -3.0 (负数)
+181. 课程[462] n_students: 106.0 -> 14895.0 (超大值)
+182. 课程[1283] n_lectures: 3.0 -> 0 (零值)
+183. 课程[485] n_lectures: 3.0 -> 0 (零值)
+184. 课程[135] min_working_days: 4.0 -> 10 (超限)
+185. 课程[1285] min_working_days: 4.0 -> 10 (超限)
+186. 课程[1475] n_lectures: 3.0 -> 0 (零值)
+187. 课程[358] n_lectures: 3.0 -> 0 (零值)
+188. 课程[1139] min_working_days: 3.0 -> 10 (超限)
+189. 课程[1509] n_lectures: 5.0 -> 0 (零值)
+190. 课程[529] n_students: 25.0 -> 36135.0 (超大值)
+191. 课程[374] n_lectures: 3.0 -> -3.0 (负数)
+192. 课程[1089] min_working_days: 3.0 -> 0 (零值)
+193. 课程[1178] n_lectures: 5.0 -> -5.0 (负数)
+194. 课程[1673] n_students: 120.0 -> 13098.0 (超大值)
+195. 课程[1356] min_working_days: 3.0 -> 10 (超限)
+196. 课程[1651] n_students: 93.0 -> 41389.0 (超大值)
+197. 课程[483] n_students: 20.0 -> 26016.0 (超大值)
+198. 课程[143] n_students: 110.0 -> 32513.0 (超大值)
+199. 课程[806] min_working_days: 3.0 -> 10 (超限)
+200. 课程[437] min_working_days: 3.0 -> 10 (超限)
+201. 课程[1453] n_students: 86.0 -> 23891.0 (超大值)
+202. 课程[1290] n_students: 100.0 -> 10812.0 (超大值)
+203. 课程[409] n_lectures: 7.0 -> 0 (零值)
+204. 课程[635] n_students: 15.0 -> 46959.0 (超大值)
+205. 课程[1680] n_students: 127.0 -> -127.0 (负数)
+206. 课程[408] n_students: 100.0 -> 14760.0 (超大值)
+207. 课程[547] n_lectures: 3.0 -> -3.0 (负数)
+208. 课程[581] n_students: 130.0 -> 43937.0 (超大值)
+209. 课程[1693] min_working_days: 2.0 -> 10 (超限)
+210. 课程[1210] min_working_days: 2.0 -> 10 (超限)
+211. 课程[1381] n_students: 15.0 -> -15.0 (负数)
+212. 课程[1061] n_lectures: 3.0 -> 0 (零值)
+213. 课程[236] n_students: 5.0 -> 19912.0 (超大值)
+214. 课程[711] n_students: 51.0 -> 28299.0 (超大值)
+215. 课程[566] min_working_days: 3.0 -> 10 (超限)
+216. 课程[859] n_lectures: 2.0 -> 0 (零值)
+217. 课程[779] min_working_days: 3.0 -> 10 (超限)
+218. 课程[1445] min_working_days: 3.0 -> 10 (超限)
+219. 课程[1510] min_working_days: 4.0 -> 10 (超限)
+220. 课程[1685] n_students: 30.0 -> 43031.0 (超大值)
+221. 课程[504] min_working_days: 3.0 -> 10 (超限)
+222. 课程[1001] n_lectures: 3.0 -> 0 (零值)
+223. 课程[265] min_working_days: 3.0 -> 0 (零值)
+224. 课程[1675] min_working_days: 3.0 -> 10 (超限)
+225. 课程[230] n_lectures: 3.0 -> 3.0abc (格式错误)
+226. 课程[96] n_lectures: 5.0 -> 5.0abc (格式错误)
+227. 课程[1112] n_lectures: 6.0 -> 6.0abc (格式错误)
+228. 课程[1547] n_lectures: 4.0 -> 4.0abc (格式错误)
+229. 课程[1673] n_lectures: 5.0 -> 5.0abc (格式错误)
+230. 课程[956] n_lectures: 3.0 -> 3.0abc (格式错误)
+231. 课程[105] n_lectures: 3.0 -> 3.0abc (格式错误)
+232. 课程[758] n_lectures: 3.0 -> 3.0abc (格式错误)
+233. 课程[941] n_lectures: 2.0 -> 2.0abc (格式错误)
+234. 课程[806] n_lectures: 3.0 -> 3.0abc (格式错误)
+235. 课程[1597] n_lectures: 3.0 -> 3.0abc (格式错误)
+236. 课程[648] n_lectures: 3.0 -> 3.0abc (格式错误)
+237. 课程[916] n_lectures: 2.0 -> 2.0abc (格式错误)
+238. 课程[1649] n_lectures: 3.0 -> 3.0abc (格式错误)
+239. 课程[961] n_lectures: 3.0 -> 3.0abc (格式错误)
+240. 课程[1136] n_lectures: 3.0 -> 3.0abc (格式错误)
+241. 课程[714] n_lectures: 5.0 -> 5.0abc (格式错误)
+242. 课程[182] n_lectures: 5.0 -> 5.0abc (格式错误)
+243. 课程[1044] n_lectures: 3.0 -> 3.0abc (格式错误)
+244. 课程[1712] n_lectures: 3.0 -> 3.0abc (格式错误)
+245. 课程[433] n_lectures: 3.0 -> 3.0abc (格式错误)
+246. 课程[1184] n_lectures: 5.0 -> 5.0abc (格式错误)
+247. 课程[576] n_lectures: nan -> nanabc (格式错误)
+248. 课程[533] n_lectures: 7.0 -> 7.0abc (格式错误)
+249. 课程[445] n_lectures: 3.0 -> 3.0abc (格式错误)
+250. 课程[43] n_lectures: 3.0 -> 3.0abc (格式错误)
+251. 课程[1590] n_lectures: 3.0 -> 3.0abc (格式错误)
+252. 课程[693] n_lectures: 4.0 -> 4.0abc (格式错误)
+253. 课程[1599] n_lectures: 3.0 -> 3.0abc (格式错误)
+254. 课程[833] n_lectures: 2.0 -> 2.0abc (格式错误)
+255. 课程[633] n_lectures: 7.0 -> 7.0abc (格式错误)
+256. 课程[444] n_lectures: 3.0 -> 3.0abc (格式错误)
+257. 课程[1401] n_lectures: 3.0 -> 3.0abc (格式错误)
+258. 课程[761] n_lectures: 3.0 -> 3.0abc (格式错误)
+259. 课程[1056] n_lectures: 3.0 -> 3.0abc (格式错误)
+260. 课程[1584] n_lectures: 3.0 -> 3.0abc (格式错误)
+261. 课程[1082] n_lectures: 3.0 -> 3.0abc (格式错误)
+262. 课程[851] n_lectures: 5.0 -> 5.0abc (格式错误)
+263. 课程[1162] n_lectures: 3.0 -> 3.0abc (格式错误)
+264. 课程[1438] n_lectures: 3.0 -> 3.0abc (格式错误)
+265. 课程[1601] n_lectures: 3.0 -> 3.0abc (格式错误)
+266. 课程[575] n_lectures: 3.0 -> 3.0abc (格式错误)
+267. 课程[679] n_lectures: 3.0 -> 3.0abc (格式错误)
+268. 课程[275] n_lectures: 2.0 -> 2.0abc (格式错误)
+269. 课程[54] n_lectures: 3.0 -> 3.0abc (格式错误)
+270. 课程[1372] n_lectures: 5.0 -> 5.0abc (格式错误)
+271. 课程[1598] n_lectures: 3.0 -> 3.0abc (格式错误)
+272. 课程[6] n_lectures: 7.0 -> 7.0abc (格式错误)
+273. 课程[353] n_lectures: 3.0 -> 3.0abc (格式错误)
+274. 课程[1702] n_lectures: 3.0 -> 3.0abc (格式错误)
+275. 课程[365] n_lectures: 3.0 -> 3.0abc (格式错误)
+276. 课程[6] 创建重复行
+277. 课程[43] 创建重复行
+278. 课程[12] 创建重复行
+279. 课程[23] 创建重复行
+280. 课程[22] 创建重复行
+281. 课程[38] 创建重复行
+282. 课程[9] 创建重复行
+283. 课程[11] 创建重复行
+284. 课程[13] 创建重复行
+285. 课程[31] 创建重复行
+286. 课程[32] 创建重复行
+287. 课程[18] 创建重复行
+288. 课程[4] 创建重复行
+289. 课程[26] 创建重复行
+290. 课程[37] 创建重复行
+291. 课程[7] 创建重复行
+292. 课程[34] 创建重复行
+293. 课程[42] 创建重复行
+294. 课程[35] 创建重复行
+295. 课程[39] 创建重复行
+296. 课程[44] 创建重复行
+297. 课程[5] 创建重复行
+298. 课程[29] 创建重复行
+299. 课程[46] 创建重复行
+300. 课程[8] 创建重复行
+301. 课程[48] 创建重复行
+302. 课程[28] 创建重复行
+303. 课程[1] 创建重复行
+304. 课程[17] 创建重复行
+305. 课程[16] 创建重复行
+306. 课程[47] 创建重复行
+307. 课程[33] 创建重复行
+308. 课程[14] 创建重复行
+309. 课程[36] 创建重复行
+310. 教室[270] room_id: rVL -> NaN
+311. 教室[61] capacity: 60 -> NaN
+312. 教室[240] room_id: rEr1 -> NaN
+313. 教室[129] capacity: 216.0 -> NaN
+314. 教室[298] capacity: 312.0 -> NaN
+315. 教室[92] room_id: F -> NaN
+316. 教室[281] room_id: rA -> NaN
+317. 教室[101] capacity: 70.0 -> NaN
+318. 教室[103] capacity: 40.0 -> NaN
+319. 教室[144] capacity: 80.0 -> NaN
+320. 教室[138] capacity: 90.0 -> NaN
+321. 教室[58] capacity: 50.0 -> NaN
+322. 教室[119] capacity: 30.0 -> NaN
+323. 教室[51] room_id: 50 -> NaN
+324. 教室[131] room_id: F -> NaN
+325. 教室[323] room_id: rDS2 -> NaN
+326. 教室[260] capacity: 90.0 -> -90.0 (negative)
+327. 教室[152] capacity: 50.0 -> -50.0 (negative)
+328. 教室[1] capacity: 100.0 -> -100.0 (negative)
+329. 教室[284] capacity: 90.0 -> -90.0 (negative)
+330. 教室[14] capacity: 216.0 -> -216.0 (negative)
+331. 教室[301] capacity: 60.0 -> -60.0 (negative)
+332. 教室[195] capacity: 48.0 -> 0.0 (zero)
+333. 教室[180] capacity: 216.0 -> -216.0 (negative)
+334. 教室[93] capacity: 216.0 -> -216.0 (negative)
+335. 教室[55] capacity: 20.0 -> 43422.0 (huge)
+336. 教室[58] capacity: nan -> 12383.0 (huge)
+337. 教室[111] capacity: 216.0 -> -216.0 (negative)
+338. 教室[252] capacity: 216.0 -> 0.0 (zero)
+339. 教室[47] capacity: 216.0 -> 0.0 (zero)
+340. 教室[96] capacity: 75.0 -> 0.0 (zero)
+341. 教室[289] capacity: 42.0 -> 27251.0 (huge)
+342. 教室[20] capacity: 90.0 -> 33628.0 (huge)
+343. 教室[147] capacity: 216.0 -> -216.0 (negative)
+344. 教室[212] capacity: 50.0 -> 0.0 (zero)
+345. 教室[101] capacity: nan -> 0.0 (zero)
+346. 教室[123] capacity: 42.0 -> 45666.0 (huge)
+347. 教室[129] capacity: nan -> 0.0 (zero)
+348. 教室[70] capacity: 65.0 -> 0.0 (zero)
+349. 教室[311] capacity: 90.0 -> -90.0 (negative)
+350. 教室[10] capacity: 90.0 -> -90.0 (negative)
+351. 教室[9] 创建重复行
+352. 教室[13] 创建重复行
+353. 教室[18] 创建重复行
+354. 教室[15] 创建重复行
+355. 教室[7] 创建重复行
+356. 教室[14] 创建重复行
+357. 教室[4] 创建重复行
+358. 教室[12] 创建重复行
+359. 教室[3] 创建重复行
+360. 教室[303] room_id: 'rDS2' -> '  rDS2  ' (多余空格)
+361. 教室[191] room_id: 'R' -> '  R  ' (多余空格)
+362. 教室[31] room_id: 'G' -> '  G  ' (多余空格)
+363. 教室[248] room_id: 'r38' -> '  r38  ' (多余空格)
+364. 教室[29] room_id: 'E' -> '  E  ' (多余空格)
+365. 教室[275] room_id: 'r27' -> '  r27  ' (多余空格)
+366. 课程组[1717] curriculum_id: q053 -> NaN
+367. 课程组[5140] curriculum_id: q035 -> NaN
+368. 课程组[4076] course_id: c0823 -> NaN
+369. 课程组[3622] course_id: GeoAn -> NaN
+370. 课程组[3984] curriculum_id: q047 -> NaN
+371. 课程组[4303] course_id: c0485 -> NaN
+372. 课程组[4640] course_id: c0369 -> NaN
+373. 课程组[1646] course_id: c0955 -> NaN
+374. 课程组[3649] course_id: RetCal1G1n -> NaN
+375. 课程组[896] course_id: StoArtMod1 -> NaN
+376. 课程组[1402] curriculum_id: q043 -> NaN
+377. 课程组[3611] course_id: CamEleAn -> NaN
+378. 课程组[2124] curriculum_id: q040 -> NaN
+379. 课程组[535] curriculum_id: q068 -> NaN
+380. 课程组[2711] course_id: StoMus -> NaN
+381. 课程组[2444] course_id: c1053 -> NaN
+382. 课程组[1741] course_id: c0478 -> NaN
+383. 课程组[2252] curriculum_id: q007 -> NaN
+384. 课程组[1900] curriculum_id: q026 -> NaN
+385. 课程组[338] course_id: ArcTecCn -> NaN
+386. 课程组[797] curriculum_id: q023 -> NaN
+387. 课程组[3412] curriculum_id: q014 -> NaN
+388. 课程组[2596] curriculum_id: q015 -> NaN
+389. 课程组[3407] curriculum_id: q012 -> NaN
+390. 课程组[4399] course_id: LET-CST-StoRom -> NaN
+391. 课程组[2339] curriculum_id: q031 -> NaN
+392. 课程组[310] course_id: Mat1Ar -> NaN
+393. 课程组[1414] course_id: c0018 -> NaN
+394. 课程组[2628] curriculum_id: q027 -> NaN
+395. 课程组[4864] curriculum_id: q043 -> NaN
+396. 课程组[4046] curriculum_id: q063 -> NaN
+397. 课程组[4339] course_id: c0533 -> NaN
+398. 课程组[4676] course_id: c0624 -> NaN
+399. 课程组[1891] curriculum_id: q023 -> NaN
+400. 课程组[252] curriculum_id: q061 -> NaN
+401. 课程组[1756] course_id: c0504 -> NaN
+402. 课程组[3232] curriculum_id: q021 -> NaN
+403. 课程组[4453] course_id: CBC-ART-MatCarCosResEdiSto -> NaN
+404. 课程组[3821] curriculum_id: q068 -> NaN
+405. 课程组[5057] course_id: c0959 -> NaN
+406. 课程组[4006] course_id: c0816 -> NaN
+407. 课程组[1197] course_id: StoMedCS -> NaN
+408. 课程组[1449] curriculum_id: q053 -> NaN
+409. 课程组[4843] curriculum_id: q038 -> NaN
+410. 课程组[1127] curriculum_id: q105 -> NaN
+411. 课程组[3783] course_id: ImpTec1Cv -> NaN
+412. 课程组[3348] curriculum_id: q066 -> NaN
+413. 课程组[1537] course_id: c0127 -> NaN
+414. 课程组[726] course_id: StoMod1 -> NaN
+415. 课程组[286] curriculum_id: q069 -> NaN
+416. 课程组[4243] curriculum_id: q044 -> NaN
+417. 课程组[2059] course_id: c0150 -> NaN
+418. 课程组[4445] course_id: CBC-ART-MatCarCosResEdiSto -> NaN
+419. 课程组[4184] course_id: c0881 -> NaN
+420. 课程组[3067] curriculum_id: q138 -> NaN
+421. 课程组[3301] course_id: c0441 -> NaN
+422. 课程组[2964] course_id: StoFilCS -> NaN
+423. 课程组[2090] course_id: c0411 -> NaN
+424. 课程组[3271] curriculum_id: q034 -> NaN
+425. 课程组[4356] course_id: CBC-LIB-Cod -> NaN
+426. 课程组[1077] curriculum_id: q089 -> NaN
+427. 课程组[3203] curriculum_id: q007 -> NaN
+428. 课程组[2870] curriculum_id: q094 -> NaN
+429. 课程组[4718] curriculum_id: q003 -> NaN
+430. 课程组[1429] course_id: c0463 -> NaN
+431. 课程组[3696] course_id: IdrNumAns -> NaN
+432. 课程组[1568] curriculum_id: q010 -> NaN
+433. 课程组[2125] course_id: c0344 -> NaN
+434. 课程组[2734] course_id: EtrAntIta -> NaN
+435. 课程组[4097] curriculum_id: q001 -> NaN
+436. 课程组[4506] course_id: LET-STO-StoMed1 -> NaN
+437. 课程组[985] course_id: LinLetGre1 -> NaN
+438. 课程组[3129] curriculum_id: q145B -> NaN
+439. 课程组[4397] course_id: LET-FIL-StoSci -> NaN
+440. 课程组[569] course_id: c0035 -> NaN
+441. 课程组[2987] course_id: LinLetLat2 -> NaN
+442. 课程组[940] course_id: LinLetGre1 -> NaN
+443. 课程组[4556] curriculum_id: q017 -> NaN
+444. 课程组[4086] course_id: c0852 -> NaN
+445. 课程组[431] course_id: StoArcCv -> NaN
+446. 课程组[5052] curriculum_id: q008 -> NaN
+447. 课程组[1420] course_id: c0495 -> NaN
+448. 课程组[3623] course_id: TecCos1Cv -> NaN
+449. 课程组[3688] curriculum_id: q029 -> NaN
+450. 课程组[3508] course_id: c0439 -> NaN
+451. 课程组[31] curriculum_id: q009 -> NaN
+452. 课程组[609] course_id: c0150 -> NaN
+453. 课程组[94] curriculum_id: q015 -> NaN
+454. 课程组[218] course_id: c0346 -> NaN
+455. 课程组[2198] course_id: c0456 -> NaN
+456. 课程组[3403] course_id: c1013 -> NaN
+457. 课程组[3439] course_id: c0189 -> NaN
+458. 课程组[1906] curriculum_id: q027 -> NaN
+459. 课程组[3521] curriculum_id: q044 -> NaN
+460. 课程组[3758] course_id: RetCal1G1n -> NaN
+461. 课程组[2157] course_id: c0117 -> NaN
+462. 课程组[3574] curriculum_id: q059 -> NaN
+463. 课程组[4043] curriculum_id: q062 -> NaN
+464. 课程组[3140] curriculum_id: q146 -> NaN
+465. 课程组[2658] course_id: StoCriArt -> NaN
+466. 课程组[1853] course_id: c0014 -> NaN
+467. 课程组[3296] curriculum_id: q045 -> NaN
+468. 课程组[4290] course_id: c0474 -> NaN
+469. 课程组[2716] course_id: LinLatB -> NaN
+470. 课程组[4024] curriculum_id: q056 -> NaN
+471. 课程组[3596] course_id: Mat1Ar -> NaN
+472. 课程组[1205] curriculum_id: q130 -> NaN
+473. 课程组[4394] course_id: CBC-LIB-Arc -> NaN
+474. 课程组[2381] course_id: c0203 -> NaN
+475. 课程组[4127] curriculum_id: q010 -> NaN
+476. 课程组[4096] course_id: c0101 -> NaN
+477. 课程组[4335] course_id: c0836 -> NaN
+478. 课程组[2676] curriculum_id: q040 -> NaN
+479. 课程组[3919] course_id: c0184 -> NaN
+480. 课程组[2787] course_id: StoLibSta -> NaN
+481. 课程组[4950] curriculum_id: q064 -> NaN
+482. 课程组[3928] curriculum_id: q030 -> NaN
+483. 课程组[3008] curriculum_id: q124 -> NaN
+484. 课程组[1630] curriculum_id: q027 -> NaN
+485. 课程组[1204] curriculum_id: q130 -> NaN
+486. 课程组[4477] curriculum_id: q041 -> NaN
+487. 课程组[1947] curriculum_id: q046 -> NaN
+488. 课程组[588] curriculum_id: q017 -> NaN
+489. 课程组[3543] course_id: c0495 -> NaN
+490. 课程组[444] curriculum_id: q041 -> NaN
+491. 课程组[5158] curriculum_id: q040 -> NaN
+492. 课程组[5072] course_id: c0128 -> NaN
+493. 课程组[3119] course_id: StoTecFot -> NaN
+494. 课程组[3333] course_id: c0510 -> NaN
+495. 课程组[135] curriculum_id: q027 -> NaN
+496. 课程组[2178] course_id: c0411 -> NaN
+497. 课程组[3823] course_id: TecMec1Mn -> NaN
+498. 课程组[4048] curriculum_id: q064 -> NaN
+499. 课程组[4100] course_id: c0935 -> NaN
+500. 课程组[4313] curriculum_id: q062 -> NaN
+501. 课程组[2216] curriculum_id: q073 -> NaN
+502. 课程组[4972] course_id: c0526 -> NaN
+503. 课程组[1941] curriculum_id: q044 -> NaN
+504. 课程组[3555] course_id: c0524 -> NaN
+505. 课程组[4051] curriculum_id: q065 -> NaN
+506. 课程组[4719] curriculum_id: q003 -> NaN
+507. 课程组[2390] course_id: c0467 -> NaN
+508. 课程组[1371] curriculum_id: q032 -> NaN
+509. 课程组[1934] curriculum_id: q039 -> NaN
+510. 课程组[3636] curriculum_id: q014 -> NaN
+511. 课程组[1467] course_id: c0261 -> NaN
+512. 课程组[4504] curriculum_id: q053 -> NaN
+513. 课程组[276] curriculum_id: q066 -> NaN
+514. 课程组[2502] course_id: c0007 -> NaN
+515. 课程组[1026] curriculum_id: q076 -> NaN
+516. 课程组[2201] curriculum_id: q068 -> NaN
+517. 课程组[4391] curriculum_id: q016 -> NaN
+518. 课程组[4713] course_id: c0115 -> NaN
+519. 课程组[2310] course_id: c0206 -> NaN
+520. 课程组[4231] course_id: c0018 -> NaN
+521. 课程组[2222] course_id: c0532 -> NaN
+522. 课程组[5145] course_id: c0474 -> NaN
+523. 课程组[863] curriculum_id: q040 -> NaN
+524. 课程组[673] curriculum_id: q048 -> NaN
+525. 课程组[4471] course_id: LET-CLE-Glo -> NaN
+526. 课程组[2449] course_id: c0279 -> NaN
+527. 课程组[5196] curriculum_id: q052 -> NaN
+528. 课程组[3986] curriculum_id: q048 -> NaN
+529. 课程组[2931] course_id: StoLinItaCS -> NaN
+530. 课程组[4244] course_id: c0099 -> NaN
+531. 课程组[2700] course_id: SocArt -> NaN
+532. 课程组[1658] curriculum_id: q034 -> NaN
+533. 课程组[839] course_id: ArcPae -> NaN
+534. 课程组[1456] curriculum_id: q055 -> NaN
+535. 课程组[11] course_id: c0078 -> NaN
+536. 课程组[4122] curriculum_id: q008 -> NaN
+537. 课程组[1514] curriculum_id: q070 -> NaN
+538. 课程组[3265] course_id: c0985 -> NaN
+539. 课程组[2369] course_id: c0072 -> NaN
+540. 课程组[4154] course_id: c0189 -> NaN
+541. 课程组[1462] course_id: c0085 -> NaN
+542. 课程组[2632] curriculum_id: q028 -> NaN
+543. 课程组[4764] course_id: c0049 -> NaN
+544. 课程组[416] course_id: GeoAppAns -> NaN
+545. 课程组[2361] course_id: c0201 -> NaN
+546. 课程组[1569] curriculum_id: q010 -> NaN
+547. 课程组[1935] course_id: c0456 -> NaN
+548. 课程组[1875] curriculum_id: q016 -> NaN
+549. 课程组[2679] curriculum_id: q041 -> NaN
+550. 课程组[1035] curriculum_id: q078 -> NaN
+551. 课程组[4403] curriculum_id: q020 -> NaN
+552. 课程组[1673] curriculum_id: q041 -> NaN
+553. 课程组[2488] curriculum_id: q065 -> NaN
+554. 课程组[3503] course_id: c0243 -> NaN
+555. 课程组[4497] curriculum_id: q049 -> NaN
+556. 课程组[4997] curriculum_id: q073 -> NaN
+557. 课程组[3970] course_id: c0281 -> NaN
+558. 课程组[48] course_id: c0152 -> NaN
+559. 课程组[1278] course_id: c0006 -> NaN
+560. 课程组[3147] curriculum_id: q149 -> NaN
+561. 课程组[201] curriculum_id: q046 -> NaN
+562. 课程组[5280] curriculum_id: q079 -> NaN
+563. 课程组[76] course_id: c0310 -> NaN
+564. 课程组[1510] curriculum_id: q069 -> NaN
+565. 课程组[1843] course_id: c0117 -> NaN
+566. 课程组[1969] course_id: c0052 -> NaN
+567. 课程组[3954] course_id: c0202 -> NaN
+568. 课程组[1357] curriculum_id: q028 -> NaN
+569. 课程组[2097] course_id: c0933 -> NaN
+570. 课程组[547] course_id: c0104 -> NaN
+571. 课程组[1153] course_id: AntCul1 -> NaN
+572. 课程组[636] curriculum_id: q033 -> NaN
+573. 课程组[3194] curriculum_id: q005 -> NaN
+574. 课程组[2606] course_id: StoMus -> NaN
+575. 课程组[389] course_id: OrgPro1Gv -> NaN
+576. 课程组[343] course_id: RetLogEn -> NaN
+577. 课程组[610] curriculum_id: q025 -> NaN
+578. 课程组[1317] course_id: c0261 -> NaN
+579. 课程组[4502] course_id: CBC-LIB-StoLibSta -> NaN
+580. 课程组[6] curriculum_id: q001 -> NaN
+581. 课程组[5282] curriculum_id: q079 -> NaN
+582. 课程组[3730] course_id: EleIndEv -> NaN
+583. 课程组[921] course_id: StoArtMed1 -> NaN
+584. 课程组[275] course_id: c0346 -> NaN
+585. 课程组[3578] curriculum_id: q060 -> NaN
+586. 课程组[5018] course_id: c0006 -> NaN
+587. 课程组[2168] curriculum_id: q055 -> NaN
+588. 课程组[4294] curriculum_id: q056 -> NaN
+589. 课程组[2215] course_id: c0378 -> NaN
+590. 课程组[4876] course_id: c0203 -> NaN
+591. 课程组[1206] course_id: IcoIcoA -> NaN
+592. 课程组[1903] curriculum_id: q026 -> NaN
+593. 课程组[1820] course_id: c1072 -> NaN
+594. 课程组[4987] course_id: c0835 -> NaN
+595. 课程组[2595] curriculum_id: q015 -> NaN
+596. 课程组[2245] course_id: c0998 -> NaN
+597. 课程组[1490] curriculum_id: q063 -> NaN
+598. 课程组[3908] course_id: c0189 -> NaN
+599. 课程组[4846] course_id: c0201 -> NaN
+600. 课程组[1684] course_id: c0279 -> NaN
+601. 课程组[2241] course_id: c0998 -> NaN
+602. 课程组[3609] course_id: StrIndAn -> NaN
+603. 课程组[5070] curriculum_id: q014 -> NaN
+604. 课程组[4909] course_id: c0430 -> NaN
+605. 课程组[2223] course_id: c0909 -> NaN
+606. 课程组[3413] curriculum_id: q014 -> NaN
+607. 课程组[4160] curriculum_id: q020 -> NaN
+608. 课程组[842] curriculum_id: q035 -> NaN
+609. 课程组[5182] curriculum_id: q048 -> NaN
+610. 课程组[458] curriculum_id: q045 -> NaN
+611. 课程组[3883] curriculum_id: q014 -> NaN
+612. 课程组[2665] curriculum_id: q038 -> NaN
+613. 课程组[208] course_id: c0327 -> NaN
+614. 课程组[304] course_id: c0455 -> NaN
+615. 课程组[4982] curriculum_id: q070 -> NaN
+616. 课程组[4031] curriculum_id: q058 -> NaN
+617. 课程组[1948] curriculum_id: q047 -> NaN
+618. 课程组[3807] curriculum_id: q063 -> NaN
+619. 课程组[1613] curriculum_id: q022 -> NaN
+620. 课程组[2765] curriculum_id: q063 -> NaN
+621. 课程组[3799] course_id: EleSis1En -> NaN
+622. 课程组[1772] curriculum_id: q065 -> NaN
+623. 课程组[1419] course_id: c0073 -> NaN
+624. 课程组[4194] course_id: c0143 -> NaN
+625. 课程组[1297] course_id: c0011 -> NaN
+626. 课程组[3976] curriculum_id: q045 -> NaN
+627. 课程组[3342] course_id: c0814 -> NaN
+628. 课程组[4191] curriculum_id: q029 -> NaN
+629. 课程组[1841] course_id: c0114 -> NaN
+630. 课程组[506] course_id: CamEle1Ev -> c9999 (引用完整性破坏)
+631. 课程组[3232] course_id: c0271 -> c9999 (引用完整性破坏)
+632. 课程组[4050] course_id: c0519 -> c9999 (引用完整性破坏)
+633. 课程组[1366] course_id: c0128 -> c9999 (引用完整性破坏)
+634. 课程组[1721] course_id: c0432 -> c9999 (引用完整性破坏)
+635. 课程组[4199] course_id: c0046 -> c9999 (引用完整性破坏)
+636. 课程组[4528] course_id: c0309 -> c9999 (引用完整性破坏)
+637. 课程组[2781] course_id: LinLetGre1 -> c9999 (引用完整性破坏)
+638. 课程组[2095] course_id: c0441 -> c9999 (引用完整性破坏)
+639. 课程组[363] course_id: RetCal1G1n -> c9999 (引用完整性破坏)
+640. 课程组[669] course_id: c0249 -> c9999 (引用完整性破坏)
+641. 课程组[4031] course_id: c0281 -> c9999 (引用完整性破坏)
+642. 课程组[4969] course_id: c1001 -> c9999 (引用完整性破坏)
+643. 课程组[1440] course_id: c0439 -> c9999 (引用完整性破坏)
+644. 课程组[2473] course_id: c0532 -> c9999 (引用完整性破坏)
+645. 课程组[4152] course_id: c1031 -> c9999 (引用完整性破坏)
+646. 课程组[3534] course_id: c0768 -> c9999 (引用完整性破坏)
+647. 课程组[4217] course_id: c0202 -> c9999 (引用完整性破坏)
+648. 课程组[3784] course_id: RivSpeCv -> c9999 (引用完整性破坏)
+649. 课程组[394] course_id: FluMn -> c9999 (引用完整性破坏)
+650. 课程组[4777] course_id: c0219 -> c9999 (引用完整性破坏)
+651. 课程组[1228] course_id: Bibgra -> c9999 (引用完整性破坏)
+652. 课程组[3032] course_id: LinLetLat2 -> c9999 (引用完整性破坏)
+653. 课程组[4842] course_id: c0201 -> c9999 (引用完整性破坏)
+654. 课程组[942] course_id: Bibgra -> c9999 (引用完整性破坏)
+655. 课程组[5229] course_id: c0180 -> c9999 (引用完整性破坏)
+656. 课程组[3970] course_id: nan -> c9999 (引用完整性破坏)
+657. 课程组[2550] course_id: LinLatA -> c9999 (引用完整性破坏)
+658. 课程组[5037] course_id: c0026 -> c9999 (引用完整性破坏)
+659. 课程组[44] course_id: c0152 -> c9999 (引用完整性破坏)
+660. 课程组[219] course_id: c0391 -> c9999 (引用完整性破坏)
+661. 课程组[4468] course_id: CBC-ARC-ArcCriMed -> c9999 (引用完整性破坏)
+662. 课程组[3014] course_id: LinLetLat2 -> c9999 (引用完整性破坏)
+663. 课程组[4044] course_id: c1068 -> c9999 (引用完整性破坏)
+664. 课程组[2172] course_id: c0503 -> c9999 (引用完整性破坏)
+665. 课程组[3746] course_id: RetCal2Gns -> c9999 (引用完整性破坏)
+666. 课程组[1010] course_id: ArcPae -> c9999 (引用完整性破坏)
+667. 课程组[604] course_id: c0130 -> c9999 (引用完整性破坏)
+668. 课程组[2065] course_id: c0210 -> c9999 (引用完整性破坏)
+669. 课程组[4351] course_id: LET-ITA-LinIta -> c9999 (引用完整性破坏)
+670. 课程组[590] course_id: c0249 -> c9999 (引用完整性破坏)
+671. 课程组[1942] course_id: c0670 -> c9999 (引用完整性破坏)
+672. 课程组[975] course_id: StoCon -> c9999 (引用完整性破坏)
+673. 课程组[4527] course_id: c0013 -> c9999 (引用完整性破坏)
+674. 课程组[4187] course_id: c0142 -> c9999 (引用完整性破坏)
+675. 课程组[4030] course_id: c0474 -> c9999 (引用完整性破坏)
+676. 课程组[2208] course_id: c0465 -> c9999 (引用完整性破坏)
+677. 课程组[3741] course_id: RetLogEn -> c9999 (引用完整性破坏)
+678. 课程组[4607] course_id: c0343 -> c9999 (引用完整性破坏)
+679. 课程组[2495] course_id: c0807 -> c9999 (引用完整性破坏)
+680. 课程组[2532] course_id: c0038 -> c9999 (引用完整性破坏)
+681. 课程组[2506] course_id: c0018 -> c9999 (引用完整性破坏)
+682. 课程组[2040] course_id: c0014 -> c9999 (引用完整性破坏)
+683. 课程组[4489] course_id: CBC-LIB-InfDoc -> c9999 (引用完整性破坏)
+684. 课程组[3579] course_id: c0820 -> c9999 (引用完整性破坏)
+685. 课程组[3021] course_id: PapiroCS -> c9999 (引用完整性破坏)
+686. 课程组[1201] course_id: StoMedCS -> c9999 (引用完整性破坏)
+687. 课程组[4314] course_id: c0429 -> c9999 (引用完整性破坏)
+688. 课程组[5219] course_id: c0474 -> c9999 (引用完整性破坏)
+689. 课程组[2184] course_id: c0506 -> c9999 (引用完整性破坏)
+690. 课程组[2805] course_id: LinLetGre1 -> c9999 (引用完整性破坏)
+691. 课程组[3304] course_id: c0227 -> c9999 (引用完整性破坏)
+692. 课程组[921] course_id: nan -> c9999 (引用完整性破坏)
+693. 课程组[1254] course_id: AntCul1 -> c9999 (引用完整性破坏)
+694. 课程组[3745] course_id: RetLogEn -> c9999 (引用完整性破坏)
+695. 课程组[2919] course_id: StoFilMedCS -> c9999 (引用完整性破坏)
+696. 课程组[4733] course_id: c0217 -> c9999 (引用完整性破坏)
+697. 课程组[4160] course_id: c0202 -> c9999 (引用完整性破坏)
+698. 课程组[1628] course_id: c0515 -> c9999 (引用完整性破坏)
+699. 课程组[1220] course_id: Bibgra -> c9999 (引用完整性破坏)
+700. 课程组[1222] course_id: StoArtCon1 -> c9999 (引用完整性破坏)
+701. 课程组[2895] course_id: StoCriCin -> c9999 (引用完整性破坏)
+702. 课程组[4908] course_id: c0428 -> c9999 (引用完整性破坏)
+703. 课程组[2671] course_id: StoRes -> c9999 (引用完整性破坏)
+704. 课程组[1547] course_id: c0115 -> c9999 (引用完整性破坏)
+705. 课程组[4141] course_id: c0006 -> c9999 (引用完整性破坏)
+706. 课程组[3557] course_id: c0516 -> c9999 (引用完整性破坏)
+707. 课程组[158] course_id: c0633 -> c9999 (引用完整性破坏)
+708. 课程组[139] course_id: c0108 -> c9999 (引用完整性破坏)
+709. 课程组[3998] course_id: c0243 -> c9999 (引用完整性破坏)
+710. 课程组[2656] course_id: StoTecArtM3 -> c9999 (引用完整性破坏)
+711. 课程组[4797] course_id: c0257 -> c9999 (引用完整性破坏)
+712. 课程组[4868] course_id: c0115 -> c9999 (引用完整性破坏)
+713. 课程组[3163] course_id: CodicoCS -> c9999 (引用完整性破坏)
+714. 课程组[4467] course_id: LET-CLE-LinGre -> c9999 (引用完整性破坏)
+715. 课程组[2054] course_id: c0149 -> c9999 (引用完整性破坏)
+716. 课程组[803] course_id: FonSocAntCulI -> c9999 (引用完整性破坏)
+717. 课程组[656] course_id: c0416 -> c9999 (引用完整性破坏)
+718. 课程组[649] course_id: c0457 -> c9999 (引用完整性破坏)
+719. 课程组[2050] course_id: c0130 -> c9999 (引用完整性破坏)
+720. 课程组[930] course_id: ResBenArcLib -> c9999 (引用完整性破坏)
+721. 课程组[3730] course_id: nan -> c9999 (引用完整性破坏)
+722. 课程组[3361] course_id: c0850 -> c9999 (引用完整性破坏)
+723. 课程组[2001] course_id: c0866 -> c9999 (引用完整性破坏)
+724. 课程组[2446] course_id: c0487 -> c9999 (引用完整性破坏)
+725. 课程组[3505] course_id: c0433 -> c9999 (引用完整性破坏)
+726. 课程组[925] course_id: ResBenArcLib -> c9999 (引用完整性破坏)
+727. 课程组[3130] course_id: StoColIstMus -> c9999 (引用完整性破坏)
+728. 课程组[5154] course_id: c0485 -> c9999 (引用完整性破坏)
+729. 课程组[4063] course_id: c0836 -> c9999 (引用完整性破坏)
+730. 课程组[1276] course_id: c0216 -> c9999 (引用完整性破坏)
+731. 课程组[4684] course_id: c0365 -> c9999 (引用完整性破坏)
+732. 课程组[4169] course_id: c0154 -> c9999 (引用完整性破坏)
+733. 课程组[4561] course_id: c0158 -> c9999 (引用完整性破坏)
+734. 课程组[4145] course_id: c0231 -> c9999 (引用完整性破坏)
+735. 课程组[3146] course_id: LegBenCul2 -> c9999 (引用完整性破坏)
+736. 课程组[3286] course_id: c0465 -> c9999 (引用完整性破坏)
+737. 课程组[1958] course_id: c0741 -> c9999 (引用完整性破坏)
+738. 课程组[928] course_id: LetIta1 -> c9999 (引用完整性破坏)
+739. 课程组[297] course_id: c0455 -> c9999 (引用完整性破坏)
+740. 课程组[5206] course_id: c0261 -> c9999 (引用完整性破坏)
+741. 课程组[709] course_id: c0233 -> c9999 (引用完整性破坏)
+742. 课程组[263] course_id: c0054 -> c9999 (引用完整性破坏)
+743. 课程组[2351] course_id: c0963 -> c9999 (引用完整性破坏)
+744. 课程组[537] course_id: TecMec1Mn -> c9999 (引用完整性破坏)
+745. 课程组[5045] course_id: c0830 -> c9999 (引用完整性破坏)
+746. 课程组[1923] course_id: c0045 -> c9999 (引用完整性破坏)
+747. 课程组[4419] course_id: LET-STO-StoMed1 -> c9999 (引用完整性破坏)
+748. 课程组[4352] course_id: LET-ITA-LetIta2 -> c9999 (引用完整性破坏)
+749. 课程组[1362] course_id: c0128 -> c9999 (引用完整性破坏)
+750. 课程组[3568] course_id: c0830 -> c9999 (引用完整性破坏)
+751. 课程组[3263] course_id: c0162 -> c9999 (引用完整性破坏)
+752. 课程组[1655] course_id: c0132 -> c9999 (引用完整性破坏)
+753. 课程组[2332] course_id: c0131 -> c9999 (引用完整性破坏)
+754. 课程组[3771] course_id: MecCom1Cv -> c9999 (引用完整性破坏)
+755. 课程组[385] course_id: OrgPro1Gv -> c9999 (引用完整性破坏)
+756. 课程组[2293] course_id: c0023 -> c9999 (引用完整性破坏)
+757. 课程组[5041] course_id: c0815 -> c9999 (引用完整性破坏)
+758. 课程组[3546] course_id: c0073 -> c9999 (引用完整性破坏)
+759. 课程组[3267] course_id: c0163 -> c9999 (引用完整性破坏)
+760. 课程组[3851] course_id: c0011 -> c9999 (引用完整性破坏)
+761. 课程组[3257] course_id: c0149 -> c9999 (引用完整性破坏)
+762. 课程组[346] course_id: CamEle1Ev -> c9999 (引用完整性破坏)
+763. 课程组[4456] course_id: CBC-ART-StoArcCon -> c9999 (引用完整性破坏)
+764. 课程组[5259] course_id: c0821 -> c9999 (引用完整性破坏)
+765. 课程组[832] course_id: Papiro -> c9999 (引用完整性破坏)
+766. 课程组[3968] course_id: c1009 -> c9999 (引用完整性破坏)
+767. 课程组[1687] course_id: c0602 -> c9999 (引用完整性破坏)
+768. 课程组[555] course_id: c0214 -> c9999 (引用完整性破坏)
+769. 课程组[4898] course_id: c0412 -> c9999 (引用完整性破坏)
+770. 课程组[716] course_id: StoArtMed1 -> c9999 (引用完整性破坏)
+771. 课程组[543] course_id: c0094 -> c9999 (引用完整性破坏)
+772. 课程组[1741] course_id: nan -> c9999 (引用完整性破坏)
+773. 课程组[1980] course_id: c0012 -> c9999 (引用完整性破坏)
+774. 课程组[2856] course_id: LogFilMat -> c9999 (引用完整性破坏)
+775. 课程组[3272] course_id: c0271 -> c9999 (引用完整性破坏)
+776. 课程组[1053] course_id: ResBenArcLib -> c9999 (引用完整性破坏)
+777. 课程组[3434] course_id: c0767 -> c9999 (引用完整性破坏)
+778. 课程组[4783] course_id: c0088 -> c9999 (引用完整性破坏)
+779. 课程组[407] course_id: StaAns -> c9999 (引用完整性破坏)
+780. 课程组[3867] course_id: c1028 -> c9999 (引用完整性破坏)
+781. 课程组[3542] course_id: c0261 -> c9999 (引用完整性破坏)
+782. 课程组[871] course_id: StoArtCon1 -> c9999 (引用完整性破坏)
+783. 课程组[3022] course_id: StoFilMedCS -> c9999 (引用完整性破坏)
+784. 课程组[2779] course_id: StoCriCin -> c9999 (引用完整性破坏)
+785. 课程组[163] course_id: c0288 -> c9999 (引用完整性破坏)
+786. 课程组[5207] course_id: c0450 -> c9999 (引用完整性破坏)
+787. 课程组[1238] course_id: Papiro -> c9999 (引用完整性破坏)
+788. 课程组[2613] course_id: LinIta -> c9999 (引用完整性破坏)
+789. 课程组[2804] course_id: InfDoc -> c9999 (引用完整性破坏)
+790. 课程组[957] course_id: Bibgra -> c9999 (引用完整性破坏)
+791. 课程组[2392] course_id: c0464 -> c9999 (引用完整性破坏)
+792. 课程组[380] course_id: TecMec1Mn -> c9999 (引用完整性破坏)
+793. 课程组[4774] course_id: c0023 -> c9999 (引用完整性破坏)
+794. 课程组[2922] course_id: StoLibSta -> c9999 (引用完整性破坏)
+795. 课程组[2227] course_id: c0095 -> c9999 (引用完整性破坏)
+796. 课程组[5001] course_id: c0808 -> c9999 (引用完整性破坏)
+797. 课程组[2407] course_id: c0418 -> c9999 (引用完整性破坏)
+798. 课程组[995] course_id: StoCon -> c9999 (引用完整性破坏)
+799. 课程组[2761] course_id: MatTecAppArcM3 -> c9999 (引用完整性破坏)
+800. 课程组[4020] course_id: c0085 -> c9999 (引用完整性破坏)
+801. 课程组[4496] course_id: CBC-LIB-ArcSpe -> c9999 (引用完整性破坏)
+802. 课程组[1486] course_id: c1068 -> c9999 (引用完整性破坏)
+803. 课程组[2835] course_id: StoArt -> c9999 (引用完整性破坏)
+804. 课程组[3615] course_id: ChiGenAn -> c9999 (引用完整性破坏)
+805. 课程组[1656] course_id: c0133 -> c9999 (引用完整性破坏)
+806. 课程组[4934] course_id: c0072 -> c9999 (引用完整性破坏)
+807. 课程组[4509] course_id: CBC-LIB-StoBib -> c9999 (引用完整性破坏)
+808. 课程组[2695] course_id: StoTecFot -> c9999 (引用完整性破坏)
+809. 课程组[1259] course_id: IcoIcoA -> c9999 (引用完整性破坏)
+810. 课程组[2655] course_id: ArcStoArtMus -> c9999 (引用完整性破坏)
+811. 课程组[2845] course_id: StoColIstMus -> c9999 (引用完整性破坏)
+812. 课程组[3715] course_id: ArcTecCns -> c9999 (引用完整性破坏)
+813. 课程组[794] course_id: StoCriChi -> c9999 (引用完整性破坏)
+814. 课程组[1090] course_id: StoArtCon1 -> c9999 (引用完整性破坏)
+815. 课程组[1301] course_id: c1027 -> c9999 (引用完整性破坏)
+816. 课程组[1189] course_id: ArcPae -> c9999 (引用完整性破坏)
+817. 课程组[3955] course_id: c0184 -> c9999 (引用完整性破坏)
+818. 课程组[2526] course_id: c0028 -> c9999 (引用完整性破坏)
+819. 课程组[4858] course_id: c0478 -> c9999 (引用完整性破坏)
+820. 课程组[2464] course_id: c0520 -> c9999 (引用完整性破坏)
+821. 课程组[1799] course_id: c0602 -> c9999 (引用完整性破坏)
+822. 课程组[4754] course_id: c0058 -> c9999 (引用完整性破坏)
+823. 课程组[3681] course_id: DisIndMn -> c9999 (引用完整性破坏)
+824. 课程组[2087] course_id: c0411 -> c9999 (引用完整性破坏)
+825. 课程组[2860] course_id: LogFilMat -> c9999 (引用完整性破坏)
+826. 课程组[1160] course_id: AntCul1 -> c9999 (引用完整性破坏)
+827. 课程组[1599] course_id: c0061 -> c9999 (引用完整性破坏)
+828. 课程组[4323] course_id: c0830 -> c9999 (引用完整性破坏)
+829. 课程组[3733] course_id: CalEle1Ev -> c9999 (引用完整性破坏)
+830. 课程组[4965] course_id: c0535 -> c9999 (引用完整性破坏)
+831. 课程组[2299] course_id: c0221 -> c9999 (引用完整性破坏)
+832. 课程组[1193] course_id: StoMedCS -> c9999 (引用完整性破坏)
+833. 课程组[3920] course_id: c0185 -> c9999 (引用完整性破坏)
+834. 课程组[4727] course_id: c0007 -> c9999 (引用完整性破坏)
+835. 课程组[1487] course_id: c0524 -> c9999 (引用完整性破坏)
+836. 课程组[5103] course_id: c0420 -> c9999 (引用完整性破坏)
+837. 课程组[4860] course_id: c0503 -> c9999 (引用完整性破坏)
+838. 课程组[3573] course_id: c0427 -> c9999 (引用完整性破坏)
+839. 课程组[4670] course_id: c0063 -> c9999 (引用完整性破坏)
+840. 课程组[4565] course_id: c0130 -> c9999 (引用完整性破坏)
+841. 课程组[5163] course_id: c200e -> c9999 (引用完整性破坏)
+842. 课程组[3314] course_id: c0745 -> c9999 (引用完整性破坏)
+843. 课程组[2544] course_id: c0115 -> c9999 (引用完整性破坏)
+844. 课程组[824] course_id: Numism -> c9999 (引用完整性破坏)
+845. 课程组[4426] course_id: CBC-ART-StoRes -> c9999 (引用完整性破坏)
+846. 课程组[1410] course_id: c0261 -> c9999 (引用完整性破坏)
+847. 课程组[4834] course_id: c0133 -> c9999 (引用完整性破坏)
+848. 课程组[990] course_id: ArcPae -> c9999 (引用完整性破坏)
+849. 课程组[3588] course_id: c0824 -> c9999 (引用完整性破坏)
+850. 课程组[2363] course_id: c0203 -> c9999 (引用完整性破坏)
+851. 课程组[1396] course_id: c0281 -> c9999 (引用完整性破坏)
+852. 课程组[5199] course_id: c0474 -> c9999 (引用完整性破坏)
+853. 课程组[180] course_id: c0288 -> c9999 (引用完整性破坏)
+854. 课程组[1968] course_id: c0116 -> c9999 (引用完整性破坏)
+855. 课程组[2721] course_id: LinGreA -> c9999 (引用完整性破坏)
+856. 课程组[2628] course_id: FonSoc -> c9999 (引用完整性破坏)
+857. 课程组[3375] course_id: c0935 -> c9999 (引用完整性破坏)
+858. 课程组[248] course_id: c0386 -> c9999 (引用完整性破坏)
+859. 课程组[1078] course_id: StoArtMod1 -> c9999 (引用完整性破坏)
+860. 课程组[4227] course_id: c0261 -> c9999 (引用完整性破坏)
+861. 课程组[3717] course_id: StoArcCv -> c9999 (引用完整性破坏)
+862. 课程组[1158] course_id: StoArtLatAmeA -> c9999 (引用完整性破坏)
+863. 课程组[5109] course_id: c0420 -> c9999 (引用完整性破坏)
+864. 课程组[717] course_id: StoFil1 -> c9999 (引用完整性破坏)
+865. 课程组[4021] course_id: c0718 -> c9999 (引用完整性破坏)
+866. 课程组[4397] course_id: nan -> c9999 (引用完整性破坏)
+867. 课程组[1162] course_id: ArcCla1 -> c9999 (引用完整性破坏)
+868. 课程组[2576] course_id: ItaScr -> c9999 (引用完整性破坏)
+869. 课程组[1574] course_id: c0253 -> c9999 (引用完整性破坏)
+870. 课程组[67] course_id: c0080 -> c9999 (引用完整性破坏)
+871. 课程组[3084] course_id: LetCriAnt -> c9999 (引用完整性破坏)
+872. 课程组[2241] course_id: nan -> c9999 (引用完整性破坏)
+873. 课程组[164] course_id: c0302 -> c9999 (引用完整性破坏)
+874. 课程组[3067] course_id: TopRilMonAnt -> c9999 (引用完整性破坏)
+875. 课程组[1830] course_id: c0849 -> c9999 (引用完整性破坏)
+876. 课程组[923] course_id: LetIta1 -> c9999 (引用完整性破坏)
+877. 课程组[3381] course_id: c0216 -> c9999 (引用完整性破坏)
+878. 课程组[613] course_id: c0150 -> c9999 (引用完整性破坏)
+879. 课程组[3688] course_id: IdrNumAns -> c9999 (引用完整性破坏)
+880. 课程组[4578] course_id: c0291 -> c9999 (引用完整性破坏)
+881. 课程组[1011] course_id: StoCon -> c9999 (引用完整性破坏)
+882. 课程组[5015] course_id: c1066 -> c9999 (引用完整性破坏)
+883. 课程组[447] course_id: CalEle1Ev -> c9999 (引用完整性破坏)
+884. 课程组[4156] course_id: c0200 -> c9999 (引用完整性破坏)
+885. 课程组[4912] course_id: c0444 -> c9999 (引用完整性破坏)
+886. 课程组[4181] course_id: c0951 -> c9999 (引用完整性破坏)
+887. 课程组[4699] course_id: c0035 -> c9999 (引用完整性破坏)
+888. 课程组[1015] course_id: StoCon -> c9999 (引用完整性破坏)
+889. 课程组[2339] course_id: c0132 -> c9999 (引用完整性破坏)
+890. 课程组[4865] course_id: c0503 -> c9999 (引用完整性破坏)
+891. 课程组[4281] course_id: c0422 -> c9999 (引用完整性破坏)
+892. 课程组[4417] course_id: CBC-ARC-Geo1 -> c9999 (引用完整性破坏)
+893. 课程组[526] course_id: ComEleEn -> c9999 (引用完整性破坏)
+894. 课程组[4507] course_id: CBC-LIB-Cod -> c9999 (引用完整性破坏)
+895. 课程组[3754] course_id: RetCal1G1n -> c9999 (引用完整性破坏)
+896. 课程组[2161] course_id: c0116 -> c9999 (引用完整性破坏)
+897. 课程组[1120] course_id: StoGreCS -> c9999 (引用完整性破坏)
+898. 课程组[1481] course_id: c0484 -> c9999 (引用完整性破坏)
+899. 课程组[4055] course_id: c0519 -> c9999 (引用完整性破坏)
+900. 课程组[4826] course_id: c0133 -> c9999 (引用完整性破坏)
+901. 课程组[3974] course_id: c0261 -> c9999 (引用完整性破坏)
+902. 课程组[3253] course_id: c0149 -> c9999 (引用完整性破坏)
+903. 课程组[3906] course_id: c1032 -> c9999 (引用完整性破坏)
+904. 课程组[2989] course_id: PalLat -> c9999 (引用完整性破坏)
+905. 课程组[1343] course_id: c0105 -> c9999 (引用完整性破坏)
+906. 课程组[1212] course_id: Bibgra -> c9999 (引用完整性破坏)
+907. 课程组[1941] course_id: c0409 -> c9999 (引用完整性破坏)
+908. 课程组[3408] course_id: c0050 -> c9999 (引用完整性破坏)
+909. 课程组[3855] course_id: c1020 -> c9999 (引用完整性破坏)
+910. 课程组[5023] course_id: c0212 -> c9999 (引用完整性破坏)
+911. 课程组[3981] course_id: c0073 -> c9999 (引用完整性破坏)
+912. 课程组[1777] course_id: c0526 -> c9999 (引用完整性破坏)
+913. 课程组[816] course_id: MetRicArc -> c9999 (引用完整性破坏)
+914. 课程组[828] course_id: LegBenCul1 -> c9999 (引用完整性破坏)
+915. 课程组[1527] course_id: c0821 -> c9999 (引用完整性破坏)
+916. 课程组[237] course_id: c0379 -> c9999 (引用完整性破坏)
+917. 课程组[780] course_id: StoSci -> c9999 (引用完整性破坏)
+918. 课程组[2386] course_id: c0203 -> c9999 (引用完整性破坏)
+919. 课程组[4256] course_id: c0231 -> c9999 (引用完整性破坏)
+920. 课程组[5017] course_id: c0176 -> c9999 (引用完整性破坏)
+921. 课程组[4818] course_id: c0131 -> c9999 (引用完整性破坏)
+922. 课程组[4745] course_id: c0253 -> c9999 (引用完整性破坏)
+923. 课程组[4013] course_id: c0446 -> c9999 (引用完整性破坏)
+924. 课程组[1325] course_id: c0137 -> c9999 (引用完整性破坏)
+925. 课程组[2365] course_id: c0201 -> c9999 (引用完整性破坏)
+926. 课程组[1333] course_id: c0427 -> c9999 (引用完整性破坏)
+927. 课程组[3551] course_id: c0600 -> c9999 (引用完整性破坏)
+928. 课程组[607] course_id: c0148 -> c9999 (引用完整性破坏)
+929. 课程组[2274] course_id: c0746 -> c9999 (引用完整性破坏)
+930. 课程组[1641] course_id: c0152 -> c9999 (引用完整性破坏)
+931. 课程组[1915] course_id: c0884 -> c9999 (引用完整性破坏)
+932. 课程组[2648] course_id: StoTecArtM12 -> c9999 (引用完整性破坏)
+933. 课程组[3710] course_id: CalAut1Cv -> c9999 (引用完整性破坏)
+934. 课程组[3015] course_id: StoRomCS -> c9999 (引用完整性破坏)
+935. 课程组[842] course_id: Papiro -> c9999 (引用完整性破坏)
+936. 课程组[2207] course_id: c0378 -> c9999 (引用完整性破坏)
+937. 课程组[5277] course_id: c0073 -> c9999 (引用完整性破坏)
+938. 课程组[4445] course_id: nan -> c9999 (引用完整性破坏)
+939. 课程组[1510] course_id: c0836 -> c9999 (引用完整性破坏)
+940. 课程组[188] course_id: c0288 -> c9999 (引用完整性破坏)
+941. 课程组[2936] course_id: StoLinItaCS -> c9999 (引用完整性破坏)
+942. 课程组[1716] course_id: c0088 -> c9999 (引用完整性破坏)
+943. 课程组[4112] course_id: c0427 -> c9999 (引用完整性破坏)
+944. 课程组[2028] course_id: c0014 -> c9999 (引用完整性破坏)
+945. 课程组[4097] course_id: c0109 -> c9999 (引用完整性破坏)
+946. 课程组[2905] course_id: StoCriCin -> c9999 (引用完整性破坏)
+947. 课程组[4707] course_id: c0127 -> c9999 (引用完整性破坏)
+948. 课程组[1888] course_id: c0271 -> c9999 (引用完整性破坏)
+949. 课程组[3540] course_id: c0474 -> c9999 (引用完整性破坏)
+950. 课程组[1364] course_id: c0881 -> c9999 (引用完整性破坏)
+951. 课程组[3025] course_id: TedUma -> c9999 (引用完整性破坏)
+952. 课程组[2008] course_id: c0844 -> c9999 (引用完整性破坏)
+953. 课程组[3383] course_id: c0427 -> c9999 (引用完整性破坏)
+954. 课程组[4677] course_id: c0511 -> c9999 (引用完整性破坏)
+955. 课程组[2639] course_id: StoArcMed -> c9999 (引用完整性破坏)
+956. 课程组[2358] course_id: c0047 -> c9999 (引用完整性破坏)
+957. 课程组[4755] course_id: c0746 -> c9999 (引用完整性破坏)
+958. 课程组[1859] course_id: c0773 -> c9999 (引用完整性破坏)
+959. 课程组[4243] course_id: c0463 -> c9999 (引用完整性破坏)
+960. 课程组[3406] course_id: c1058 -> c9999 (引用完整性破坏)
+961. 课程组[1591] course_id: c0061 -> c9999 (引用完整性破坏)
+962. 课程组[2791] course_id: StoTecFot -> c9999 (引用完整性破坏)
+963. 课程组[4268] course_id: c0429 -> c9999 (引用完整性破坏)
+964. 课程组[3477] course_id: c0450 -> c9999 (引用完整性破坏)
+965. 课程组[4415] course_id: LET-STO-StoMed1 -> c9999 (引用完整性破坏)
+966. 课程组[3467] course_id: c0261 -> c9999 (引用完整性破坏)
+967. 课程组[1508] course_id: c1020 -> c9999 (引用完整性破坏)
+968. 课程组[3245] course_id: c0149 -> c9999 (引用完整性破坏)
+969. 课程组[1760] course_id: c0725 -> c9999 (引用完整性破坏)
+970. 课程组[1991] course_id: c0527 -> c9999 (引用完整性破坏)
+971. 课程组[2166] course_id: c0116 -> c9999 (引用完整性破坏)
+972. 课程组[1112] course_id: Papiro -> c9999 (引用完整性破坏)
+973. 课程组[4173] course_id: c0896 -> c9999 (引用完整性破坏)
+974. 课程组[3471] course_id: c0600 -> c9999 (引用完整性破坏)
+975. 课程组[2286] course_id: c0076 -> c9999 (引用完整性破坏)
+976. 课程组[5075] course_id: c0965 -> c9999 (引用完整性破坏)
+977. 课程组[2785] course_id: StoMus -> c9999 (引用完整性破坏)
+978. 课程组[4378] course_id: LET-CST-EpiLat -> c9999 (引用完整性破坏)
+979. 课程组[2499] course_id: c0789 -> c9999 (引用完整性破坏)
+980. 课程组[1826] course_id: c1041 -> c9999 (引用完整性破坏)
+981. 课程组[1681] course_id: c0257 -> c9999 (引用完整性破坏)
+982. 课程组[4757] course_id: c0061 -> c9999 (引用完整性破坏)
+983. 课程组[152] course_id: c0113 -> c9999 (引用完整性破坏)
+984. 课程组[1653] course_id: c0153 -> c9999 (引用完整性破坏)
+985. 课程组[1415] course_id: c0261 -> c9999 (引用完整性破坏)
+986. 课程组[1953] course_id: c0745 -> c9999 (引用完整性破坏)
+987. 课程组[566] course_id: c0773 -> c9999 (引用完整性破坏)
+988. 课程组[3812] course_id: ComEleEn -> c9999 (引用完整性破坏)
+989. 课程组[54] course_id: c0211 -> c9999 (引用完整性破坏)
+990. 课程组[2052] course_id: c0978 -> c9999 (引用完整性破坏)
+991. 课程组[1783] course_id: c0520 -> c9999 (引用完整性破坏)
+992. 课程组[3921] course_id: c0105 -> c9999 (引用完整性破坏)
+993. 课程组[4542] course_id: c0063 -> c9999 (引用完整性破坏)
+994. 课程组[3762] course_id: RetCal1G1n -> c9999 (引用完整性破坏)
+995. 课程组[5195] course_id: c0202 -> c9999 (引用完整性破坏)
+996. 课程组[4461] course_id: LET-CST-StoRom -> c9999 (引用完整性破坏)
+997. 课程组[2402] course_id: c0554 -> c9999 (引用完整性破坏)
+998. 课程组[3973] course_id: c0429 -> c9999 (引用完整性破坏)
+999. 课程组[4669] course_id: c0625 -> c9999 (引用完整性破坏)
+1000. 课程组[3023] course_id: LinLetLatCS -> c9999 (引用完整性破坏)
+1001. 课程组[4796] course_id: c0193 -> c9999 (引用完整性破坏)
+1002. 课程组[2236] course_id: c0118 -> c9999 (引用完整性破坏)
+1003. 课程组[3338] course_id: c0527 -> c9999 (引用完整性破坏)
+1004. 课程组[1079] course_id: LegBenCul1 -> c9999 (引用完整性破坏)
+1005. 课程组[1055] course_id: StoMod1 -> c9999 (引用完整性破坏)
+1006. 课程组[3656] course_id: GesAziGv -> c9999 (引用完整性破坏)
+1007. 课程组[405] course_id: GeoAppAns -> c9999 (引用完整性破坏)
+1008. 课程组[2843] course_id: EcoAzi -> c9999 (引用完整性破坏)
+1009. 课程组[986] course_id: ArcPae -> c9999 (引用完整性破坏)
+1010. 课程组[4102] course_id: c0006 -> c9999 (引用完整性破坏)
+1011. 课程组[548] course_id: c0114 -> c9999 (引用完整性破坏)
+1012. 课程组[3580] course_id: c0803 -> c9999 (引用完整性破坏)
+1013. 课程组[2612] course_id: StoCriCin -> c9999 (引用完整性破坏)
+1014. 课程组[3117] course_id: StoArcCon -> c9999 (引用完整性破坏)
+1015. 课程组[4319] course_id: c1057 -> c9999 (引用完整性破坏)
+1016. 课程组[4956] course_id: c0193 -> c9999 (引用完整性破坏)
+1017. 课程组[2057] course_id: c0148 -> c9999 (引用完整性破坏)
+1018. 课程组[593] course_id: c0181 -> c9999 (引用完整性破坏)
+1019. 课程组[1412] course_id: c0450 -> c9999 (引用完整性破坏)
+1020. 课程组[4344] course_id: c0080 -> c9999 (引用完整性破坏)
+1021. 课程组[2610] course_id: LinIta -> c9999 (引用完整性破坏)
+1022. 课程组[1284] course_id: c0212 -> c9999 (引用完整性破坏)
+1023. 课程组[4354] course_id: LET-ITA-LinIta -> c9999 (引用完整性破坏)
+1024. 课程组[1174] course_id: AntCul1 -> c9999 (引用完整性破坏)
+1025. 课程组[3706] course_id: MecCom1Cv -> c9999 (引用完整性破坏)
+1026. 课程组[4198] course_id: c0143 -> c9999 (引用完整性破坏)
+1027. 课程组[3196] course_id: c0224 -> c9999 (引用完整性破坏)
+1028. 课程组[2737] course_id: MatCarCosResEdiSto -> c9999 (引用完整性破坏)
+1029. 课程组[3216] course_id: c0060 -> c9999 (引用完整性破坏)
+1030. 课程组[1374] course_id: c0142 -> c9999 (引用完整性破坏)
+1031. 课程组[4600] course_id: c0330 -> c9999 (引用完整性破坏)
+1032. 课程组[2142] course_id: c0271 -> c9999 (引用完整性破坏)
+1033. 课程组[1480] course_id: c0489 -> c9999 (引用完整性破坏)
+1034. 课程组[1279] course_id: c0216 -> c9999 (引用完整性破坏)
+1035. 课程组[697] course_id: c0116 -> c9999 (引用完整性破坏)
+1036. 课程组[1793] course_id: c1022 -> c9999 (引用完整性破坏)
+1037. 课程组[552] course_id: c0214 -> c9999 (引用完整性破坏)
+1038. 课程组[2118] course_id: c0995 -> c9999 (引用完整性破坏)
+1039. 课程组[3897] course_id: c0220 -> c9999 (引用完整性破坏)
+1040. 课程组[207] course_id: c0323 -> c9999 (引用完整性破坏)
+1041. 课程组[4696] course_id: c0309 -> c9999 (引用完整性破坏)
+1042. 课程组[4001] course_id: c0231 -> c9999 (引用完整性破坏)
+1043. 课程组[1097] course_id: StoArt -> c9999 (引用完整性破坏)
+1044. 课程组[4162] course_id: c0185 -> c9999 (引用完整性破坏)
+1045. 课程组[1626] course_id: c0193 -> c9999 (引用完整性破坏)
+1046. 课程组[676] course_id: c0486 -> c9999 (引用完整性破坏)
+1047. 课程组[3189] course_id: c0210 -> c9999 (引用完整性破坏)
+1048. 课程组[1728] course_id: c0253 -> c9999 (引用完整性破坏)
+1049. 课程组[2777] course_id: PalLat -> c9999 (引用完整性破坏)
+1050. 课程组[1729] course_id: c0432 -> c9999 (引用完整性破坏)
+1051. 课程组[5034] course_id: c0792 -> c9999 (引用完整性破坏)
+1052. 课程组[672] course_id: c0486 -> c9999 (引用完整性破坏)
+1053. 课程组[1295] course_id: c0091 -> c9999 (引用完整性破坏)
+1054. 课程组[749] course_id: LinLetLat1 -> c9999 (引用完整性破坏)
+1055. 课程组[2485] course_id: c0602 -> c9999 (引用完整性破坏)
+1056. 课程组[2946] course_id: StoLinItaCS -> c9999 (引用完整性破坏)
+1057. 课程组[283] course_id: c0288 -> c9999 (引用完整性破坏)
+1058. 课程组[2411] course_id: c0232 -> c9999 (引用完整性破坏)
+1059. 课程组[852] course_id: LinLatB -> c9999 (引用完整性破坏)
+1060. 课程组[3419] course_id: c0228 -> c9999 (引用完整性破坏)
+1061. 课程组[984] course_id: InfArcBib -> c9999 (引用完整性破坏)
+1062. 课程组[3274] course_id: c0456 -> c9999 (引用完整性破坏)
+1063. 课程组[808] course_id: AntCul1 -> c9999 (引用完整性破坏)
+1064. 课程组[5083] course_id: c0220 -> c9999 (引用完整性破坏)
+1065. 课程组[4530] course_id: c0301 -> c9999 (引用完整性破坏)
+1066. 课程组[2042] course_id: c0233 -> c9999 (引用完整性破坏)
+1067. 课程组[3553] course_id: c0484 -> c9999 (引用完整性破坏)
+1068. 课程组[1000] course_id: LinLetGre1 -> c9999 (引用完整性破坏)
+1069. 课程组[1024] course_id: InfArcBib -> c9999 (引用完整性破坏)
+1070. 课程组[1316] course_id: c0064 -> c9999 (引用完整性破坏)
+1071. 课程组[1841] course_id: nan -> c9999 (引用完整性破坏)
+1072. 课程组[855] course_id: Bibgra -> c9999 (引用完整性破坏)
+1073. 课程组[2617] course_id: AntCul -> c9999 (引用完整性破坏)
+1074. 课程组[1074] course_id: StoArtMod1 -> c9999 (引用完整性破坏)
+1075. 课程组[968] course_id: StoMod1 -> c9999 (引用完整性破坏)
+1076. 课程组[802] course_id: StoMod1 -> c9999 (引用完整性破坏)
+1077. 课程组[1569] course_id: c0020 -> c9999 (引用完整性破坏)
+1078. 课程组[499] course_id: IdrAppCv -> c9999 (引用完整性破坏)
+1079. 课程组[2353] course_id: c0133 -> c9999 (引用完整性破坏)
+1080. 课程组[3506] course_id: c0836 -> c9999 (引用完整性破坏)
+1081. 课程组[753] course_id: LinLetLat1 -> c9999 (引用完整性破坏)
+1082. 课程组[2487] course_id: c0835 -> c9999 (引用完整性破坏)
+1083. 课程组[1405] course_id: c0202 -> c9999 (引用完整性破坏)
+1084. 课程组[4526] course_id: c0012 -> c9999 (引用完整性破坏)
+1085. 课程组[1949] course_id: c0738 -> c9999 (引用完整性破坏)
+1086. 课程组[1153] course_id: nan -> c9999 (引用完整性破坏)
+1087. 课程组[1149] course_id: IcoIcoA -> c9999 (引用完整性破坏)
+1088. 课程组[1961] course_id: c0498 -> c9999 (引用完整性破坏)
+1089. 课程组[2083] course_id: c0233 -> c9999 (引用完整性破坏)
+1090. 课程组[641] course_id: c0741 -> c9999 (引用完整性破坏)
+1091. 课程组[2668] course_id: EleInfSciCatBenCulM2 -> c9999 (引用完整性破坏)
+1092. 课程组[2222] course_id: nan -> c9999 (引用完整性破坏)
+1093. 课程组[136] course_id: c0326 -> c9999 (引用完整性破坏)
+1094. 课程组[2685] course_id: ArcStoArtMus -> c9999 (引用完整性破坏)
+1095. 课程组[3212] course_id: c1007 -> c9999 (引用完整性破坏)
+1096. 课程组[5238] course_id: c0763 -> c9999 (引用完整性破坏)
+1097. 课程组[3671] course_id: OrgPro1Gv -> c9999 (引用完整性破坏)
+1098. 课程组[100] course_id: c0076 -> c9999 (引用完整性破坏)
+1099. 课程组[173] course_id: c0088 -> c9999 (引用完整性破坏)
+1100. 课程组[495] course_id: ArcComCv -> c9999 (引用完整性破坏)
+1101. 课程组[2680] course_id: EleInfSciCatBenCulM3 -> c9999 (引用完整性破坏)
+1102. 课程组[3768] course_id: IngConAn -> c9999 (引用完整性破坏)
+1103. 课程组[654] course_id: c0409 -> c9999 (引用完整性破坏)
+1104. 课程组[148] course_id: c0113 -> c9999 (引用完整性破坏)
+1105. 课程组[1269] course_id: c0109 -> c9999 (引用完整性破坏)
+1106. 课程组[743] course_id: LinLetGre1 -> c9999 (引用完整性破坏)
+1107. 课程组[1435] course_id: c0417 -> c9999 (引用完整性破坏)
+1108. 课程组[2751] course_id: AntCul -> c9999 (引用完整性破坏)
+1109. 课程组[4888] course_id: c0279 -> c9999 (引用完整性破坏)
+1110. 课程组[1560] course_id: c0023 -> c9999 (引用完整性破坏)
+1111. 课程组[1645] course_id: c0152 -> c9999 (引用完整性破坏)
+1112. 课程组[991] course_id: StoCon -> c9999 (引用完整性破坏)
+1113. 课程组[3307] course_id: c0738 -> c9999 (引用完整性破坏)
+1114. 课程组[215] course_id: c0346 -> c9999 (引用完整性破坏)
+1115. 课程组[4062] course_id: c0816 -> c9999 (引用完整性破坏)
+1116. 课程组[101] course_id: c0323 -> c9999 (引用完整性破坏)
+1117. 课程组[3469] course_id: c0450 -> c9999 (引用完整性破坏)
+1118. 课程组[2800] course_id: StoBib -> c9999 (引用完整性破坏)
+1119. 课程组[1997] course_id: c0850 -> c9999 (引用完整性破坏)
+1120. 课程组[2088] course_id: c0933 -> c9999 (引用完整性破坏)
+1121. 课程组[5118] course_id: c0085 -> c9999 (引用完整性破坏)
+1122. 课程组[711] course_id: c0233 -> c9999 (引用完整性破坏)
+1123. 课程组[208] course_id: nan -> c9999 (引用完整性破坏)
+1124. 课程组[2016] course_id: c0771 -> c9999 (引用完整性破坏)
+1125. 课程组[3583] course_id: c0080 -> c9999 (引用完整性破坏)
+1126. 课程组[2449] course_id: nan -> c9999 (引用完整性破坏)
+1127. 课程组[2806] course_id: StoBib -> c9999 (引用完整性破坏)
+1128. 课程组[662] course_id: c0227 -> c9999 (引用完整性破坏)
+1129. 课程组[5265] course_id: c0073 -> c9999 (引用完整性破坏)
+1130. 课程组[4676] course_id: nan -> c9999 (引用完整性破坏)
+1131. 课程组[3720] course_id: EleIndEv -> c9999 (引用完整性破坏)
+1132. 课程组[216] course_id: c0115 -> c9999 (引用完整性破坏)
+1133. 课程组[5070] course_id: c0881 -> c9999 (引用完整性破坏)
+1134. 课程组[524] course_id: GesAziGv -> c9999 (引用完整性破坏)
+1135. 课程组[4069] course_id: c0427 -> c9999 (引用完整性破坏)
+1136. 课程组[4087] course_id: c0899 -> c9999 (引用完整性破坏)
+1137. 课程组[4045] course_id: c0524 -> c9999 (引用完整性破坏)
+1138. 课程组[111] course_id: c0193 -> c9999 (引用完整性破坏)
+1139. 课程组[2020] course_id: c0014 -> c9999 (引用完整性破坏)
+1140. 课程组[1597] course_id: c1069 -> c9999 (引用完整性破坏)
+1141. 课程组[5011] course_id: c0897 -> c9999 (引用完整性破坏)
+1142. 课程组[813] course_id: StoArtMod1 -> c9999 (引用完整性破坏)
+1143. 课程组[3011] course_id: EpiLat -> c9999 (引用完整性破坏)
+1144. 课程组[1264] course_id: c1033 -> c9999 (引用完整性破坏)
+1145. 课程组[165] course_id: c0313 -> c9999 (引用完整性破坏)
+1146. 课程组[2104] course_id: c0053 -> c9999 (引用完整性破坏)
+1147. 课程组[1156] course_id: IcoIcoA -> c9999 (引用完整性破坏)
+1148. 课程组[1811] course_id: c0808 -> c9999 (引用完整性破坏)
+1149. 课程组[690] course_id: c0510 -> c9999 (引用完整性破坏)
+1150. 课程组[2871] course_id: StoLinItaCS -> c9999 (引用完整性破坏)
+1151. 课程组[3629] course_id: RetLogEn -> c9999 (引用完整性破坏)
+1152. 课程组[2530] course_id: c0040 -> c9999 (引用完整性破坏)
+1153. 课程组[4251] course_id: c0836 -> c9999 (引用完整性破坏)
+1154. 课程组[1084] course_id: StoCon -> c9999 (引用完整性破坏)
+1155. 课程组[3277] course_id: c0456 -> c9999 (引用完整性破坏)
+1156. 课程组[586] course_id: c0773 -> c9999 (引用完整性破坏)
+1157. 课程组[3270] course_id: c0060 -> c9999 (引用完整性破坏)
+1158. 课程组[49] 创建重复行
+1159. 课程组[1] 创建重复行
+1160. 课程组[12] 创建重复行
+1161. 课程组[7] 创建重复行
+1162. 课程组[41] 创建重复行
+1163. 课程组[3] 创建重复行
+1164. 课程组[4] 创建重复行
+1165. 课程组[27] 创建重复行
+1166. 课程组[6] 创建重复行
+1167. 课程组[44] 创建重复行
+1168. 课程组[34] 创建重复行
+1169. 课程组[8] 创建重复行
+1170. 课程组[18] 创建重复行
+1171. 课程组[11] 创建重复行
+1172. 课程组[33] 创建重复行
+1173. 课程组[5] 创建重复行
+1174. 课程组[26] 创建重复行
+1175. 课程组[23] 创建重复行
+1176. 课程组[39] 创建重复行
+1177. 课程组[35] 创建重复行
+1178. 课程组[28] 创建重复行
+1179. 课程组[25] 创建重复行
+1180. 课程组[42] 创建重复行
+1181. 课程组[40] 创建重复行
+1182. 课程组[17] 创建重复行
+1183. 课程组[24] 创建重复行
+1184. 课程组[22] 创建重复行
+1185. 课程组[46] 创建重复行
+1186. 课程组[38] 创建重复行
+1187. 课程组[9] 创建重复行
+1188. 课程组[47] 创建重复行
+1189. 课程组[31] 创建重复行
+1190. 课程组[29] 创建重复行
+1191. 课程组[15] 创建重复行
+1192. 课程组[21] 创建重复行
+1193. 课程组[43] 创建重复行
+1194. 课程组[19] 创建重复行
+1195. 课程组[16] 创建重复行
+1196. 课程组[45] 创建重复行
+1197. 课程组[30] 创建重复行
+1198. 课程组[32] 创建重复行
+1199. 课程组[36] 创建重复行
+1200. 课程组[10] 创建重复行
+1201. 课程组[2] 创建重复行
+1202. 课程组[37] 创建重复行
+1203. 课程组[48] 创建重复行
+1204. 课程组[0] 创建重复行
+1205. 课程组[20] 创建重复行
+1206. 课程组[13] 创建重复行
+1207. 课程组[14] 创建重复行
+1208. 约束[10315] day: 4 -> NaN
+1209. 约束[6579] period: 3 -> NaN
+1210. 约束[2276] day: 4.0 -> NaN
+1211. 约束[7752] day: 4.0 -> NaN
+1212. 约束[1967] course_id: Antrop -> NaN
+1213. 约束[10948] day: 1.0 -> NaN
+1214. 约束[10520] day: 4.0 -> NaN
+1215. 约束[3152] period: 3.0 -> NaN
+1216. 约束[4431] period: 4.0 -> NaN
+1217. 约束[137] period: 0.0 -> NaN
+1218. 约束[720] period: 2.0 -> NaN
+1219. 约束[8211] day: 0.0 -> NaN
+1220. 约束[10074] day: 4.0 -> NaN
+1221. 约束[3589] day: 2.0 -> NaN
+1222. 约束[8010] course_id: c0261 -> NaN
+1223. 约束[6717] course_id: c0420 -> NaN
+1224. 约束[8083] day: 4.0 -> NaN
+1225. 约束[4689] period: 1.0 -> NaN
+1226. 约束[10480] day: 2.0 -> NaN
+1227. 约束[4925] day: 2.0 -> NaN
+1228. 约束[3826] day: 1.0 -> NaN
+1229. 约束[4872] day: 1.0 -> NaN
+1230. 约束[11004] period: 4.0 -> NaN
+1231. 约束[5058] day: 2.0 -> NaN
+1232. 约束[503] day: 4.0 -> NaN
+1233. 约束[7643] period: 3.0 -> NaN
+1234. 约束[6057] course_id: StoArt -> NaN
+1235. 约束[2616] day: 4.0 -> NaN
+1236. 约束[711] period: 4.0 -> NaN
+1237. 约束[4979] course_id: c0095 -> NaN
+1238. 约束[5021] period: 5.0 -> NaN
+1239. 约束[3879] course_id: c1148 -> NaN
+1240. 约束[6823] course_id: c0773 -> NaN
+1241. 约束[1329] day: 0.0 -> NaN
+1242. 约束[3822] period: 2.0 -> NaN
+1243. 约束[3520] day: 3.0 -> NaN
+1244. 约束[9327] period: 5.0 -> NaN
+1245. 约束[516] period: 4.0 -> NaN
+1246. 约束[1215] course_id: c0501 -> NaN
+1247. 约束[7418] course_id: FonChiAn -> NaN
+1248. 约束[7275] period: 3.0 -> NaN
+1249. 约束[6718] period: 0.0 -> NaN
+1250. 约束[303] day: 4.0 -> NaN
+1251. 约束[3829] period: 2.0 -> NaN
+1252. 约束[6929] period: 0.0 -> NaN
+1253. 约束[3649] course_id: c0210 -> NaN
+1254. 约束[434] day: 2.0 -> NaN
+1255. 约束[8224] course_id: c1009 -> NaN
+1256. 约束[3107] course_id: c0257 -> NaN
+1257. 约束[4781] course_id: c0535 -> NaN
+1258. 约束[6486] day: 4.0 -> NaN
+1259. 约束[2218] period: 0.0 -> NaN
+1260. 约束[2671] course_id: c0852 -> NaN
+1261. 约束[6709] period: 1.0 -> NaN
+1262. 约束[9106] day: 3.0 -> NaN
+1263. 约束[665] course_id: RetLogEn -> NaN
+1264. 约束[1378] course_id: FilTesItaCS -> NaN
+1265. 约束[6692] day: 4.0 -> NaN
+1266. 约束[3305] period: 0.0 -> NaN
+1267. 约束[6965] period: 4.0 -> NaN
+1268. 约束[250] period: 3.0 -> NaN
+1269. 约束[5347] period: 3.0 -> NaN
+1270. 约束[7660] period: 4.0 -> NaN
+1271. 约束[9501] course_id: c0052 -> NaN
+1272. 约束[9758] period: 1.0 -> NaN
+1273. 约束[7247] course_id: c0281 -> NaN
+1274. 约束[3189] course_id: c0532 -> NaN
+1275. 约束[2641] course_id: c0533 -> NaN
+1276. 约束[6164] day: 5.0 -> NaN
+1277. 约束[4798] period: 4.0 -> NaN
+1278. 约束[3532] day: 2.0 -> NaN
+1279. 约束[2629] course_id: c0524 -> NaN
+1280. 约束[10971] period: 1.0 -> NaN
+1281. 约束[1561] period: 0.0 -> NaN
+1282. 约束[1146] period: 2.0 -> NaN
+1283. 约束[6684] course_id: c0223 -> NaN
+1284. 约束[3187] day: 1.0 -> NaN
+1285. 约束[2707] course_id: c0898 -> NaN
+1286. 约束[1496] day: 5.0 -> NaN
+1287. 约束[2023] day: 5.0 -> NaN
+1288. 约束[7397] course_id: c1180 -> NaN
+1289. 约束[5505] course_id: LetCriAnt -> NaN
+1290. 约束[7705] course_id: ArcComCv -> NaN
+1291. 约束[11011] period: 1.0 -> NaN
+1292. 约束[3653] course_id: c0214 -> NaN
+1293. 约束[9330] day: 5.0 -> NaN
+1294. 约束[3433] course_id: c0014 -> NaN
+1295. 约束[9440] period: 4.0 -> NaN
+1296. 约束[4113] course_id: c0343 -> NaN
+1297. 约束[9020] period: 1.0 -> NaN
+1298. 约束[4392] course_id: c0119 -> NaN
+1299. 约束[5419] day: 5.0 -> NaN
+1300. 约束[3941] course_id: c0104 -> NaN
+1301. 约束[1420] day: 0.0 -> NaN
+1302. 约束[1149] course_id: c0227 -> NaN
+1303. 约束[175] course_id: c0044 -> NaN
+1304. 约束[5535] day: 1.0 -> NaN
+1305. 约束[5405] course_id: EpiLat -> NaN
+1306. 约束[8713] period: 2.0 -> NaN
+1307. 约束[3859] course_id: c0898 -> NaN
+1308. 约束[4545] course_id: c0219 -> NaN
+1309. 约束[1224] course_id: c0506 -> NaN
+1310. 约束[9695] course_id: c0214 -> NaN
+1311. 约束[2157] day: 4.0 -> NaN
+1312. 约束[3697] day: 0.0 -> NaN
+1313. 约束[6771] day: 0.0 -> NaN
+1314. 约束[4286] course_id: c0456 -> NaN
+1315. 约束[6932] period: 3.0 -> NaN
+1316. 约束[7637] course_id: StaAns -> NaN
+1317. 约束[9337] period: 5.0 -> NaN
+1318. 约束[9981] course_id: c0047 -> NaN
+1319. 约束[5547] day: 5.0 -> NaN
+1320. 约束[8167] day: 2.0 -> NaN
+1321. 约束[10501] day: 3.0 -> NaN
+1322. 约束[1731] day: 5.0 -> NaN
+1323. 约束[9009] course_id: LET-CST-StoRom -> NaN
+1324. 约束[30] period: 4.0 -> NaN
+1325. 约束[11067] course_id: c0513 -> NaN
+1326. 约束[10387] day: 4.0 -> NaN
+1327. 约束[5571] period: 1.0 -> NaN
+1328. 约束[237] day: 4.0 -> NaN
+1329. 约束[1475] course_id: StoMod1 -> NaN
+1330. 约束[5230] course_id: ArchivCS -> NaN
+1331. 约束[11049] day: 4.0 -> NaN
+1332. 约束[3048] period: 3.0 -> NaN
+1333. 约束[86] period: 4.0 -> NaN
+1334. 约束[6494] course_id: c0052 -> NaN
+1335. 约束[9916] day: 3.0 -> NaN
+1336. 约束[3503] day: 0.0 -> NaN
+1337. 约束[6840] day: 2.0 -> NaN
+1338. 约束[7880] period: 4.0 -> NaN
+1339. 约束[4972] course_id: c0095 -> NaN
+1340. 约束[6178] course_id: StoArtMod2CS -> NaN
+1341. 约束[4048] day: 1.0 -> NaN
+1342. 约束[9077] day: 1.0 -> NaN
+1343. 约束[8171] course_id: c0840 -> NaN
+1344. 约束[4406] day: 0.0 -> NaN
+1345. 约束[2331] course_id: c0200 -> NaN
+1346. 约束[3197] day: 0.0 -> NaN
+1347. 约束[3604] period: 3.0 -> NaN
+1348. 约束[2638] course_id: c0524 -> NaN
+1349. 约束[3319] day: 3.0 -> NaN
+1350. 约束[5522] period: 4.0 -> NaN
+1351. 约束[3656] day: 1.0 -> NaN
+1352. 约束[3619] course_id: c0181 -> NaN
+1353. 约束[10142] period: 2.0 -> NaN
+1354. 约束[3173] period: 3.0 -> NaN
+1355. 约束[707] course_id: Mat1G2n -> NaN
+1356. 约束[6216] day: 3.0 -> NaN
+1357. 约束[4329] course_id: c0106 -> NaN
+1358. 约束[6441] period: 0.0 -> NaN
+1359. 约束[2100] period: 3.0 -> NaN
+1360. 约束[6241] day: 1.0 -> NaN
+1361. 约束[4491] day: 1.0 -> NaN
+1362. 约束[6992] day: 3.0 -> NaN
+1363. 约束[7289] course_id: c0450 -> NaN
+1364. 约束[10794] day: 2.0 -> NaN
+1365. 约束[1624] period: 5.0 -> NaN
+1366. 约束[7585] course_id: Mat1Mn -> NaN
+1367. 约束[1543] course_id: StoCriChi -> NaN
+1368. 约束[10428] course_id: c0532 -> NaN
+1369. 约束[2143] course_id: c0046 -> NaN
+1370. 约束[5135] course_id: ArcCriMed -> NaN
+1371. 约束[2255] day: 3.0 -> NaN
+1372. 约束[6699] course_id: c0227 -> NaN
+1373. 约束[9368] period: 5.0 -> NaN
+1374. 约束[7482] day: 2.0 -> NaN
+1375. 约束[7255] day: 4.0 -> NaN
+1376. 约束[2927] period: 4.0 -> NaN
+1377. 约束[6395] course_id: StoRom -> NaN
+1378. 约束[4945] course_id: c0808 -> NaN
+1379. 约束[9039] period: 2.0 -> NaN
+1380. 约束[8834] course_id: c1058 -> NaN
+1381. 约束[1743] course_id: StoArtMed1 -> NaN
+1382. 约束[1566] day: 5.0 -> NaN
+1383. 约束[310] day: 1.0 -> NaN
+1384. 约束[4074] day: 4.0 -> NaN
+1385. 约束[70] day: 0.0 -> NaN
+1386. 约束[3198] period: 0.0 -> NaN
+1387. 约束[5849] course_id: ProMedCS -> NaN
+1388. 约束[2031] course_id: StoArc -> NaN
+1389. 约束[5574] course_id: LinLetLatCS -> NaN
+1390. 约束[5499] period: 5.0 -> NaN
+1391. 约束[7986] course_id: c0228 -> NaN
+1392. 约束[719] period: 1.0 -> NaN
+1393. 约束[9615] day: 4.0 -> NaN
+1394. 约束[4647] period: 0.0 -> NaN
+1395. 约束[7872] course_id: c0080 -> NaN
+1396. 约束[1156] day: 4.0 -> NaN
+1397. 约束[2569] period: 1.0 -> NaN
+1398. 约束[7188] course_id: c0180 -> NaN
+1399. 约束[8743] period: 2.0 -> NaN
+1400. 约束[10713] period: 1.0 -> NaN
+1401. 约束[1042] course_id: c0114 -> NaN
+1402. 约束[6813] course_id: c0773 -> NaN
+1403. 约束[5201] course_id: Archiv -> NaN
+1404. 约束[6134] day: 5.0 -> NaN
+1405. 约束[431] period: 2.0 -> NaN
+1406. 约束[5521] course_id: LetCriAnt -> NaN
+1407. 约束[7542] period: 3.0 -> NaN
+1408. 约束[10130] day: 0.0 -> NaN
+1409. 约束[9100] course_id: LET-CLE-FilCla -> NaN
+1410. 约束[10253] day: 3.0 -> NaN
+1411. 约束[2498] day: 0.0 -> NaN
+1412. 约束[5838] period: 3.0 -> NaN
+1413. 约束[8587] course_id: c0261 -> NaN
+1414. 约束[4824] day: 4.0 -> NaN
+1415. 约束[3404] course_id: c1072 -> NaN
+1416. 约束[1350] day: 5.0 -> NaN
+1417. 约束[3770] day: 4.0 -> NaN
+1418. 约束[5323] day: 3.0 -> NaN
+1419. 约束[10456] day: 3.0 -> NaN
+1420. 约束[9103] period: 4.0 -> NaN
+1421. 约束[7283] period: 0.0 -> NaN
+1422. 约束[7491] course_id: RetLogEn -> NaN
+1423. 约束[881] course_id: CosZonCv -> NaN
+1424. 约束[9576] period: 3.0 -> NaN
+1425. 约束[6110] period: 5.0 -> NaN
+1426. 约束[1185] day: 4.0 -> NaN
+1427. 约束[11042] course_id: c0943 -> NaN
+1428. 约束[8694] course_id: c0513 -> NaN
+1429. 约束[1657] period: 1.0 -> NaN
+1430. 约束[6674] day: 4.0 -> NaN
+1431. 约束[5007] course_id: c0007 -> NaN
+1432. 约束[6922] day: 1.0 -> NaN
+1433. 约束[10049] period: 3.0 -> NaN
+1434. 约束[3524] course_id: c0112 -> NaN
+1435. 约束[9014] period: 1.0 -> NaN
+1436. 约束[2020] course_id: ChiAppBenCul -> NaN
+1437. 约束[1885] course_id: StoGreCS -> NaN
+1438. 约束[9985] day: 1.0 -> NaN
+1439. 约束[7319] course_id: c0474 -> NaN
+1440. 约束[842] course_id: RetCal2Gns -> NaN
+1441. 约束[1580] course_id: LinLatB -> NaN
+1442. 约束[4125] day: 1.0 -> NaN
+1443. 约束[6489] course_id: c0052 -> NaN
+1444. 约束[7054] period: 3.0 -> NaN
+1445. 约束[5828] day: 0.0 -> NaN
+1446. 约束[3715] period: 3.0 -> NaN
+1447. 约束[779] period: 4.0 -> NaN
+1448. 约束[7089] course_id: c0050 -> NaN
+1449. 约束[2901] course_id: c0095 -> NaN
+1450. 约束[4355] period: 2.0 -> NaN
+1451. 约束[1689] day: 0.0 -> NaN
+1452. 约束[6298] course_id: StoCriCin -> NaN
+1453. 约束[89] period: 2.0 -> NaN
+1454. 约束[2098] period: 1.0 -> NaN
+1455. 约束[5075] day: 4.0 -> NaN
+1456. 约束[9054] course_id: LET-CLE-LinLetGre2 -> NaN
+1457. 约束[245] day: 4.0 -> NaN
+1458. 约束[5910] period: 1.0 -> NaN
+1459. 约束[8307] day: 0.0 -> NaN
+1460. 约束[10237] period: 4.0 -> NaN
+1461. 约束[8480] course_id: c0142 -> NaN
+1462. 约束[1166] period: 2.0 -> NaN
+1463. 约束[5823] course_id: PapiroCS -> NaN
+1464. 约束[1928] course_id: StoMedCS -> NaN
+1465. 约束[10209] period: 2.0 -> NaN
+1466. 约束[6669] course_id: c0214 -> NaN
+1467. 约束[4560] course_id: c0023 -> NaN
+1468. 约束[7909] day: 4.0 -> NaN
+1469. 约束[1753] period: 2.0 -> NaN
+1470. 约束[2185] period: 3.0 -> NaN
+1471. 约束[7708] period: 3.0 -> NaN
+1472. 约束[6803] course_id: c0738 -> NaN
+1473. 约束[8666] day: 0.0 -> NaN
+1474. 约束[4440] course_id: c0152 -> NaN
+1475. 约束[9301] day: 1.0 -> NaN
+1476. 约束[4600] period: 0.0 -> NaN
+1477. 约束[1009] day: 4.0 -> NaN
+1478. 约束[4493] period: 3.0 -> NaN
+1479. 约束[581] period: 2.0 -> NaN
+1480. 约束[936] period: 2.0 -> NaN
+1481. 约束[9553] period: 1.0 -> NaN
+1482. 约束[4551] day: 1.0 -> NaN
+1483. 约束[4294] day: 1.0 -> NaN
+1484. 约束[9264] period: 5.0 -> NaN
+1485. 约束[10509] day: 4.0 -> NaN
+1486. 约束[9761] period: 4.0 -> NaN
+1487. 约束[5227] day: 3.0 -> NaN
+1488. 约束[5583] course_id: LinLetLat2 -> NaN
+1489. 约束[8838] day: 0.0 -> NaN
+1490. 约束[3480] day: 4.0 -> NaN
+1491. 约束[6779] day: 4.0 -> NaN
+1492. 约束[7465] period: 2.0 -> NaN
+1493. 约束[4151] day: 3.0 -> NaN
+1494. 约束[2160] period: 4.0 -> NaN
+1495. 约束[11005] period: 0.0 -> NaN
+1496. 约束[72] period: 3.0 -> NaN
+1497. 约束[18] course_id: c0025 -> NaN
+1498. 约束[4106] course_id: c0254 -> NaN
+1499. 约束[5884] course_id: StoAntStaItaCS -> NaN
+1500. 约束[8038] course_id: c0429 -> NaN
+1501. 约束[674] period: 3.0 -> NaN
+1502. 约束[5253] course_id: BioarcCS -> NaN
+1503. 约束[998] day: 1.0 -> NaN
+1504. 约束[1239] course_id: c0510 -> NaN
+1505. 约束[6257] day: 4.0 -> NaN
+1506. 约束[5778] day: 5.0 -> NaN
+1507. 约束[1217] day: 4.0 -> NaN
+1508. 约束[5990] period: 0.0 -> NaN
+1509. 约束[1798] period: 4.0 -> NaN
+1510. 约束[7905] day: 3.0 -> NaN
+1511. 约束[5774] course_id: Paleoa -> NaN
+1512. 约束[7411] day: 0.0 -> NaN
+1513. 约束[9808] period: 4.0 -> NaN
+1514. 约束[1863] period: 0.0 -> NaN
+1515. 约束[2363] period: 4.0 -> NaN
+1516. 约束[3195] course_id: c0534 -> NaN
+1517. 约束[10740] day: 4.0 -> NaN
+1518. 约束[9589] period: 4.0 -> NaN
+1519. 约束[6761] period: 4.0 -> NaN
+1520. 约束[2197] period: 2.0 -> NaN
+1521. 约束[6338] period: 0.0 -> NaN
+1522. 约束[1878] course_id: ArcPae -> NaN
+1523. 约束[255] period: 2.0 -> NaN
+1524. 约束[4212] day: 0.0 -> NaN
+1525. 约束[5019] day: 2.0 -> NaN
+1526. 约束[558] day: 0.0 -> NaN
+1527. 约束[9776] course_id: c0624 -> NaN
+1528. 约束[7075] course_id: c0046 -> NaN
+1529. 约束[6551] day: 3.0 -> NaN
+1530. 约束[9217] period: 5.0 -> NaN
+1531. 约束[2734] day: 4.0 -> NaN
+1532. 约束[7645] course_id: ArcTecCns -> NaN
+1533. 约束[717] course_id: TerAppG2n -> NaN
+1534. 约束[3114] period: 4.0 -> NaN
+1535. 约束[2490] course_id: c1031 -> NaN
+1536. 约束[5161] period: 3.0 -> NaN
+1537. 约束[10090] day: 2.0 -> NaN
+1538. 约束[8710] period: 4.0 -> NaN
+1539. 约束[5986] day: 3.0 -> NaN
+1540. 约束[23] course_id: c0025 -> NaN
+1541. 约束[202] course_id: c0058 -> NaN
+1542. 约束[1702] course_id: ResBenArcLib -> NaN
+1543. 约束[10748] course_id: c0105 -> NaN
+1544. 约束[4814] course_id: c0058 -> NaN
+1545. 约束[8272] course_id: c1067 -> NaN
+1546. 约束[637] period: 4.0 -> NaN
+1547. 约束[2513] course_id: c1032 -> NaN
+1548. 约束[980] day: 0.0 -> NaN
+1549. 约束[630] course_id: Idr2Cn -> NaN
+1550. 约束[8815] day: 4.0 -> NaN
+1551. 约束[5200] course_id: Archiv -> NaN
+1552. 约束[9612] period: 3.0 -> NaN
+1553. 约束[113] period: 0.0 -> NaN
+1554. 约束[4895] day: 0.0 -> NaN
+1555. 约束[1787] day: 3.0 -> NaN
+1556. 约束[4755] course_id: c0526 -> NaN
+1557. 约束[8390] period: 2.0 -> NaN
+1558. 约束[3153] course_id: c0449 -> NaN
+1559. 约束[6747] period: 0.0 -> NaN
+1560. 约束[61] course_id: c0211 -> NaN
+1561. 约束[2766] course_id: c0019 -> NaN
+1562. 约束[1455] period: 2.0 -> NaN
+1563. 约束[1040] period: 1.0 -> NaN
+1564. 约束[939] course_id: DisAssMv -> NaN
+1565. 约束[3928] day: 3.0 -> NaN
+1566. 约束[783] course_id: IdrNumAns -> NaN
+1567. 约束[2847] period: 0.0 -> NaN
+1568. 约束[2054] day: 5.0 -> NaN
+1569. 约束[9962] period: 0.0 -> NaN
+1570. 约束[3862] period: 1.0 -> NaN
+1571. 约束[7578] period: 4.0 -> NaN
+1572. 约束[9665] day: 0.0 -> NaN
+1573. 约束[6720] course_id: c0420 -> NaN
+1574. 约束[10038] period: 4.0 -> NaN
+1575. 约束[4277] period: 1.0 -> NaN
+1576. 约束[6377] day: 2.0 -> NaN
+1577. 约束[7948] course_id: c0154 -> NaN
+1578. 约束[9493] period: 2.0 -> NaN
+1579. 约束[1375] course_id: LetIta1 -> NaN
+1580. 约束[1092] day: 1.0 -> NaN
+1581. 约束[8554] day: 1.0 -> NaN
+1582. 约束[7593] period: 0.0 -> NaN
+1583. 约束[10290] period: 0.0 -> NaN
+1584. 约束[1975] course_id: Antrop -> NaN
+1585. 约束[6587] course_id: c0117 -> NaN
+1586. 约束[9436] period: 5.0 -> NaN
+1587. 约束[9207] period: 3.0 -> NaN
+1588. 约束[3652] period: 2.0 -> NaN
+1589. 约束[5641] period: 4.0 -> NaN
+1590. 约束[7367] course_id: c0524 -> NaN
+1591. 约束[6247] period: 3.0 -> NaN
+1592. 约束[1019] course_id: c0107 -> NaN
+1593. 约束[7837] day: 0.0 -> NaN
+1594. 约束[242] day: 3.0 -> NaN
+1595. 约束[236] period: 3.0 -> NaN
+1596. 约束[9796] day: 0.0 -> NaN
+1597. 约束[6465] period: 1.0 -> NaN
+1598. 约束[5636] course_id: LinIta -> NaN
+1599. 约束[701] period: 3.0 -> NaN
+1600. 约束[5518] course_id: LetCriAnt -> NaN
+1601. 约束[660] day: 3.0 -> NaN
+1602. 约束[7077] day: 2.0 -> NaN
+1603. 约束[4178] course_id: c0527 -> NaN
+1604. 约束[8160] period: 3.0 -> NaN
+1605. 约束[1708] course_id: InfArcBib -> NaN
+1606. 约束[8393] day: 4.0 -> NaN
+1607. 约束[5401] course_id: EleInfSciCatBenCulM3 -> NaN
+1608. 约束[1079] period: 2.0 -> NaN
+1609. 约束[2551] period: 4.0 -> NaN
+1610. 约束[9997] period: 3.0 -> NaN
+1611. 约束[10039] day: 0.0 -> NaN
+1612. 约束[1254] day: 4.0 -> NaN
+1613. 约束[3856] day: 1.0 -> NaN
+1614. 约束[1359] course_id: LetIta1 -> NaN
+1615. 约束[9669] period: 0.0 -> NaN
+1616. 约束[7064] period: 2.0 -> NaN
+1617. 约束[2232] period: 2.0 -> NaN
+1618. 约束[2957] period: 4.0 -> NaN
+1619. 约束[8338] course_id: c0027 -> NaN
+1620. 约束[5631] course_id: LinIta -> NaN
+1621. 约束[5199] course_id: Archiv -> NaN
+1622. 约束[5122] period: 2.0 -> NaN
+1623. 约束[3940] period: 2.0 -> NaN
+1624. 约束[7598] period: 3.0 -> NaN
+1625. 约束[5638] period: 5.0 -> NaN
+1626. 约束[971] period: 0.0 -> NaN
+1627. 约束[2963] day: 3.0 -> NaN
+1628. 约束[9766] day: 4.0 -> NaN
+1629. 约束[7460] course_id: TecMatCn -> NaN
+1630. 约束[3279] period: 2.0 -> NaN
+1631. 约束[5390] day: 3.0 -> NaN
+1632. 约束[2286] day: 4.0 -> NaN
+1633. 约束[10141] day: 2.0 -> NaN
+1634. 约束[8447] course_id: c0109 -> NaN
+1635. 约束[8870] day: 1.0 -> NaN
+1636. 约束[8396] day: 4.0 -> NaN
+1637. 约束[6393] course_id: StoRom -> NaN
+1638. 约束[9274] period: 4.0 -> NaN
+1639. 约束[8529] period: 4.0 -> NaN
+1640. 约束[361] period: 0.0 -> NaN
+1641. 约束[3392] course_id: c1065 -> NaN
+1642. 约束[8330] period: 2.0 -> NaN
+1643. 约束[9618] course_id: c0177 -> NaN
+1644. 约束[5039] day: 3.0 -> NaN
+1645. 约束[9941] day: 0.0 -> NaN
+1646. 约束[6152] period: 1.0 -> NaN
+1647. 约束[7290] day: 4.0 -> NaN
+1648. 约束[7306] day: 4.0 -> NaN
+1649. 约束[1321] course_id: c0741 -> NaN
+1650. 约束[2257] day: 4.0 -> NaN
+1651. 约束[5257] course_id: BioarcCS -> NaN
+1652. 约束[3958] period: 2.0 -> NaN
+1653. 约束[4777] day: 0.0 -> NaN
+1654. 约束[9024] period: 5.0 -> NaN
+1655. 约束[4861] course_id: c0007 -> NaN
+1656. 约束[7966] period: 3.0 -> NaN
+1657. 约束[335] period: 2.0 -> NaN
+1658. 约束[6197] course_id: StoArtMod2CS -> NaN
+1659. 约束[2584] course_id: c0474 -> NaN
+1660. 约束[6419] period: 1.0 -> NaN
+1661. 约束[6776] day: 1.0 -> NaN
+1662. 约束[6355] period: 5.0 -> NaN
+1663. 约束[3608] period: 2.0 -> NaN
+1664. 约束[5794] course_id: PalLat -> NaN
+1665. 约束[7477] course_id: Mat1En -> NaN
+1666. 约束[5727] period: 3.0 -> NaN
+1667. 约束[7273] course_id: c0442 -> NaN
+1668. 约束[1769] period: 0.0 -> NaN
+1669. 约束[7081] period: 0.0 -> NaN
+1670. 约束[3405] period: 4.0 -> NaN
+1671. 约束[4615] course_id: c0411 -> NaN
+1672. 约束[10331] period: 4.0 -> NaN
+1673. 约束[635] period: 2.0 -> NaN
+1674. 约束[5389] period: 4.0 -> NaN
+1675. 约束[10619] period: 4.0 -> NaN
+1676. 约束[1398] period: 0.0 -> NaN
+1677. 约束[1793] course_id: StoArtMod1 -> NaN
+1678. 约束[262] period: 1.0 -> NaN
+1679. 约束[5527] period: 3.0 -> NaN
+1680. 约束[5247] course_id: BioarcCS -> NaN
+1681. 约束[5345] day: 0.0 -> NaN
+1682. 约束[3640] course_id: c0198 -> NaN
+1683. 约束[8979] day: 1.0 -> NaN
+1684. 约束[832] period: 0.0 -> NaN
+1685. 约束[6083] day: 5.0 -> NaN
+1686. 约束[3626] period: 0.0 -> NaN
+1687. 约束[7993] day: 3.0 -> NaN
+1688. 约束[4232] day: 4.0 -> NaN
+1689. 约束[6525] course_id: c0060 -> NaN
+1690. 约束[10873] period: 2.0 -> NaN
+1691. 约束[1356] period: 4.0 -> NaN
+1692. 约束[9196] period: 4.0 -> NaN
+1693. 约束[10370] period: 3.0 -> NaN
+1694. 约束[4662] period: 2.0 -> NaN
+1695. 约束[11029] period: 2.0 -> NaN
+1696. 约束[4708] course_id: c0049 -> NaN
+1697. 约束[1875] day: 5.0 -> NaN
+1698. 约束[7369] period: 4.0 -> NaN
+1699. 约束[1126] day: 4.0 -> NaN
+1700. 约束[6910] period: 3.0 -> NaN
+1701. 约束[9928] course_id: c0007 -> NaN
+1702. 约束[4415] day: 2.0 -> NaN
+1703. 约束[240] period: 2.0 -> NaN
+1704. 约束[2076] period: 3.0 -> NaN
+1705. 约束[10169] period: 4.0 -> NaN
+1706. 约束[6787] period: 2.0 -> NaN
+1707. 约束[10079] day: 4.0 -> NaN
+1708. 约束[4469] course_id: c0193 -> NaN
+1709. 约束[10075] course_id: c0095 -> NaN
+1710. 约束[6901] period: 0.0 -> NaN
+1711. 约束[10903] day: 1.0 -> NaN
+1712. 约束[8353] course_id: c0050 -> NaN
+1713. 约束[4343] period: 2.0 -> NaN
+1714. 约束[1119] day: 4.0 -> NaN
+1715. 约束[8670] course_id: c0484 -> NaN
+1716. 约束[7449] period: 4.0 -> NaN
+1717. 约束[9757] day: 1.0 -> NaN
+1718. 约束[9262] day: 0.0 -> NaN
+1719. 约束[3872] course_id: c0933 -> NaN
+1720. 约束[8483] course_id: c0154 -> NaN
+1721. 约束[9660] period: 2.0 -> NaN
+1722. 约束[10003] course_id: c0056 -> NaN
+1723. 约束[7859] day: 3.0 -> NaN
+1724. 约束[7440] day: 1.0 -> NaN
+1725. 约束[10256] course_id: c0219 -> NaN
+1726. 约束[5716] course_id: NumismCS -> NaN
+1727. 约束[4001] day: 3.0 -> NaN
+1728. 约束[8761] course_id: c0600 -> NaN
+1729. 约束[2867] course_id: c0062 -> NaN
+1730. 约束[8577] period: 0.0 -> NaN
+1731. 约束[5950] period: 5.0 -> NaN
+1732. 约束[10816] course_id: c0212 -> NaN
+1733. 约束[5602] course_id: LinGreA -> NaN
+1734. 约束[3347] day: 1.0 -> NaN
+1735. 约束[10575] period: 1.0 -> NaN
+1736. 约束[1046] day: 0.0 -> NaN
+1737. 约束[5944] day: 4.0 -> NaN
+1738. 约束[6737] day: 4.0 -> NaN
+1739. 约束[461] course_id: c0346 -> NaN
+1740. 约束[1251] course_id: c0745 -> NaN
+1741. 约束[2070] course_id: Bibgra -> NaN
+1742. 约束[11044] day: 0.0 -> NaN
+1743. 约束[2879] course_id: c0069 -> NaN
+1744. 约束[5084] course_id: c0116 -> NaN
+1745. 约束[5496] period: 2.0 -> NaN
+1746. 约束[3605] period: 4.0 -> NaN
+1747. 约束[4267] day: 3.0 -> NaN
+1748. 约束[680] period: 4.0 -> NaN
+1749. 约束[10240] day: 2.0 -> NaN
+1750. 约束[10371] day: 0.0 -> NaN
+1751. 约束[4409] course_id: c0129 -> NaN
+1752. 约束[10646] day: 3.0 -> NaN
+1753. 约束[9646] period: 3.0 -> NaN
+1754. 约束[5403] day: 5.0 -> NaN
+1755. 约束[3573] course_id: c0148 -> NaN
+1756. 约束[1028] day: 3.0 -> NaN
+1757. 约束[5573] period: 3.0 -> NaN
+1758. 约束[9362] course_id: CBC-ART-EleInfSciCatBenCul -> NaN
+1759. 约束[5675] course_id: MetRicStoArt -> NaN
+1760. 约束[1703] day: 5.0 -> NaN
+1761. 约束[7354] period: 2.0 -> -1 (负数)
+1762. 约束[4079] day: 4.0 -> -1 (负数)
+1763. 约束[505] period: 3.0 -> -1 (负数)
+1764. 约束[5453] day: 5.0 -> -1 (负数)
+1765. 约束[1518] day: 5.0 -> -1 (负数)
+1766. 约束[9076] period: 5.0 -> -1 (负数)
+1767. 约束[10031] period: 0.0 -> 10 (超限)
+1768. 约束[3757] period: 1.0 -> -1 (负数)
+1769. 约束[10193] day: 4.0 -> -1 (负数)
+1770. 约束[10158] day: 4.0 -> 10 (超限)
+1771. 约束[8108] period: 4.0 -> 10 (超限)
+1772. 约束[6128] day: 4.0 -> -1 (负数)
+1773. 约束[9448] period: 5.0 -> 10 (超限)
+1774. 约束[3449] day: 0.0 -> 10 (超限)
+1775. 约束[3057] period: 4.0 -> -1 (负数)
+1776. 约束[2979] period: 3.0 -> -1 (负数)
+1777. 约束[3654] period: 4.0 -> 10 (超限)
+1778. 约束[5319] period: 3.0 -> -1 (负数)
+1779. 约束[3059] period: 4.0 -> 10 (超限)
+1780. 约束[1389] period: 1.0 -> 10 (超限)
+1781. 约束[416] period: 4.0 -> 10 (超限)
+1782. 约束[9072] day: 5.0 -> 10 (超限)
+1783. 约束[5956] day: 0.0 -> -1 (负数)
+1784. 约束[10972] period: 2.0 -> 10 (超限)
+1785. 约束[11054] day: 0.0 -> 10 (超限)
+1786. 约束[8031] day: 4.0 -> -1 (负数)
+1787. 约束[2159] day: 4.0 -> -1 (负数)
+1788. 约束[4255] period: 2.0 -> -1 (负数)
+1789. 约束[1997] period: 3.0 -> -1 (负数)
+1790. 约束[2108] day: 4.0 -> -1 (负数)
+1791. 约束[7949] day: 3.0 -> -1 (负数)
+1792. 约束[4115] day: 1.0 -> 10 (超限)
+1793. 约束[10886] period: 2.0 -> 10 (超限)
+1794. 约束[161] period: 0.0 -> 10 (超限)
+1795. 约束[2904] day: 4.0 -> -1 (负数)
+1796. 约束[10364] day: 2.0 -> 10 (超限)
+1797. 约束[5490] period: 2.0 -> 10 (超限)
+1798. 约束[4135] period: 0.0 -> 10 (超限)
+1799. 约束[3413] period: 2.0 -> 10 (超限)
+1800. 约束[3602] period: 0.0 -> -1 (负数)
+1801. 约束[237] period: 4.0 -> 10 (超限)
+1802. 约束[3888] day: 4.0 -> 10 (超限)
+1803. 约束[2336] period: 0.0 -> 10 (超限)
+1804. 约束[6263] day: 5.0 -> -1 (负数)
+1805. 约束[8845] period: 0.0 -> -1 (负数)
+1806. 约束[11033] period: 1.0 -> 10 (超限)
+1807. 约束[4474] day: 2.0 -> 10 (超限)
+1808. 约束[3729] period: 3.0 -> 10 (超限)
+1809. 约束[3429] day: 4.0 -> 10 (超限)
+1810. 约束[4196] day: 4.0 -> 10 (超限)
+1811. 约束[3713] day: 3.0 -> 10 (超限)
+1812. 约束[5204] day: 4.0 -> 10 (超限)
+1813. 约束[3726] day: 4.0 -> 10 (超限)
+1814. 约束[2522] day: 1.0 -> 10 (超限)
+1815. 约束[8213] period: 2.0 -> -1 (负数)
+1816. 约束[112] period: 4.0 -> -1 (负数)
+1817. 约束[3384] period: 2.0 -> -1 (负数)
+1818. 约束[6345] period: 1.0 -> 10 (超限)
+1819. 约束[3723] period: 0.0 -> 10 (超限)
+1820. 约束[6382] period: 3.0 -> 10 (超限)
+1821. 约束[9452] period: 0.0 -> -1 (负数)
+1822. 约束[7734] period: 4.0 -> -1 (负数)
+1823. 约束[4281] day: 0.0 -> -1 (负数)
+1824. 约束[6386] period: 1.0 -> -1 (负数)
+1825. 约束[5402] period: 5.0 -> 10 (超限)
+1826. 约束[9626] period: 4.0 -> 10 (超限)
+1827. 约束[4769] day: 0.0 -> 10 (超限)
+1828. 约束[8752] day: 0.0 -> 10 (超限)
+1829. 约束[5508] day: 1.0 -> -1 (负数)
+1830. 约束[1820] day: 4.0 -> -1 (负数)
+1831. 约束[5269] day: 0.0 -> -1 (负数)
+1832. 约束[5465] period: 0.0 -> -1 (负数)
+1833. 约束[10222] period: 3.0 -> 10 (超限)
+1834. 约束[7902] day: 3.0 -> 10 (超限)
+1835. 约束[6107] day: 5.0 -> 10 (超限)
+1836. 约束[6156] period: 5.0 -> -1 (负数)
+1837. 约束[5306] period: 3.0 -> -1 (负数)
+1838. 约束[10096] period: 0.0 -> -1 (负数)
+1839. 约束[6625] period: 0.0 -> 10 (超限)
+1840. 约束[4456] period: 1.0 -> -1 (负数)
+1841. 约束[9041] day: 5.0 -> 10 (超限)
+1842. 约束[1736] day: 0.0 -> 10 (超限)
+1843. 约束[4020] day: 4.0 -> 10 (超限)
+1844. 约束[5005] day: 0.0 -> 10 (超限)
+1845. 约束[10748] period: 3.0 -> 10 (超限)
+1846. 约束[8839] period: 1.0 -> 10 (超限)
+1847. 约束[8905] period: 2.0 -> 10 (超限)
+1848. 约束[8844] day: 1.0 -> 10 (超限)
+1849. 约束[6535] day: 4.0 -> 10 (超限)
+1850. 约束[4753] period: 0.0 -> -1 (负数)
+1851. 约束[7576] period: 2.0 -> -1 (负数)
+1852. 约束[3637] day: 3.0 -> 10 (超限)
+1853. 约束[456] period: 3.0 -> 10 (超限)
+1854. 约束[6387] period: 2.0 -> 10 (超限)
+1855. 约束[8827] period: 4.0 -> -1 (负数)
+1856. 约束[8746] period: 3.0 -> -1 (负数)
+1857. 约束[10800] day: 3.0 -> 10 (超限)
+1858. 约束[2331] day: 1.0 -> 10 (超限)
+1859. 约束[5730] day: 1.0 -> -1 (负数)
+1860. 约束[4344] period: 3.0 -> -1 (负数)
+1861. 约束[5915] day: 4.0 -> -1 (负数)
+1862. 约束[4550] day: 0.0 -> 10 (超限)
+1863. 约束[4642] period: 0.0 -> -1 (负数)
+1864. 约束[134] day: 0.0 -> 10 (超限)
+1865. 约束[10278] day: 2.0 -> -1 (负数)
+1866. 约束[5284] period: 0.0 -> 10 (超限)
+1867. 约束[3169] period: 4.0 -> -1 (负数)
+1868. 约束[6944] period: 4.0 -> -1 (负数)
+1869. 约束[7496] day: 2.0 -> -1 (负数)
+1870. 约束[5673] day: 0.0 -> -1 (负数)
+1871. 约束[8877] period: 5.0 -> -1 (负数)
+1872. 约束[5054] period: 1.0 -> -1 (负数)
+1873. 约束[6243] period: 4.0 -> 10 (超限)
+1874. 约束[8465] day: 4.0 -> -1 (负数)
+1875. 约束[2097] period: 0.0 -> 10 (超限)
+1876. 约束[636] day: 0.0 -> -1 (负数)
+1877. 约束[5486] day: 2.0 -> -1 (负数)
+1878. 约束[6805] period: 2.0 -> -1 (负数)
+1879. 约束[8809] period: 1.0 -> -1 (负数)
+1880. 约束[5088] day: 5.0 -> 10 (超限)
+1881. 约束[8478] day: 2.0 -> -1 (负数)
+1882. 约束[8129] period: 0.0 -> -1 (负数)
+1883. 约束[6379] period: 3.0 -> 10 (超限)
+1884. 约束[3627] period: 1.0 -> 10 (超限)
+1885. 约束[9325] period: 4.0 -> 10 (超限)
+1886. 约束[360] day: 2.0 -> 10 (超限)
+1887. 约束[5316] period: 0.0 -> 10 (超限)
+1888. 约束[1985] period: 3.0 -> 10 (超限)
+1889. 约束[1581] day: 2.0 -> -1 (负数)
+1890. 约束[9514] day: 2.0 -> -1 (负数)
+1891. 约束[3601] day: 3.0 -> 10 (超限)
+1892. 约束[9225] period: 5.0 -> -1 (负数)
+1893. 约束[8873] day: 5.0 -> 10 (超限)
+1894. 约束[2194] day: 4.0 -> 10 (超限)
+1895. 约束[1407] period: 0.0 -> -1 (负数)
+1896. 约束[8256] day: 2.0 -> -1 (负数)
+1897. 约束[3923] period: 0.0 -> -1 (负数)
+1898. 约束[7074] day: 0.0 -> -1 (负数)
+1899. 约束[8061] day: 0.0 -> -1 (负数)
+1900. 约束[5500] period: 0.0 -> 10 (超限)
+1901. 约束[8017] period: 2.0 -> -1 (负数)
+1902. 约束[10872] day: 1.0 -> 10 (超限)
+1903. 约束[1527] day: 5.0 -> 10 (超限)
+1904. 约束[4051] period: 3.0 -> -1 (负数)
+1905. 约束[7634] period: 0.0 -> -1 (负数)
+1906. 约束[10991] period: 3.0 -> 10 (超限)
+1907. 约束[3516] day: 4.0 -> -1 (负数)
+1908. 约束[2004] day: 2.0 -> -1 (负数)
+1909. 约束[5041] day: 0.0 -> -1 (负数)
+1910. 约束[9492] period: 4.0 -> -1 (负数)
+1911. 约束[4434] period: 4.0 -> -1 (负数)
+1912. 约束[5970] day: 4.0 -> -1 (负数)
+1913. 约束[8854] day: 4.0 -> -1 (负数)
+1914. 约束[9646] period: nan -> 10 (超限)
+1915. 约束[6338] period: nan -> 10 (超限)
+1916. 约束[6757] day: 4.0 -> -1 (负数)
+1917. 约束[1393] day: 5.0 -> 10 (超限)
+1918. 约束[8556] period: 0.0 -> -1 (负数)
+1919. 约束[3425] day: 2.0 -> -1 (负数)
+1920. 约束[7600] day: 2.0 -> -1 (负数)
+1921. 约束[9666] period: 2.0 -> 10 (超限)
+1922. 约束[10442] period: 3.0 -> -1 (负数)
+1923. 约束[6088] period: 2.0 -> 10 (超限)
+1924. 约束[846] day: 1.0 -> -1 (负数)
+1925. 约束[5806] period: 5.0 -> 10 (超限)
+1926. 约束[1662] period: 0.0 -> -1 (负数)
+1927. 约束[6846] day: 0.0 -> 10 (超限)
+1928. 约束[8688] period: 4.0 -> -1 (负数)
+1929. 约束[2255] period: 3.0 -> 10 (超限)
+1930. 约束[2854] period: 2.0 -> 10 (超限)
+1931. 约束[6767] period: 4.0 -> -1 (负数)
+1932. 约束[4264] period: 3.0 -> 10 (超限)
+1933. 约束[6884] period: 2.0 -> -1 (负数)
+1934. 约束[674] period: nan -> -1 (负数)
+1935. 约束[1146] period: nan -> -1 (负数)
+1936. 约束[6332] day: 1.0 -> -1 (负数)
+1937. 约束[4782] day: 2.0 -> 10 (超限)
+1938. 约束[10973] period: 3.0 -> -1 (负数)
+1939. 约束[3576] period: 2.0 -> -1 (负数)
+1940. 约束[10470] day: 1.0 -> 10 (超限)
+1941. 约束[4698] day: 3.0 -> 10 (超限)
+1942. 约束[2205] day: 4.0 -> 10 (超限)
+1943. 约束[6656] period: 3.0 -> -1 (负数)
+1944. 约束[2247] period: 4.0 -> 10 (超限)
+1945. 约束[2354] day: 0.0 -> -1 (负数)
+1946. 约束[858] period: 0.0 -> -1 (负数)
+1947. 约束[1722] period: 2.0 -> -1 (负数)
+1948. 约束[3788] period: 4.0 -> -1 (负数)
+1949. 约束[625] period: 0.0 -> 10 (超限)
+1950. 约束[10268] day: 0.0 -> 10 (超限)
+1951. 约束[7612] day: 4.0 -> 10 (超限)
+1952. 约束[4706] period: 4.0 -> -1 (负数)
+1953. 约束[7169] day: 3.0 -> -1 (负数)
+1954. 约束[7114] day: 2.0 -> 10 (超限)
+1955. 约束[809] period: 2.0 -> 10 (超限)
+1956. 约束[1144] day: 0.0 -> -1 (负数)
+1957. 约束[1447] day: 4.0 -> 10 (超限)
+1958. 约束[889] day: 0.0 -> 10 (超限)
+1959. 约束[10357] day: 4.0 -> 10 (超限)
+1960. 约束[7308] day: 0.0 -> 10 (超限)
+1961. 约束[907] day: 4.0 -> -1 (负数)
+1962. 约束[3135] period: 2.0 -> -1 (负数)
+1963. 约束[8281] period: 2.0 -> -1 (负数)
+1964. 约束[6069] period: 1.0 -> 10 (超限)
+1965. 约束[10335] day: 2.0 -> -1 (负数)
+1966. 约束[3563] day: 4.0 -> 10 (超限)
+1967. 约束[8973] period: 2.0 -> 10 (超限)
+1968. 约束[700] day: 1.0 -> 10 (超限)
+1969. 约束[9242] period: 4.0 -> 10 (超限)
+1970. 约束[10983] day: 0.0 -> 10 (超限)
+1971. 约束[3698] period: 4.0 -> 10 (超限)
+1972. 约束[1036] day: 0.0 -> -1 (负数)
+1973. 约束[6817] day: 2.0 -> -1 (负数)
+1974. 约束[6033] period: 1.0 -> -1 (负数)
+1975. 约束[9582] day: 0.0 -> -1 (负数)
+1976. 约束[853] day: 0.0 -> 10 (超限)
+1977. 约束[1717] period: 0.0 -> -1 (负数)
+1978. 约束[7182] day: 1.0 -> -1 (负数)
+1979. 约束[10116] day: 3.0 -> 10 (超限)
+1980. 约束[7282] day: 3.0 -> 10 (超限)
+1981. 约束[8334] period: 0.0 -> 10 (超限)
+1982. 约束[10156] period: 2.0 -> 10 (超限)
+1983. 约束[9096] period: 5.0 -> 10 (超限)
+1984. 约束[252] period: 2.0 -> 10 (超限)
+1985. 约束[7662] day: 0.0 -> 10 (超限)
+1986. 约束[1274] period: 3.0 -> -1 (负数)
+1987. 约束[1980] day: 5.0 -> -1 (负数)
+1988. 约束[3712] day: 3.0 -> -1 (负数)
+1989. 约束[5909] day: 3.0 -> -1 (负数)
+1990. 约束[10706] period: 1.0 -> -1 (负数)
+1991. 约束[10557] day: 0.0 -> 10 (超限)
+1992. 约束[5300] day: 3.0 -> -1 (负数)
+1993. 约束[9895] day: 2.0 -> -1 (负数)
+1994. 约束[1316] period: 1.0 -> 10 (超限)
+1995. 约束[10677] period: 3.0 -> -1 (负数)
+1996. 约束[1826] period: 2.0 -> -1 (负数)
+1997. 约束[4452] period: 1.0 -> 10 (超限)
+1998. 约束[4697] day: 2.0 -> 10 (超限)
+1999. 约束[3248] period: 2.0 -> 10 (超限)
+2000. 约束[3352] period: 4.0 -> -1 (负数)
+2001. 约束[8231] period: 0.0 -> 10 (超限)
+2002. 约束[2794] period: 0.0 -> 10 (超限)
+2003. 约束[1188] day: 0.0 -> -1 (负数)
+2004. 约束[3022] period: 2.0 -> -1 (负数)
+2005. 约束[2485] day: 4.0 -> -1 (负数)
+2006. 约束[7616] period: 0.0 -> -1 (负数)
+2007. 约束[1910] period: 5.0 -> 10 (超限)
+2008. 约束[5954] day: 0.0 -> 10 (超限)
+2009. 约束[10686] period: 2.0 -> -1 (负数)
+2010. 约束[1913] period: 2.0 -> 10 (超限)
+2011. 约束[848] period: 2.0 -> 10 (超限)
+2012. 约束[7476] day: 0.0 -> -1 (负数)
+2013. 约束[7972] day: 4.0 -> 10 (超限)
+2014. 约束[7118] period: 3.0 -> 10 (超限)
+2015. 约束[8220] day: 1.0 -> 10 (超限)
+2016. 约束[8056] period: 0.0 -> -1 (负数)
+2017. 约束[4493] day: 1.0 -> -1 (负数)
+2018. 约束[9115] period: 4.0 -> -1 (负数)
+2019. 约束[10297] day: 0.0 -> 10 (超限)
+2020. 约束[851] day: 0.0 -> -1 (负数)
+2021. 约束[7279] period: 4.0 -> -1 (负数)
+2022. 约束[5917] period: 2.0 -> -1 (负数)
+2023. 约束[4361] period: 2.0 -> -1 (负数)
+2024. 约束[8024] period: 4.0 -> -1 (负数)
+2025. 约束[1801] period: 0.0 -> 10 (超限)
+2026. 约束[1547] period: 0.0 -> -1 (负数)
+2027. 约束[3661] period: 2.0 -> 10 (超限)
+2028. 约束[2622] period: 4.0 -> -1 (负数)
+2029. 约束[571] period: 2.0 -> -1 (负数)
+2030. 约束[1592] period: 3.0 -> 10 (超限)
+2031. 约束[952] day: 0.0 -> -1 (负数)
+2032. 约束[2513] day: 4.0 -> -1 (负数)
+2033. 约束[3426] period: 2.0 -> -1 (负数)
+2034. 约束[1711] period: 0.0 -> -1 (负数)
+2035. 约束[9725] day: 3.0 -> 10 (超限)
+2036. 约束[7227] period: 0.0 -> -1 (负数)
+2037. 约束[10219] period: 3.0 -> 10 (超限)
+2038. 约束[8253] day: 1.0 -> -1 (负数)
+2039. 约束[6954] period: 3.0 -> 10 (超限)
+2040. 约束[2581] day: 0.0 -> -1 (负数)
+2041. 约束[8797] period: 2.0 -> -1 (负数)
+2042. 约束[7631] day: 1.0 -> 10 (超限)
+2043. 约束[8589] period: 4.0 -> 10 (超限)
+2044. 约束[1755] period: 4.0 -> -1 (负数)
+2045. 约束[4369] period: 3.0 -> -1 (负数)
+2046. 约束[2916] day: 4.0 -> 10 (超限)
+2047. 约束[9488] period: 3.0 -> 10 (超限)
+2048. 约束[11056] period: 3.0 -> -1 (负数)
+2049. 约束[5470] period: 5.0 -> 10 (超限)
+2050. 约束[4067] period: 4.0 -> -1 (负数)
+2051. 约束[11049] period: 2.0 -> -1 (负数)
+2052. 约束[5672] day: 0.0 -> 10 (超限)
+2053. 约束[3214] period: 3.0 -> -1 (负数)
+2054. 约束[4355] day: 3.0 -> -1 (负数)
+2055. 约束[5249] period: 3.0 -> -1 (负数)
+2056. 约束[4773] period: 1.0 -> 10 (超限)
+2057. 约束[7374] period: 0.0 -> 10 (超限)
+2058. 约束[4850] day: 2.0 -> -1 (负数)
+2059. 约束[7204] period: 2.0 -> -1 (负数)
+2060. 约束[9005] day: 1.0 -> 10 (超限)
+2061. 约束[7994] period: 0.0 -> 10 (超限)
+2062. 约束[6620] day: 0.0 -> 10 (超限)
+2063. 约束[10622] day: 1.0 -> -1 (负数)
+2064. 约束[3747] period: 4.0 -> -1 (负数)
+2065. 约束[597] day: 1.0 -> 10 (超限)
+2066. 约束[4205] period: 1.0 -> -1 (负数)
+2067. 约束[7478] period: 4.0 -> 10 (超限)
+2068. 约束[3347] period: 0.0 -> -1 (负数)
+2069. 约束[7932] day: 2.0 -> -1 (负数)
+2070. 约束[6124] day: 2.0 -> 10 (超限)
+2071. 约束[3166] day: 0.0 -> 10 (超限)
+2072. 约束[1545] day: 5.0 -> -1 (负数)
+2073. 约束[10476] period: 4.0 -> -1 (负数)
+2074. 约束[6771] day: nan -> -1 (负数)
+2075. 约束[9608] period: 4.0 -> -1 (负数)
+2076. 约束[5529] period: 5.0 -> 10 (超限)
+2077. 约束[6557] period: 3.0 -> -1 (负数)
+2078. 约束[6282] day: 1.0 -> -1 (负数)
+2079. 约束[9833] day: 0.0 -> -1 (负数)
+2080. 约束[12] period: 0.0 -> 10 (超限)
+2081. 约束[2846] period: 0.0 -> 10 (超限)
+2082. 约束[8982] period: 5.0 -> 10 (超限)
+2083. 约束[7528] day: 3.0 -> -1 (负数)
+2084. 约束[10051] period: 0.0 -> 10 (超限)
+2085. 约束[1659] day: 3.0 -> 10 (超限)
+2086. 约束[10692] period: 2.0 -> -1 (负数)
+2087. 约束[8] period: 2.0 -> 10 (超限)
+2088. 约束[8512] day: 3.0 -> 10 (超限)
+2089. 约束[9441] period: 5.0 -> -1 (负数)
+2090. 约束[10963] day: 4.0 -> 10 (超限)
+2091. 约束[2085] day: 0.0 -> 10 (超限)
+2092. 约束[1184] day: 4.0 -> 10 (超限)
+2093. 约束[6319] period: 3.0 -> -1 (负数)
+2094. 约束[2505] day: 2.0 -> -1 (负数)
+2095. 约束[406] period: 3.0 -> 10 (超限)
+2096. 约束[8032] day: 4.0 -> 10 (超限)
+2097. 约束[7311] period: 0.0 -> 10 (超限)
+2098. 约束[2519] day: 0.0 -> 10 (超限)
+2099. 约束[4652] period: 2.0 -> -1 (负数)
+2100. 约束[658] day: 3.0 -> 10 (超限)
+2101. 约束[462] period: 3.0 -> -1 (负数)
+2102. 约束[8888] day: 2.0 -> 10 (超限)
+2103. 约束[6836] day: 4.0 -> -1 (负数)
+2104. 约束[6313] day: 3.0 -> -1 (负数)
+2105. 约束[7548] period: 3.0 -> -1 (负数)
+2106. 约束[7678] period: 0.0 -> -1 (负数)
+2107. 约束[3903] period: 0.0 -> 10 (超限)
+2108. 约束[10591] period: 2.0 -> 10 (超限)
+2109. 约束[6937] day: 4.0 -> -1 (负数)
+2110. 约束[366] day: 3.0 -> -1 (负数)
+2111. 约束[10451] period: 2.0 -> 10 (超限)
+2112. 约束[5093] day: 4.0 -> 10 (超限)
+2113. 约束[72] period: nan -> -1 (负数)
+2114. 约束[5355] day: 1.0 -> 10 (超限)
+2115. 约束[2396] period: 0.0 -> 10 (超限)
+2116. 约束[4916] period: 4.0 -> -1 (负数)
+2117. 约束[9138] day: 1.0 -> -1 (负数)
+2118. 约束[7055] day: 4.0 -> 10 (超限)
+2119. 约束[2712] day: 4.0 -> -1 (负数)
+2120. 约束[2353] period: 1.0 -> 10 (超限)
+2121. 约束[8959] period: 0.0 -> -1 (负数)
+2122. 约束[9298] period: 4.0 -> 10 (超限)
+2123. 约束[7194] day: 4.0 -> -1 (负数)
+2124. 约束[8689] period: 0.0 -> -1 (负数)
+2125. 约束[5103] day: 5.0 -> -1 (负数)
+2126. 约束[5022] period: 0.0 -> 10 (超限)
+2127. 约束[7900] day: 1.0 -> -1 (负数)
+2128. 约束[977] period: 0.0 -> -1 (负数)
+2129. 约束[9294] period: 0.0 -> -1 (负数)
+2130. 约束[9597] period: 0.0 -> 10 (超限)
+2131. 约束[5912] period: 3.0 -> -1 (负数)
+2132. 约束[718] period: 0.0 -> 10 (超限)
+2133. 约束[7504] period: 0.0 -> -1 (负数)
+2134. 约束[2126] period: 1.0 -> -1 (负数)
+2135. 约束[4312] day: 3.0 -> 10 (超限)
+2136. 约束[5837] day: 3.0 -> -1 (负数)
+2137. 约束[9954] day: 2.0 -> -1 (负数)
+2138. 约束[4254] period: 2.0 -> -1 (负数)
+2139. 约束[3326] period: 0.0 -> 10 (超限)
+2140. 约束[3277] day: 2.0 -> -1 (负数)
+2141. 约束[828] day: 2.0 -> 10 (超限)
+2142. 约束[5523] period: 5.0 -> -1 (负数)
+2143. 约束[7121] day: 0.0 -> 10 (超限)
+2144. 约束[10288] day: 2.0 -> -1 (负数)
+2145. 约束[5510] period: 0.0 -> 10 (超限)
+2146. 约束[6119] day: 1.0 -> 10 (超限)
+2147. 约束[2512] day: 3.0 -> 10 (超限)
+2148. 约束[3730] period: 4.0 -> 10 (超限)
+2149. 约束[6214] period: 1.0 -> -1 (负数)
+2150. 约束[10312] day: 3.0 -> -1 (负数)
+2151. 约束[6947] period: 2.0 -> 10 (超限)
+2152. 约束[9982] day: 0.0 -> -1 (负数)
+2153. 约束[473] period: 1.0 -> 10 (超限)
+2154. 约束[868] period: 2.0 -> -1 (负数)
+2155. 约束[9200] day: 4.0 -> 10 (超限)
+2156. 约束[5735] period: 5.0 -> -1 (负数)
+2157. 约束[7373] day: 1.0 -> 10 (超限)
+2158. 约束[2879] period: 3.0 -> 10 (超限)
+2159. 约束[10893] period: 1.0 -> 10 (超限)
+2160. 约束[9196] period: nan -> 10 (超限)
+2161. 约束[6250] period: 1.0 -> 10 (超限)
+2162. 约束[7687] day: 1.0 -> -1 (负数)
+2163. 约束[6585] day: 1.0 -> 10 (超限)
+2164. 约束[8985] day: 2.0 -> -1 (负数)
+2165. 约束[2100] period: nan -> 10 (超限)
+2166. 约束[9788] day: 3.0 -> -1 (负数)
+2167. 约束[8644] day: 4.0 -> -1 (负数)
+2168. 约束[4421] day: 0.0 -> -1 (负数)
+2169. 约束[2699] day: 4.0 -> 10 (超限)
+2170. 约束[8065] day: 4.0 -> 10 (超限)
+2171. 约束[10311] period: 4.0 -> 10 (超限)
+2172. 约束[7479] day: 1.0 -> -1 (负数)
+2173. 约束[2847] period: nan -> 10 (超限)
+2174. 约束[5965] period: 5.0 -> -1 (负数)
+2175. 约束[8419] period: 3.0 -> -1 (负数)
+2176. 约束[3867] day: 0.0 -> 10 (超限)
+2177. 约束[9420] period: 5.0 -> 10 (超限)
+2178. 约束[2781] period: 1.0 -> -1 (负数)
+2179. 约束[3882] period: 2.0 -> 10 (超限)
+2180. 约束[5507] period: 3.0 -> -1 (负数)
+2181. 约束[2493] day: 3.0 -> 10 (超限)
+2182. 约束[4219] day: 4.0 -> -1 (负数)
+2183. 约束[10171] day: 1.0 -> -1 (负数)
+2184. 约束[1863] period: nan -> -1 (负数)
+2185. 约束[3016] period: 1.0 -> 10 (超限)
+2186. 约束[797] period: 2.0 -> -1 (负数)
+2187. 约束[4440] period: 4.0 -> 10 (超限)
+2188. 约束[4924] period: 3.0 -> -1 (负数)
+2189. 约束[8831] day: 0.0 -> -1 (负数)
+2190. 约束[3595] day: 4.0 -> 10 (超限)
+2191. 约束[8133] day: 4.0 -> 10 (超限)
+2192. 约束[10681] day: 4.0 -> 10 (超限)
+2193. 约束[1022] day: 3.0 -> 10 (超限)
+2194. 约束[5339] day: 5.0 -> -1 (负数)
+2195. 约束[1501] day: 2.0 -> -1 (负数)
+2196. 约束[4703] period: 1.0 -> 10 (超限)
+2197. 约束[9259] day: 5.0 -> 10 (超限)
+2198. 约束[4028] day: 0.0 -> 10 (超限)
+2199. 约束[9240] period: 2.0 -> 10 (超限)
+2200. 约束[9104] day: 2.0 -> 10 (超限)
+2201. 约束[2791] period: 0.0 -> -1 (负数)
+2202. 约束[3975] period: 4.0 -> 10 (超限)
+2203. 约束[2711] period: 3.0 -> 10 (超限)
+2204. 约束[2180] day: 0.0 -> 10 (超限)
+2205. 约束[10874] day: 1.0 -> -1 (负数)
+2206. 约束[3428] day: 4.0 -> 10 (超限)
+2207. 约束[8391] day: 0.0 -> -1 (负数)
+2208. 约束[5056] day: 0.0 -> -1 (负数)
+2209. 约束[1278] period: 2.0 -> 10 (超限)
+2210. 约束[9516] period: 0.0 -> 10 (超限)
+2211. 约束[6788] day: 0.0 -> 10 (超限)
+2212. 约束[9141] day: 5.0 -> 10 (超限)
+2213. 约束[2734] period: 0.0 -> 10 (超限)
+2214. 约束[611] day: 2.0 -> -1 (负数)
+2215. 约束[8707] day: 0.0 -> 10 (超限)
+2216. 约束[9789] period: 4.0 -> -1 (负数)
+2217. 约束[7005] day: 2.0 -> -1 (负数)
+2218. 约束[144] day: 4.0 -> 10 (超限)
+2219. 约束[1630] day: 0.0 -> 10 (超限)
+2220. 约束[6685] period: 2.0 -> 10 (超限)
+2221. 约束[10652] period: 0.0 -> 10 (超限)
+2222. 约束[5708] day: 2.0 -> -1 (负数)
+2223. 约束[5984] day: 3.0 -> -1 (负数)
+2224. 约束[3197] day: nan -> -1 (负数)
+2225. 约束[4991] period: 0.0 -> -1 (负数)
+2226. 约束[3408] day: 1.0 -> 10 (超限)
+2227. 约束[9307] day: 3.0 -> 10 (超限)
+2228. 约束[6362] period: 4.0 -> 10 (超限)
+2229. 约束[847] day: 2.0 -> 10 (超限)
+2230. 约束[4330] period: 0.0 -> -1 (负数)
+2231. 约束[6696] day: 4.0 -> -1 (负数)
+2232. 约束[8251] period: 4.0 -> 10 (超限)
+2233. 约束[10671] period: 2.0 -> 10 (超限)
+2234. 约束[8201] period: 3.0 -> -1 (负数)
+2235. 约束[2764] day: 0.0 -> -1 (负数)
+2236. 约束[22] period: 0.0 -> -1 (负数)
+2237. 约束[1932] period: 4.0 -> 10 (超限)
+2238. 约束[1962] day: 0.0 -> -1 (负数)
+2239. 约束[9213] period: 2.0 -> -1 (负数)
+2240. 约束[2990] period: 2.0 -> -1 (负数)
+2241. 约束[8834] period: 1.0 -> -1 (负数)
+2242. 约束[1832] period: 2.0 -> 10 (超限)
+2243. 约束[7495] day: 2.0 -> -1 (负数)
+2244. 约束[6072] period: 4.0 -> -1 (负数)
+2245. 约束[6592] day: 0.0 -> 10 (超限)
+2246. 约束[3037] period: 0.0 -> 10 (超限)
+2247. 约束[7232] period: 2.0 -> 10 (超限)
+2248. 约束[8011] day: 4.0 -> -1 (负数)
+2249. 约束[7095] day: 2.0 -> -1 (负数)
+2250. 约束[10813] period: 2.0 -> -1 (负数)
+2251. 约束[8813] period: 2.0 -> -1 (负数)
+2252. 约束[10054] period: 3.0 -> 10 (超限)
+2253. 约束[1490] period: 5.0 -> 10 (超限)
+2254. 约束[7254] day: 3.0 -> -1 (负数)
+2255. 约束[5880] day: 0.0 -> -1 (负数)
+2256. 约束[927] day: 4.0 -> 10 (超限)
+2257. 约束[1171] day: 0.0 -> -1 (负数)
+2258. 约束[2978] period: 2.0 -> 10 (超限)
+2259. 约束[6915] period: 2.0 -> 10 (超限)
+2260. 约束[6468] period: 4.0 -> 10 (超限)
+2261. 约束[8370] day: 3.0 -> -1 (负数)
+2262. 约束[1208] day: 3.0 -> -1 (负数)
+2263. 约束[8305] period: 3.0 -> -1 (负数)
+2264. 约束[47] day: 3.0 -> 10 (超限)
+2265. 约束[5946] period: 1.0 -> 10 (超限)
+2266. 约束[7794] day: 2.0 -> 10 (超限)
+2267. 约束[2089] day: 1.0 -> -1 (负数)
+2268. 约束[2298] day: 0.0 -> 10 (超限)
+2269. 约束[8938] period: 4.0 -> -1 (负数)
+2270. 约束[4105] period: 3.0 -> 10 (超限)
+2271. 约束[983] day: 1.0 -> -1 (负数)
+2272. 约束[1862] day: 3.0 -> 10 (超限)
+2273. 约束[8676] day: 0.0 -> 10 (超限)
+2274. 约束[10274] day: 0.0 -> -1 (负数)
+2275. 约束[6519] period: 4.0 -> -1 (负数)
+2276. 约束[8642] period: 1.0 -> 10 (超限)
+2277. 约束[5949] period: 4.0 -> -1 (负数)
+2278. 约束[8991] period: 2.0 -> -1 (负数)
+2279. 约束[3659] day: 4.0 -> 10 (超限)
+2280. 约束[65] day: 4.0 -> 10 (超限)
+2281. 约束[2427] day: 0.0 -> 10 (超限)
+2282. 约束[1979] period: 1.0 -> 10 (超限)
+2283. 约束[6473] day: 4.0 -> -1 (负数)
+2284. 约束[10098] period: 0.0 -> -1 (负数)
+2285. 约束[207] period: 4.0 -> -1 (负数)
+2286. 约束[8546] day: 2.0 -> 10 (超限)
+2287. 约束[1443] day: 0.0 -> -1 (负数)
+2288. 约束[6516] period: 4.0 -> -1 (负数)
+2289. 约束[7018] period: 4.0 -> 10 (超限)
+2290. 约束[778] period: 3.0 -> 10 (超限)
+2291. 约束[6323] period: 3.0 -> -1 (负数)
+2292. 约束[7107] day: 3.0 -> -1 (负数)
+2293. 约束[9469] period: 1.0 -> 10 (超限)
+2294. 约束[7063] period: 1.0 -> 10 (超限)
+2295. 约束[9033] day: 2.0 -> 10 (超限)
+2296. 约束[7474] day: 3.0 -> 10 (超限)
+2297. 约束[2524] period: 3.0 -> 10 (超限)
+2298. 约束[9432] period: 3.0 -> 10 (超限)
+2299. 约束[5615] period: 4.0 -> -1 (负数)
+2300. 约束[10389] day: 4.0 -> 10 (超限)
+2301. 约束[6342] period: 4.0 -> 10 (超限)
+2302. 约束[8841] day: 1.0 -> -1 (负数)
+2303. 约束[5321] period: 5.0 -> -1 (负数)
+2304. 约束[4185] day: 4.0 -> -1 (负数)
+2305. 约束[7752] day: nan -> -1 (负数)
+2306. 约束[6056] day: 5.0 -> -1 (负数)
+2307. 约束[7578] day: 1.0 -> 10 (超限)
+2308. 约束[8949] day: 0.0 -> -1 (负数)
+2309. 约束[6086] day: 0.0 -> 10 (超限)
+2310. 约束[4761] day: 1.0 -> -1 (负数)
+2311. 约束[9449] period: 2.0 -> -1 (负数)
+2312. 约束[8658] period: 4.0 -> 10 (超限)
+2313. 约束[10967] day: 4.0 -> 10 (超限)
+2314. 约束[6807] period: 4.0 -> 10 (超限)
+2315. 约束[3310] period: 0.0 -> -1 (负数)
+2316. 约束[10120] day: 4.0 -> 10 (超限)
+2317. 约束[10066] day: 3.0 -> -1 (负数)
+2318. 约束[2910] day: 2.0 -> 10 (超限)
+2319. 约束[2221] period: 3.0 -> 10 (超限)
+2320. 约束[10009] period: 3.0 -> 10 (超限)
+2321. 约束[7904] period: 0.0 -> 10 (超限)
+2322. 约束[2319] day: 0.0 -> -1 (负数)
+2323. 约束[4979] period: 1.0 -> 10 (超限)
+2324. 约束[5525] period: 1.0 -> 10 (超限)
+2325. 约束[6115] day: 0.0 -> -1 (负数)
+2326. 约束[9322] day: 4.0 -> -1 (负数)
+2327. 约束[496] day: 4.0 -> 10 (超限)
+2328. 约束[3596] period: 2.0 -> -1 (负数)
+2329. 约束[3334] day: 0.0 -> 10 (超限)
+2330. 约束[5934] period: 1.0 -> 10 (超限)
+2331. 约束[1014] period: 2.0 -> -1 (负数)
+2332. 约束[8514] day: 4.0 -> 10 (超限)
+2333. 约束[8814] day: 4.0 -> 10 (超限)
+2334. 约束[6494] day: 4.0 -> -1 (负数)
+2335. 约束[2147] day: 2.0 -> 10 (超限)
+2336. 约束[6] period: 0.0 -> -1 (负数)
+2337. 约束[4389] day: 2.0 -> 10 (超限)
+2338. 约束[10708] period: 1.0 -> -1 (负数)
+2339. 约束[792] period: 0.0 -> 10 (超限)
+2340. 约束[719] period: nan -> -1 (负数)
+2341. 约束[3632] day: 1.0 -> 10 (超限)
+2342. 约束[11010] day: 0.0 -> 10 (超限)
+2343. 约束[1919] day: 1.0 -> -1 (负数)
+2344. 约束[6311] period: 3.0 -> -1 (负数)
+2345. 约束[6030] day: 4.0 -> 10 (超限)
+2346. 约束[10996] period: 0.0 -> 10 (超限)
+2347. 约束[1418] day: 5.0 -> 10 (超限)
+2348. 约束[10251] day: 4.0 -> 10 (超限)
+2349. 约束[2295] day: 4.0 -> -1 (负数)
+2350. 约束[7757] period: 0.0 -> 10 (超限)
+2351. 约束[9518] period: 3.0 -> -1 (负数)
+2352. 约束[10455] day: 2.0 -> 10 (超限)
+2353. 约束[746] day: 4.0 -> -1 (负数)
+2354. 约束[1237] day: 4.0 -> -1 (负数)
+2355. 约束[3565] period: 1.0 -> 10 (超限)
+2356. 约束[3497] period: 4.0 -> -1 (负数)
+2357. 约束[5335] day: 5.0 -> 10 (超限)
+2358. 约束[4451] day: 2.0 -> -1 (负数)
+2359. 约束[5146] day: 2.0 -> 10 (超限)
+2360. 约束[3475] day: 4.0 -> 10 (超限)
+2361. 约束[2432] day: 4.0 -> -1 (负数)
+2362. 约束[6024] day: 3.0 -> -1 (负数)
+2363. 约束[7543] period: 4.0 -> 10 (超限)
+2364. 约束[8469] period: 3.0 -> 10 (超限)
+2365. 约束[7472] day: 1.0 -> 10 (超限)
+2366. 约束[4969] period: 4.0 -> 10 (超限)
+2367. 约束[892] period: 4.0 -> 10 (超限)
+2368. 约束[7564] period: 2.0 -> 10 (超限)
+2369. 约束[1798] day: 5.0 -> -1 (负数)
+2370. 约束[10185] day: 0.0 -> -1 (负数)
+2371. 约束[3619] day: 2.0 -> 10 (超限)
+2372. 约束[4366] day: 3.0 -> 10 (超限)
+2373. 约束[4013] day: 2.0 -> -1 (负数)
+2374. 约束[10359] day: 4.0 -> 10 (超限)
+2375. 约束[7103] period: 0.0 -> 10 (超限)
+2376. 约束[9871] period: 2.0 -> 10 (超限)
+2377. 约束[1317] day: 4.0 -> 10 (超限)
+2378. 约束[6482] period: 0.0 -> -1 (负数)
+2379. 约束[4821] day: 3.0 -> -1 (负数)
+2380. 约束[9991] day: 4.0 -> -1 (负数)
+2381. 约束[9446] day: 5.0 -> -1 (负数)
+2382. 约束[1786] period: 4.0 -> 10 (超限)
+2383. 约束[170] day: 1.0 -> -1 (负数)
+2384. 约束[10213] day: 1.0 -> 10 (超限)
+2385. 约束[5967] day: 3.0 -> 10 (超限)
+2386. 约束[7075] period: 0.0 -> -1 (负数)
+2387. 约束[495] day: 3.0 -> -1 (负数)
+2388. 约束[1166] day: 4.0 -> -1 (负数)
+2389. 约束[8152] period: 3.0 -> 10 (超限)
+2390. 约束[5921] period: 0.0 -> 10 (超限)
+2391. 约束[7722] period: 2.0 -> -1 (负数)
+2392. 约束[1849] period: 1.0 -> 10 (超限)
+2393. 约束[318] period: 3.0 -> 10 (超限)
+2394. 约束[1940] day: 2.0 -> -1 (负数)
+2395. 约束[6178] day: 0.0 -> -1 (负数)
+2396. 约束[2297] day: 0.0 -> -1 (负数)
+2397. 约束[776] period: 1.0 -> 10 (超限)
+2398. 约束[8250] period: 3.0 -> -1 (负数)
+2399. 约束[5690] period: 4.0 -> 10 (超限)
+2400. 约束[8786] period: 2.0 -> 10 (超限)
+2401. 约束[5090] period: 1.0 -> 10 (超限)
+2402. 约束[527] period: 0.0 -> 10 (超限)
+2403. 约束[2664] day: 3.0 -> -1 (负数)
+2404. 约束[3835] day: 1.0 -> 10 (超限)
+2405. 约束[10042] period: 3.0 -> -1 (负数)
+2406. 约束[5384] period: 1.0 -> 10 (超限)
+2407. 约束[6859] day: 3.0 -> -1 (负数)
+2408. 约束[4106] day: 4.0 -> 10 (超限)
+2409. 约束[8772] period: 0.0 -> -1 (负数)
+2410. 约束[5918] day: 4.0 -> 10 (超限)
+2411. 约束[2946] day: 4.0 -> -1 (负数)
+2412. 约束[8427] period: 3.0 -> 10 (超限)
+2413. 约束[4582] period: 1.0 -> -1 (负数)
+2414. 约束[9230] period: 5.0 -> 10 (超限)
+2415. 约束[384] day: 3.0 -> -1 (负数)
+2416. 约束[10074] day: nan -> -1 (负数)
+2417. 约束[9238] day: 0.0 -> 10 (超限)
+2418. 约束[1523] period: 4.0 -> 10 (超限)
+2419. 约束[8950] period: 3.0 -> -1 (负数)
+2420. 约束[615] day: 0.0 -> 10 (超限)
+2421. 约束[11029] day: 3.0 -> -1 (负数)
+2422. 约束[4578] day: 3.0 -> -1 (负数)
+2423. 约束[1181] day: 4.0 -> -1 (负数)
+2424. 约束[9855] period: 0.0 -> -1 (负数)
+2425. 约束[4340] day: 3.0 -> -1 (负数)
+2426. 约束[3443] period: 0.0 -> 10 (超限)
+2427. 约束[7807] period: 0.0 -> 10 (超限)
+2428. 约束[1828] period: 4.0 -> -1 (负数)
+2429. 约束[849] day: 4.0 -> 10 (超限)
+2430. 约束[7129] day: 0.0 -> -1 (负数)
+2431. 约束[10949] day: 0.0 -> 10 (超限)
+2432. 约束[11003] day: 0.0 -> -1 (负数)
+2433. 约束[9474] period: 4.0 -> -1 (负数)
+2434. 约束[3999] day: 2.0 -> -1 (负数)
+2435. 约束[375] period: 4.0 -> -1 (负数)
+2436. 约束[1243] day: 0.0 -> -1 (负数)
+2437. 约束[3525] day: 4.0 -> -1 (负数)
+2438. 约束[1971] period: 5.0 -> 10 (超限)
+2439. 约束[5609] day: 5.0 -> -1 (负数)
+2440. 约束[1856] day: 0.0 -> -1 (负数)
+2441. 约束[1553] day: 5.0 -> 10 (超限)
+2442. 约束[4307] period: 1.0 -> -1 (负数)
+2443. 约束[10045] period: 3.0 -> -1 (负数)
+2444. 约束[7319] period: 3.0 -> 10 (超限)
+2445. 约束[4045] day: 0.0 -> 10 (超限)
+2446. 约束[8568] day: 2.0 -> 10 (超限)
+2447. 约束[3217] period: 0.0 -> -1 (负数)
+2448. 约束[635] day: 0.0 -> 10 (超限)
+2449. 约束[2802] period: 0.0 -> -1 (负数)
+2450. 约束[6309] day: 2.0 -> 10 (超限)
+2451. 约束[7608] day: 0.0 -> -1 (负数)
+2452. 约束[825] period: 0.0 -> -1 (负数)
+2453. 约束[4621] day: 3.0 -> 10 (超限)
+2454. 约束[8587] period: 2.0 -> 10 (超限)
+2455. 约束[1268] period: 3.0 -> 10 (超限)
+2456. 约束[988] day: 2.0 -> 10 (超限)
+2457. 约束[11012] period: 2.0 -> 10 (超限)
+2458. 约束[818] day: 4.0 -> -1 (负数)
+2459. 约束[7933] day: 2.0 -> -1 (负数)
+2460. 约束[5653] day: 3.0 -> -1 (负数)
+2461. 约束[301] day: 3.0 -> -1 (负数)
+2462. 约束[962] period: 1.0 -> -1 (负数)
+2463. 约束[9252] day: 2.0 -> -1 (负数)
+2464. 约束[708] day: 3.0 -> -1 (负数)
+2465. 约束[4682] day: 4.0 -> -1 (负数)
+2466. 约束[2058] day: 0.0 -> 10 (超限)
+2467. 约束[5126] period: 0.0 -> -1 (负数)
+2468. 约束[8550] period: 2.0 -> -1 (负数)
+2469. 约束[5455] period: 5.0 -> 10 (超限)
+2470. 约束[11047] period: 0.0 -> -1 (负数)
+2471. 约束[4076] period: 3.0 -> 10 (超限)
+2472. 约束[10581] period: 4.0 -> 10 (超限)
+2473. 约束[2753] period: 0.0 -> 10 (超限)
+2474. 约束[6057] period: 3.0 -> -1 (负数)
+2475. 约束[94] period: 0.0 -> 10 (超限)
+2476. 约束[6638] day: 4.0 -> 10 (超限)
+2477. 约束[8768] period: 1.0 -> 10 (超限)
+2478. 约束[8892] day: 3.0 -> -1 (负数)
+2479. 约束[10067] day: 3.0 -> -1 (负数)
+2480. 约束[10392] day: 2.0 -> -1 (负数)
+2481. 约束[4901] period: 0.0 -> -1 (负数)
+2482. 约束[6661] period: 4.0 -> -1 (负数)
+2483. 约束[3020] period: 3.0 -> -1 (负数)
+2484. 约束[5307] period: 4.0 -> 10 (超限)
+2485. 约束[1310] period: 0.0 -> 10 (超限)
+2486. 约束[3201] day: 4.0 -> 10 (超限)
+2487. 约束[10254] day: 3.0 -> -1 (负数)
+2488. 约束[4128] day: 2.0 -> -1 (负数)
+2489. 约束[6100] day: 4.0 -> 10 (超限)
+2490. 约束[421] period: 4.0 -> -1 (负数)
+2491. 约束[10978] day: 3.0 -> -1 (负数)
+2492. 约束[3156] period: 2.0 -> 10 (超限)
+2493. 约束[6751] day: 0.0 -> -1 (负数)
+2494. 约束[5104] day: 5.0 -> 10 (超限)
+2495. 约束[4755] day: 0.0 -> 10 (超限)
+2496. 约束[3771] day: 4.0 -> -1 (负数)
+2497. 约束[7159] day: 1.0 -> -1 (负数)
+2498. 约束[4407] day: 0.0 -> 10 (超限)
+2499. 约束[9675] day: 1.0 -> 10 (超限)
+2500. 约束[173] period: 3.0 -> -1 (负数)
+2501. 约束[10674] day: 4.0 -> 10 (超限)
+2502. 约束[1692] day: 1.0 -> 10 (超限)
+2503. 约束[5069] day: 3.0 -> -1 (负数)
+2504. 约束[5155] period: 1.0 -> 10 (超限)
+2505. 约束[8526] period: 0.0 -> 10 (超限)
+2506. 约束[11028] day: 3.0 -> -1 (负数)
+2507. 约束[10403] period: 3.0 -> 10 (超限)
+2508. 约束[7268] period: 4.0 -> -1 (负数)
+2509. 约束[2873] period: 2.0 -> 10 (超限)
+2510. 约束[2491] period: 0.0 -> -1 (负数)
+2511. 约束[4941] day: 4.0 -> 10 (超限)
+2512. 约束[3768] day: 4.0 -> -1 (负数)
+2513. 约束[5814] period: 1.0 -> 10 (超限)
+2514. 约束[6017] day: 1.0 -> -1 (负数)
+2515. 约束[5087] period: 4.0 -> 10 (超限)
+2516. 约束[8943] period: 2.0 -> 10 (超限)
+2517. 约束[6860] period: 4.0 -> -1 (负数)
+2518. 约束[7909] period: 1.0 -> -1 (负数)
+2519. 约束[1030] period: 4.0 -> -1 (负数)
+2520. 约束[5908] period: 5.0 -> -1 (负数)
+2521. 约束[8574] period: 4.0 -> -1 (负数)
+2522. 约束[2250] day: 1.0 -> 10 (超限)
+2523. 约束[4350] day: 2.0 -> -1 (负数)
+2524. 约束[3446] day: 4.0 -> 10 (超限)
+2525. 约束[7763] period: 1.0 -> 10 (超限)
+2526. 约束[1210] day: 4.0 -> 10 (超限)
+2527. 约束[7050] period: 2.0 -> -1 (负数)
+2528. 约束[6279] day: 1.0 -> -1 (负数)
+2529. 约束[7962] day: 2.0 -> 10 (超限)
+2530. 约束[10534] day: 1.0 -> -1 (负数)
+2531. 约束[1481] day: 3.0 -> -1 (负数)
+2532. 约束[1559] period: 4.0 -> 10 (超限)
+2533. 约束[7131] period: 2.0 -> -1 (负数)
+2534. 约束[1563] period: 2.0 -> -1 (负数)
+2535. 约束[10410] period: 4.0 -> -1 (负数)
+2536. 约束[4257] day: 1.0 -> 10 (超限)
+2537. 约束[10203] period: 0.0 -> -1 (负数)
+2538. 约束[9820] day: 1.0 -> -1 (负数)
+2539. 约束[8966] period: 1.0 -> -1 (负数)
+2540. 约束[8674] day: 1.0 -> -1 (负数)
+2541. 约束[5108] period: 3.0 -> 10 (超限)
+2542. 约束[800] period: 1.0 -> -1 (负数)
+2543. 约束[1797] period: 3.0 -> 10 (超限)
+2544. 约束[9093] period: 2.0 -> 10 (超限)
+2545. 约束[4295] period: 1.0 -> 10 (超限)
+2546. 约束[5669] period: 4.0 -> -1 (负数)
+2547. 约束[4097] period: 2.0 -> 10 (超限)
+2548. 约束[122] day: 1.0 -> 10 (超限)
+2549. 约束[4136] day: 2.0 -> 10 (超限)
+2550. 约束[10564] period: 3.0 -> 10 (超限)
+2551. 约束[9842] period: 3.0 -> -1 (负数)
+2552. 约束[4939] day: 2.0 -> -1 (负数)
+2553. 约束[8680] period: 2.0 -> -1 (负数)
+2554. 约束[1290] period: 2.0 -> -1 (负数)
+2555. 约束[777] period: 2.0 -> 10 (超限)
+2556. 约束[10968] period: 0.0 -> 10 (超限)
+2557. 约束[2083] day: 5.0 -> -1 (负数)
+2558. 约束[5178] period: 1.0 -> 10 (超限)
+2559. 约束[9316] period: 2.0 -> -1 (负数)
+2560. 约束[1415] period: 2.0 -> 10 (超限)
+2561. 约束[2073] period: 0.0 -> 10 (超限)
+2562. 约束[8801] period: 2.0 -> -1 (负数)
+2563. 约束[8125] period: 1.0 -> -1 (负数)
+2564. 约束[3902] period: 2.0 -> -1 (负数)
+2565. 约束[2959] day: 1.0 -> 10 (超限)
+2566. 约束[149] period: 4.0 -> 10 (超限)
+2567. 约束[4491] day: nan -> 10 (超限)
+2568. 约束[8327] period: 3.0 -> 10 (超限)
+2569. 约束[7751] day: 4.0 -> -1 (负数)
+2570. 约束[882] day: 4.0 -> -1 (负数)
+2571. 约束[9235] period: 3.0 -> -1 (负数)
+2572. 约束[11011] period: nan -> -1 (负数)
+2573. 约束[3251] day: 1.0 -> -1 (负数)
+2574. 约束[9852] day: 4.0 -> -1 (负数)
+2575. 约束[6071] day: 3.0 -> 10 (超限)
+2576. 约束[8335] day: 0.0 -> 10 (超限)
+2577. 约束[523] period: 1.0 -> -1 (负数)
+2578. 约束[10233] period: 3.0 -> -1 (负数)
+2579. 约束[1118] period: 3.0 -> 10 (超限)
+2580. 约束[1060] day: 2.0 -> 10 (超限)
+2581. 约束[4327] day: 1.0 -> -1 (负数)
+2582. 约束[4577] period: 0.0 -> 10 (超限)
+2583. 约束[8464] period: 3.0 -> 10 (超限)
+2584. 约束[2527] day: 3.0 -> -1 (负数)
+2585. 约束[10340] period: 1.0 -> 10 (超限)
+2586. 约束[5282] day: 4.0 -> -1 (负数)
+2587. 约束[6673] day: 0.0 -> 10 (超限)
+2588. 约束[7068] period: 3.0 -> 10 (超限)
+2589. 约束[3299] period: 2.0 -> -1 (负数)
+2590. 约束[1619] day: 3.0 -> -1 (负数)
+2591. 约束[9159] day: 3.0 -> 10 (超限)
+2592. 约束[7094] day: 2.0 -> 10 (超限)
+2593. 约束[8653] period: 4.0 -> 10 (超限)
+2594. 约束[9510] day: 3.0 -> -1 (负数)
+2595. 约束[389] day: 4.0 -> 10 (超限)
+2596. 约束[9522] period: 4.0 -> 10 (超限)
+2597. 约束[5710] period: 0.0 -> -1 (负数)
+2598. 约束[36] day: 4.0 -> -1 (负数)
+2599. 约束[4316] day: 3.0 -> 10 (超限)
+2600. 约束[1294] day: 3.0 -> 10 (超限)
+2601. 约束[6906] day: 2.0 -> 10 (超限)
+2602. 约束[1587] day: 4.0 -> -1 (负数)
+2603. 约束[8401] day: 0.0 -> -1 (负数)
+2604. 约束[1842] period: 0.0 -> 10 (超限)
+2605. 约束[3502] period: 4.0 -> -1 (负数)
+2606. 约束[3095] day: 0.0 -> -1 (负数)
+2607. 约束[8288] day: 4.0 -> -1 (负数)
+2608. 约束[10358] day: 4.0 -> -1 (负数)
+2609. 约束[3963] period: 1.0 -> 10 (超限)
+2610. 约束[6139] day: 0.0 -> -1 (负数)
+2611. 约束[3044] period: 4.0 -> 10 (超限)
+2612. 约束[6990] day: 2.0 -> 10 (超限)
+2613. 约束[8986] period: 3.0 -> -1 (负数)
+2614. 约束[3499] day: 4.0 -> -1 (负数)
+2615. 约束[2140] period: 2.0 -> 10 (超限)
+2616. 约束[1816] period: 4.0 -> 10 (超限)
+2617. 约束[3131] day: 0.0 -> -1 (负数)
+2618. 约束[2956] day: 4.0 -> 10 (超限)
+2619. 约束[9764] day: 4.0 -> 10 (超限)
+2620. 约束[3192] day: 3.0 -> 10 (超限)
+2621. 约束[10368] period: 4.0 -> -1 (负数)
+2622. 约束[10400] day: 3.0 -> -1 (负数)
+2623. 约束[4956] period: 3.0 -> -1 (负数)
+2624. 约束[6016] day: 1.0 -> -1 (负数)
+2625. 约束[9818] period: 0.0 -> 10 (超限)
+2626. 约束[10733] period: 1.0 -> -1 (负数)
+2627. 约束[5399] day: 5.0 -> 10 (超限)
+2628. 约束[5587] day: 3.0 -> 10 (超限)
+2629. 约束[9749] day: 0.0 -> 10 (超限)
+2630. 约束[1591] period: 2.0 -> -1 (负数)
+2631. 约束[8115] period: 4.0 -> 10 (超限)
+2632. 约束[10960] day: 0.0 -> -1 (负数)
+2633. 约束[5222] period: 0.0 -> 10 (超限)
+2634. 约束[9194] period: 2.0 -> 10 (超限)
+2635. 约束[3137] period: 4.0 -> 10 (超限)
+2636. 约束[6500] day: 4.0 -> 10 (超限)
+2637. 约束[4711] period: 4.0 -> -1 (负数)
+2638. 约束[7090] period: 4.0 -> -1 (负数)
+2639. 约束[1992] day: 0.0 -> 10 (超限)
+2640. 约束[1508] day: 3.0 -> 10 (超限)
+2641. 约束[7031] day: 3.0 -> 10 (超限)
+2642. 约束[2043] period: 4.0 -> 10 (超限)
+2643. 约束[8182] day: 4.0 -> 10 (超限)
+2644. 约束[9680] day: 3.0 -> -1 (负数)
+2645. 约束[7164] period: 3.0 -> -1 (负数)
+2646. 约束[609] day: 0.0 -> -1 (负数)
+2647. 约束[8075] course_id: c0452 -> c8888 (引用完整性破坏)
+2648. 约束[370] course_id: c0230 -> c8888 (引用完整性破坏)
+2649. 约束[4769] course_id: c0534 -> c8888 (引用完整性破坏)
+2650. 约束[9017] course_id: LET-CST-StoRom -> c8888 (引用完整性破坏)
+2651. 约束[4502] course_id: c0201 -> c8888 (引用完整性破坏)
+2652. 约束[7842] course_id: c0059 -> c8888 (引用完整性破坏)
+2653. 约束[4847] course_id: c0069 -> c8888 (引用完整性破坏)
+2654. 约束[9527] course_id: c0057 -> c8888 (引用完整性破坏)
+2655. 约束[10215] course_id: c0195 -> c8888 (引用完整性破坏)
+2656. 约束[11035] course_id: c0896 -> c8888 (引用完整性破坏)
+2657. 约束[9221] course_id: CBC-ART-StoTecArt -> c8888 (引用完整性破坏)
+2658. 约束[1576] course_id: LinLatB -> c8888 (引用完整性破坏)
+2659. 约束[1437] course_id: LinLetLat1 -> c8888 (引用完整性破坏)
+2660. 约束[4272] course_id: c0196 -> c8888 (引用完整性破坏)
+2661. 约束[6673] course_id: c0214 -> c8888 (引用完整性破坏)
+2662. 约束[5366] course_id: EleInfSciCatBenCulM2 -> c8888 (引用完整性破坏)
+2663. 约束[9246] course_id: CBC-ART-StoMus -> c8888 (引用完整性破坏)
+2664. 约束[6225] course_id: StoBib -> c8888 (引用完整性破坏)
+2665. 约束[7399] course_id: c1020 -> c8888 (引用完整性破坏)
+2666. 约束[4995] course_id: c0006 -> c8888 (引用完整性破坏)
+2667. 约束[329] course_id: c0266 -> c8888 (引用完整性破坏)
+2668. 约束[7128] course_id: c0064 -> c8888 (引用完整性破坏)
+2669. 约束[605] course_id: Mat1Cn -> c8888 (引用完整性破坏)
+2670. 约束[942] course_id: DisAssMv -> c8888 (引用完整性破坏)
+2671. 约束[4007] course_id: c0179 -> c8888 (引用完整性破坏)
+2672. 约束[4232] course_id: c0918 -> c8888 (引用完整性破坏)
+2673. 约束[10497] course_id: c0737 -> c8888 (引用完整性破坏)
+2674. 约束[4790] course_id: c0554 -> c8888 (引用完整性破坏)
+2675. 约束[10374] course_id: c0478 -> c8888 (引用完整性破坏)
+2676. 约束[4213] course_id: c0917 -> c8888 (引用完整性破坏)
+2677. 约束[4776] course_id: c0534 -> c8888 (引用完整性破坏)
+2678. 约束[8297] course_id: c1020 -> c8888 (引用完整性破坏)
+2679. 约束[7618] course_id: TecMec1Mn -> c8888 (引用完整性破坏)
+2680. 约束[7173] course_id: c0105 -> c8888 (引用完整性破坏)
+2681. 约束[7674] course_id: AppIndGns -> c8888 (引用完整性破坏)
+2682. 约束[162] course_id: c0088 -> c8888 (引用完整性破坏)
+2683. 约束[8585] course_id: c0261 -> c8888 (引用完整性破坏)
+2684. 约束[7428] course_id: TecCosAn -> c8888 (引用完整性破坏)
+2685. 约束[780] course_id: IdrNumAns -> c8888 (引用完整性破坏)
+2686. 约束[8730] course_id: c1033 -> c8888 (引用完整性破坏)
+2687. 约束[3181] course_id: c0515 -> c8888 (引用完整性破坏)
+2688. 约束[10328] course_id: c0423 -> c8888 (引用完整性破坏)
+2689. 约束[6780] course_id: c0506 -> c8888 (引用完整性破坏)
+2690. 约束[5321] course_id: CodicoCS -> c8888 (引用完整性破坏)
+2691. 约束[1238] course_id: c0510 -> c8888 (引用完整性破坏)
+2692. 约束[3124] course_id: c0412 -> c8888 (引用完整性破坏)
+2693. 约束[1504] course_id: StoCon -> c8888 (引用完整性破坏)
+2694. 约束[6261] course_id: StoTecArtM3 -> c8888 (引用完整性破坏)
+2695. 约束[623] course_id: ArcTecCn -> c8888 (引用完整性破坏)
+2696. 约束[1884] course_id: StoGreCS -> c8888 (引用完整性破坏)
+2697. 约束[1239] course_id: nan -> c8888 (引用完整性破坏)
+2698. 约束[8071] course_id: c0450 -> c8888 (引用完整性破坏)
+2699. 约束[2208] course_id: c0099 -> c8888 (引用完整性破坏)
+2700. 约束[5706] course_id: NumismCS -> c8888 (引用完整性破坏)
+2701. 约束[3968] course_id: c0117 -> c8888 (引用完整性破坏)
+2702. 约束[4224] course_id: c0918 -> c8888 (引用完整性破坏)
+2703. 约束[622] course_id: ArcTecCn -> c8888 (引用完整性破坏)
+2704. 约束[10920] course_id: c0450 -> c8888 (引用完整性破坏)
+2705. 约束[678] course_id: EleSis1En -> c8888 (引用完整性破坏)
+2706. 约束[2427] course_id: c0442 -> c8888 (引用完整性破坏)
+2707. 约束[8479] course_id: c0142 -> c8888 (引用完整性破坏)
+2708. 约束[7754] course_id: GesAziGv -> c8888 (引用完整性破坏)
+2709. 约束[572] course_id: CamEleAn -> c8888 (引用完整性破坏)
+2710. 约束[3540] course_id: c0116 -> c8888 (引用完整性破坏)
+2711. 约束[1795] course_id: StoArtMod1 -> c8888 (引用完整性破坏)
+2712. 约束[853] course_id: StoArcCv -> c8888 (引用完整性破坏)
+2713. 约束[3144] course_id: c0432 -> c8888 (引用完整性破坏)
+2714. 约束[5710] course_id: NumismCS -> c8888 (引用完整性破坏)
+2715. 约束[9437] course_id: CBC-ARC-ArcCriMed -> c8888 (引用完整性破坏)
+2716. 约束[2890] course_id: c0072 -> c8888 (引用完整性破坏)
+2717. 约束[9134] course_id: CBC-LIB-StoBib -> c8888 (引用完整性破坏)
+2718. 约束[8390] course_id: c0073 -> c8888 (引用完整性破坏)
+2719. 约束[10245] course_id: c0213 -> c8888 (引用完整性破坏)
+2720. 约束[10750] course_id: c0105 -> c8888 (引用完整性破坏)
+2721. 约束[8757] course_id: c0524 -> c8888 (引用完整性破坏)
+2722. 约束[6544] course_id: c0107 -> c8888 (引用完整性破坏)
+2723. 约束[2375] course_id: c0231 -> c8888 (引用完整性破坏)
+2724. 约束[3604] course_id: c0177 -> c8888 (引用完整性破坏)
+2725. 约束[969] course_id: c0014 -> c8888 (引用完整性破坏)
+2726. 约束[6335] course_id: StoGre -> c8888 (引用完整性破坏)
+2727. 约束[4926] course_id: c0785 -> c8888 (引用完整性破坏)
+2728. 约束[1339] course_id: c0798 -> c8888 (引用完整性破坏)
+2729. 约束[4655] course_id: c0467 -> c8888 (引用完整性破坏)
+2730. 约束[10523] course_id: c0804 -> c8888 (引用完整性破坏)
+2731. 约束[8823] course_id: c1020 -> c8888 (引用完整性破坏)
+2732. 约束[7494] course_id: RetLogEn -> c8888 (引用完整性破坏)
+2733. 约束[2619] course_id: c0519 -> c8888 (引用完整性破坏)
+2734. 约束[6226] course_id: StoBib -> c8888 (引用完整性破坏)
+2735. 约束[5585] course_id: LinLetLat2 -> c8888 (引用完整性破坏)
+2736. 约束[8101] course_id: c0474 -> c8888 (引用完整性破坏)
+2737. 约束[5672] course_id: MetRicStoArt -> c8888 (引用完整性破坏)
+2738. 约束[962] course_id: c0014 -> c8888 (引用完整性破坏)
+2739. 约束[5982] course_id: StoLibSta -> c8888 (引用完整性破坏)
+2740. 约束[7602] course_id: ComMecMn -> c8888 (引用完整性破坏)
+2741. 约束[3217] course_id: c0602 -> c8888 (引用完整性破坏)
+2742. 约束[8097] course_id: c0474 -> c8888 (引用完整性破坏)
+2743. 约束[3137] course_id: c0430 -> c8888 (引用完整性破坏)
+2744. 约束[10796] course_id: c0199 -> c8888 (引用完整性破坏)
+2745. 约束[7357] course_id: c0519 -> c8888 (引用完整性破坏)
+2746. 约束[2093] course_id: BibgraCS -> c8888 (引用完整性破坏)
+2747. 约束[6376] course_id: StoMod2 -> c8888 (引用完整性破坏)
+2748. 约束[8164] course_id: c0836 -> c8888 (引用完整性破坏)
+2749. 约束[4194] course_id: c0534 -> c8888 (引用完整性破坏)
+2750. 约束[3339] course_id: c0936 -> c8888 (引用完整性破坏)
+2751. 约束[6273] course_id: StoCriCin -> c8888 (引用完整性破坏)
+2752. 约束[2442] course_id: c1020 -> c8888 (引用完整性破坏)
+2753. 约束[9999] course_id: c0056 -> c8888 (引用完整性破坏)
+2754. 约束[3317] course_id: c0849 -> c8888 (引用完整性破坏)
+2755. 约束[5617] course_id: LinIta -> c8888 (引用完整性破坏)
+2756. 约束[6932] course_id: c0806 -> c8888 (引用完整性破坏)
+2757. 约束[9631] course_id: c0177 -> c8888 (引用完整性破坏)
+2758. 约束[8539] course_id: c0231 -> c8888 (引用完整性破坏)
+2759. 约束[2344] course_id: c0202 -> c8888 (引用完整性破坏)
+2760. 约束[4097] course_id: c0441 -> c8888 (引用完整性破坏)
+2761. 约束[2706] course_id: c0898 -> c8888 (引用完整性破坏)
+2762. 约束[9820] course_id: c0317 -> c8888 (引用完整性破坏)
+2763. 约束[115] course_id: c0119 -> c8888 (引用完整性破坏)
+2764. 约束[10046] course_id: c0069 -> c8888 (引用完整性破坏)
+2765. 约束[7795] course_id: c0011 -> c8888 (引用完整性破坏)
+2766. 约束[3] course_id: c0001 -> c8888 (引用完整性破坏)
+2767. 约束[9613] course_id: c0117 -> c8888 (引用完整性破坏)
+2768. 约束[4954] course_id: c088a -> c8888 (引用完整性破坏)
+2769. 约束[10713] course_id: c0097 -> c8888 (引用完整性破坏)
+2770. 约束[7267] course_id: c0440 -> c8888 (引用完整性破坏)
+2771. 约束[2909] course_id: c0103 -> c8888 (引用完整性破坏)
+2772. 约束[207] course_id: c0061 -> c8888 (引用完整性破坏)
+2773. 约束[9053] course_id: LET-CLE-LinLetGre2 -> c8888 (引用完整性破坏)
+2774. 约束[8794] course_id: c0793 -> c8888 (引用完整性破坏)
+2775. 约束[6186] course_id: StoArtMod2CS -> c8888 (引用完整性破坏)
+2776. 约束[6492] course_id: c0052 -> c8888 (引用完整性破坏)
+2777. 约束[6264] course_id: StoTecArtM3 -> c8888 (引用完整性破坏)
+2778. 约束[9282] course_id: CBC-ART-StoCriArt -> c8888 (引用完整性破坏)
+2779. 约束[1837] course_id: StoArtCon1 -> c8888 (引用完整性破坏)
+2780. 约束[6952] course_id: c0830 -> c8888 (引用完整性破坏)
+2781. 约束[5358] course_id: EleInfSciCatBenCulM2 -> c8888 (引用完整性破坏)
+2782. 约束[2534] course_id: c1034 -> c8888 (引用完整性破坏)
+2783. 约束[9187] course_id: CBC-LIB-Arc -> c8888 (引用完整性破坏)
+2784. 约束[1060] course_id: c0117 -> c8888 (引用完整性破坏)
+2785. 约束[63] course_id: c0211 -> c8888 (引用完整性破坏)
+2786. 约束[10575] course_id: c0998 -> c8888 (引用完整性破坏)
+2787. 约束[3982] course_id: c0149 -> c8888 (引用完整性破坏)
+2788. 约束[9614] course_id: c0117 -> c8888 (引用完整性破坏)
+2789. 约束[5292] course_id: Codico -> c8888 (引用完整性破坏)
+2790. 约束[4991] course_id: c0006 -> c8888 (引用完整性破坏)
+2791. 约束[3526] course_id: c0112 -> c8888 (引用完整性破坏)
+2792. 约束[6345] course_id: StoGre -> c8888 (引用完整性破坏)
+2793. 约束[5595] course_id: LinLetLat2 -> c8888 (引用完整性破坏)
+2794. 约束[5169] course_id: ArcMedCS -> c8888 (引用完整性破坏)
+2795. 约束[804] course_id: ArcTecCns -> c8888 (引用完整性破坏)
+2796. 约束[3428] course_id: c0013 -> c8888 (引用完整性破坏)
+2797. 约束[7351] course_id: c0519 -> c8888 (引用完整性破坏)
+2798. 约束[5761] course_id: Paleoa -> c8888 (引用完整性破坏)
+2799. 约束[10295] course_id: c0253 -> c8888 (引用完整性破坏)
+2800. 约束[4156] course_id: c0457 -> c8888 (引用完整性破坏)
+2801. 约束[8826] course_id: c1020 -> c8888 (引用完整性破坏)
+2802. 约束[2158] course_id: c0050 -> c8888 (引用完整性破坏)
+2803. 约束[9487] course_id: c0042 -> c8888 (引用完整性破坏)
+2804. 约束[8796] course_id: c0793 -> c8888 (引用完整性破坏)
+2805. 约束[7846] course_id: c0064 -> c8888 (引用完整性破坏)
+2806. 约束[3315] course_id: c0849 -> c8888 (引用完整性破坏)
+2807. 约束[504] course_id: c0322 -> c8888 (引用完整性破坏)
+2808. 约束[257] course_id: c0178 -> c8888 (引用完整性破坏)
+2809. 约束[5253] course_id: nan -> c8888 (引用完整性破坏)
+2810. 约束[7233] course_id: c0231 -> c8888 (引用完整性破坏)
+2811. 约束[1927] course_id: StoMedCS -> c8888 (引用完整性破坏)
+2812. 约束[7042] course_id: c1068 -> c8888 (引用完整性破坏)
+2813. 约束[9144] course_id: CBC-LIB-InfDoc -> c8888 (引用完整性破坏)
+2814. 约束[1844] course_id: StoArtCon1 -> c8888 (引用完整性破坏)
+2815. 约束[7940] course_id: c0142 -> c8888 (引用完整性破坏)
+2816. 约束[8370] course_id: c0051 -> c8888 (引用完整性破坏)
+2817. 约束[3032] course_id: c0195 -> c8888 (引用完整性破坏)
+2818. 约束[6704] course_id: c0227 -> c8888 (引用完整性破坏)
+2819. 约束[2726] course_id: c1067 -> c8888 (引用完整性破坏)
+2820. 约束[6980] course_id: c1009 -> c8888 (引用完整性破坏)
+2821. 约束[6388] course_id: StoMod2 -> c8888 (引用完整性破坏)
+2822. 约束[2579] course_id: c0462 -> c8888 (引用完整性破坏)
+2823. 约束[3304] course_id: c0808 -> c8888 (引用完整性破坏)
+2824. 约束[9932] course_id: c0015 -> c8888 (引用完整性破坏)
+2825. 约束[427] course_id: c0297 -> c8888 (引用完整性破坏)
+2826. 约束[7775] course_id: TerAppMv -> c8888 (引用完整性破坏)
+2827. 约束[1124] course_id: c0198 -> c8888 (引用完整性破坏)
+2828. 约束[2151] course_id: c0050 -> c8888 (引用完整性破坏)
+2829. 约束[7888] course_id: c0097 -> c8888 (引用完整性破坏)
+2830. 约束[3923] course_id: c0055 -> c8888 (引用完整性破坏)
+2831. 约束[10827] course_id: c0228 -> c8888 (引用完整性破坏)
+2832. 约束[9861] course_id: c0344 -> c8888 (引用完整性破坏)
+2833. 约束[8240] course_id: c1013 -> c8888 (引用完整性破坏)
+2834. 约束[6887] course_id: c0933 -> c8888 (引用完整性破坏)
+2835. 约束[3511] course_id: c0107 -> c8888 (引用完整性破坏)
+2836. 约束[8892] course_id: LET-ITA-EleLinGenFil -> c8888 (引用完整性破坏)
+2837. 约束[9218] course_id: CBC-ART-StoTecArt -> c8888 (引用完整性破坏)
+2838. 约束[838] course_id: RetCal2Gns -> c8888 (引用完整性破坏)
+2839. 约束[9546] course_id: c0094 -> c8888 (引用完整性破坏)
+2840. 约束[10148] course_id: c0132 -> c8888 (引用完整性破坏)
+2841. 约束[3896] course_id: c0013 -> c8888 (引用完整性破坏)
+2842. 约束[822] course_id: AppIndGns -> c8888 (引用完整性破坏)
+2843. 约束[4430] course_id: c015a -> c8888 (引用完整性破坏)
+2844. 约束[3354] course_id: c0998 -> c8888 (引用完整性破坏)
+2845. 约束[1019] course_id: nan -> c8888 (引用完整性破坏)
+2846. 约束[227] course_id: c0213 -> c8888 (引用完整性破坏)
+2847. 约束[7098] course_id: c0050 -> c8888 (引用完整性破坏)
+2848. 约束[9922] course_id: c0402 -> c8888 (引用完整性破坏)
+2849. 约束[4400] course_id: c0127 -> c8888 (引用完整性破坏)
+2850. 约束[466] course_id: c0366 -> c8888 (引用完整性破坏)
+2851. 约束[3736] course_id: c0486 -> c8888 (引用完整性破坏)
+2852. 约束[1390] course_id: FilTesItaCS -> c8888 (引用完整性破坏)
+2853. 约束[6649] course_id: c0181 -> c8888 (引用完整性破坏)
+2854. 约束[2678] course_id: c0852 -> c8888 (引用完整性破坏)
+2855. 约束[6899] course_id: c0978 -> c8888 (引用完整性破坏)
+2856. 约束[3991] course_id: c0177 -> c8888 (引用完整性破坏)
+2857. 约束[648] course_id: Mat1En -> c8888 (引用完整性破坏)
+2858. 约束[3235] course_id: c0723 -> c8888 (引用完整性破坏)
+2859. 约束[7292] course_id: c0450 -> c8888 (引用完整性破坏)
+2860. 约束[8641] course_id: c0450 -> c8888 (引用完整性破坏)
+2861. 约束[1405] course_id: LinLatA -> c8888 (引用完整性破坏)
+2862. 约束[1673] course_id: ConBenArcLib -> c8888 (引用完整性破坏)
+2863. 约束[10924] course_id: c0452 -> c8888 (引用完整性破坏)
+2864. 约束[3234] course_id: c0723 -> c8888 (引用完整性破坏)
+2865. 约束[3325] course_id: c0849 -> c8888 (引用完整性破坏)
+2866. 约束[7163] course_id: c0099 -> c8888 (引用完整性破坏)
+2867. 约束[7016] course_id: c1033 -> c8888 (引用完整性破坏)
+2868. 约束[2422] course_id: c0440 -> c8888 (引用完整性破坏)
+2869. 约束[1560] course_id: MetRicArc -> c8888 (引用完整性破坏)
+2870. 约束[4628] course_id: c0044 -> c8888 (引用完整性破坏)
+2871. 约束[8150] course_id: c0820 -> c8888 (引用完整性破坏)
+2872. 约束[2897] course_id: c0088 -> c8888 (引用完整性破坏)
+2873. 约束[842] course_id: nan -> c8888 (引用完整性破坏)
+2874. 约束[2761] course_id: c0015 -> c8888 (引用完整性破坏)
+2875. 约束[8554] course_id: c0836 -> c8888 (引用完整性破坏)
+2876. 约束[8953] course_id: LET-FIL-StoSci -> c8888 (引用完整性破坏)
+2877. 约束[9324] course_id: CBC-ART-StoArcCon -> c8888 (引用完整性破坏)
+2878. 约束[3546] course_id: c0116 -> c8888 (引用完整性破坏)
+2879. 约束[7989] course_id: c0228 -> c8888 (引用完整性破坏)
+2880. 约束[8797] course_id: c0803 -> c8888 (引用完整性破坏)
+2881. 约束[5037] course_id: c0085 -> c8888 (引用完整性破坏)
+2882. 约束[7690] course_id: TecCos1Cv -> c8888 (引用完整性破坏)
+2883. 约束[2638] course_id: nan -> c8888 (引用完整性破坏)
+2884. 约束[5421] course_id: FilCla2 -> c8888 (引用完整性破坏)
+2885. 约束[10715] course_id: c0097 -> c8888 (引用完整性破坏)
+2886. 约束[9348] course_id: CBC-ART-MatCarCosResEdiSto -> c8888 (引用完整性破坏)
+2887. 约束[35] course_id: c0033 -> c8888 (引用完整性破坏)
+2888. 约束[3948] course_id: c0112 -> c8888 (引用完整性破坏)
+2889. 约束[2756] course_id: c0015 -> c8888 (引用完整性破坏)
+2890. 约束[4539] course_id: c0219 -> c8888 (引用完整性破坏)
+2891. 约束[8904] course_id: LET-ITA-EleLinGenFil -> c8888 (引用完整性破坏)
+2892. 约束[8067] course_id: c0450 -> c8888 (引用完整性破坏)
+2893. 约束[5041] course_id: c0085 -> c8888 (引用完整性破坏)
+2894. 约束[881] course_id: nan -> c8888 (引用完整性破坏)
+2895. 约束[6614] course_id: c0150 -> c8888 (引用完整性破坏)
+2896. 约束[3239] course_id: c0725 -> c8888 (引用完整性破坏)
+2897. 约束[8061] course_id: c0442 -> c8888 (引用完整性破坏)
+2898. 约束[8731] course_id: c1033 -> c8888 (引用完整性破坏)
+2899. 约束[1328] course_id: c0196 -> c8888 (引用完整性破坏)
+2900. 约束[9483] course_id: c0042 -> c8888 (引用完整性破坏)
+2901. 约束[240] course_id: c0219 -> c8888 (引用完整性破坏)
+2902. 约束[1740] course_id: StoArtMed1 -> c8888 (引用完整性破坏)
+2903. 约束[5648] course_id: MatCarCosResEdiSto -> c8888 (引用完整性破坏)
+2904. 约束[1422] course_id: LinLetLat1 -> c8888 (引用完整性破坏)
+2905. 约束[9233] course_id: CBC-ART-StoProArtCulMatMed -> c8888 (引用完整性破坏)
+2906. 约束[241] course_id: c0219 -> c8888 (引用完整性破坏)
+2907. 约束[805] course_id: ArcTecCns -> c8888 (引用完整性破坏)
+2908. 约束[6799] course_id: c0738 -> c8888 (引用完整性破坏)
+2909. 约束[5217] course_id: ArchivCS -> c8888 (引用完整性破坏)
+2910. 约束[2429] course_id: c0442 -> c8888 (引用完整性破坏)
+2911. 约束[6192] course_id: StoArtMod2CS -> c8888 (引用完整性破坏)
+2912. 约束[4973] course_id: c0095 -> c8888 (引用完整性破坏)
+2913. 约束[7322] course_id: c0474 -> c8888 (引用完整性破坏)
+2914. 约束[7999] course_id: c0231 -> c8888 (引用完整性破坏)
+2915. 约束[779] course_id: TecMec1Mn -> c8888 (引用完整性破坏)
+2916. 约束[1615] course_id: PrePro -> c8888 (引用完整性破坏)
+2917. 约束[10007] course_id: c0056 -> c8888 (引用完整性破坏)
+2918. 约束[10454] course_id: c0554 -> c8888 (引用完整性破坏)
+2919. 约束[4261] course_id: c0798 -> c8888 (引用完整性破坏)
+2920. 约束[2624] course_id: c0519 -> c8888 (引用完整性破坏)
+2921. 约束[7597] course_id: ComMecMn -> c8888 (引用完整性破坏)
+2922. 约束[2842] course_id: c0056 -> c8888 (引用完整性破坏)
+2923. 约束[8541] course_id: c0830 -> c8888 (引用完整性破坏)
+2924. 约束[10589] course_id: c1053 -> c8888 (引用完整性破坏)
+2925. 约束[7425] course_id: StrIndAn -> c8888 (引用完整性破坏)
+2926. 约束[6215] course_id: StoBib -> c8888 (引用完整性破坏)
+2927. 约束[8600] course_id: c0417 -> c8888 (引用完整性破坏)
+2928. 约束[10083] course_id: c0103 -> c8888 (引用完整性破坏)
+2929. 约束[3300] course_id: c0808 -> c8888 (引用完整性破坏)
+2930. 约束[1476] course_id: StoMod1 -> c8888 (引用完整性破坏)
+2931. 约束[7419] course_id: FonChiAn -> c8888 (引用完整性破坏)
+2932. 约束[4664] course_id: c0047 -> c8888 (引用完整性破坏)
+2933. 约束[331] course_id: c0266 -> c8888 (引用完整性破坏)
+2934. 约束[3589] course_id: c0150 -> c8888 (引用完整性破坏)
+2935. 约束[4849] course_id: c0069 -> c8888 (引用完整性破坏)
+2936. 约束[4761] course_id: c0532 -> c8888 (引用完整性破坏)
+2937. 约束[1572] course_id: LinLatB -> c8888 (引用完整性破坏)
+2938. 约束[4906] course_id: c0742 -> c8888 (引用完整性破坏)
+2939. 约束[6016] course_id: StoRes -> c8888 (引用完整性破坏)
+2940. 约束[462] course_id: c0346 -> c8888 (引用完整性破坏)
+2941. 约束[4610] course_id: c0411 -> c8888 (引用完整性破坏)
+2942. 约束[10229] course_id: c0201 -> c8888 (引用完整性破坏)
+2943. 约束[2568] course_id: c0452 -> c8888 (引用完整性破坏)
+2944. 约束[3396] course_id: c1065 -> c8888 (引用完整性破坏)
+2945. 约束[9079] course_id: LET-CLE-LinLat -> c8888 (引用完整性破坏)
+2946. 约束[218] course_id: c0074 -> c8888 (引用完整性破坏)
+2947. 约束[6690] course_id: c0224 -> c8888 (引用完整性破坏)
+2948. 约束[149] course_id: c0023 -> c8888 (引用完整性破坏)
+2949. 约束[4843] course_id: c0062 -> c8888 (引用完整性破坏)
+2950. 约束[4294] course_id: c0909 -> c8888 (引用完整性破坏)
+2951. 约束[3490] course_id: c0094 -> c8888 (引用完整性破坏)
+2952. 约束[2959] course_id: c0132 -> c8888 (引用完整性破坏)
+2953. 约束[4062] course_id: c0223 -> c8888 (引用完整性破坏)
+2954. 约束[4149] course_id: c0457 -> c8888 (引用完整性破坏)
+2955. 约束[2245] course_id: c0142 -> c8888 (引用完整性破坏)
+2956. 约束[9489] course_id: c0042 -> c8888 (引用完整性破坏)
+2957. 约束[3543] course_id: c0116 -> c8888 (引用完整性破坏)
+2958. 约束[9090] course_id: LET-CLE-Glo -> c8888 (引用完整性破坏)
+2959. 约束[1080] course_id: c0130 -> c8888 (引用完整性破坏)
+2960. 约束[5485] course_id: LegBenCul2 -> c8888 (引用完整性破坏)
+2961. 约束[4827] course_id: c0602 -> c8888 (引用完整性破坏)
+2962. 约束[7022] course_id: c1033 -> c8888 (引用完整性破坏)
+2963. 约束[47] course_id: c0071 -> c8888 (引用完整性破坏)
+2964. 约束[6838] course_id: c0828 -> c8888 (引用完整性破坏)
+2965. 约束[3963] course_id: c0116 -> c8888 (引用完整性破坏)
+2966. 约束[2873] course_id: c0069 -> c8888 (引用完整性破坏)
+2967. 约束[9774] course_id: c0625 -> c8888 (引用完整性破坏)
+2968. 约束[5381] course_id: EleInfSciCatBenCulM3 -> c8888 (引用完整性破坏)
+2969. 约束[7015] course_id: c1033 -> c8888 (引用完整性破坏)
+2970. 约束[8919] course_id: LET-GEO-StoCriCin -> c8888 (引用完整性破坏)
+2971. 约束[9560] course_id: c0104 -> c8888 (引用完整性破坏)
+2972. 约束[2299] course_id: c0724 -> c8888 (引用完整性破坏)
+2973. 约束[4800] course_id: c0056 -> c8888 (引用完整性破坏)
+2974. 约束[5576] course_id: LinLetLat2 -> c8888 (引用完整性破坏)
+2975. 约束[2358] course_id: c0228 -> c8888 (引用完整性破坏)
+2976. 约束[4291] course_id: c0909 -> c8888 (引用完整性破坏)
+2977. 约束[7404] course_id: c1020 -> c8888 (引用完整性破坏)
+2978. 约束[1101] course_id: c0162 -> c8888 (引用完整性破坏)
+2979. 约束[9222] course_id: CBC-ART-StoTecArt -> c8888 (引用完整性破坏)
+2980. 约束[1469] course_id: EpiGre -> c8888 (引用完整性破坏)
+2981. 约束[9993] course_id: c0049 -> c8888 (引用完整性破坏)
+2982. 约束[6848] course_id: c0850 -> c8888 (引用完整性破坏)
+2983. 约束[7923] course_id: c0142 -> c8888 (引用完整性破坏)
+2984. 约束[3566] course_id: c0148 -> c8888 (引用完整性破坏)
+2985. 约束[6301] course_id: StoTecFot -> c8888 (引用完整性破坏)
+2986. 约束[8442] course_id: c0105 -> c8888 (引用完整性破坏)
+2987. 约束[6049] course_id: StoArcCon -> c8888 (引用完整性破坏)
+2988. 约束[9368] course_id: CBC-ART-ArcStoArtMusA -> c8888 (引用完整性破坏)
+2989. 约束[6937] course_id: c0821 -> c8888 (引用完整性破坏)
+2990. 约束[3099] course_id: c0253 -> c8888 (引用完整性破坏)
+2991. 约束[9011] course_id: LET-CST-StoRom -> c8888 (引用完整性破坏)
+2992. 约束[2735] course_id: c1068 -> c8888 (引用完整性破坏)
+2993. 约束[9561] course_id: c0104 -> c8888 (引用完整性破坏)
+2994. 约束[10684] course_id: c0064 -> c8888 (引用完整性破坏)
+2995. 约束[9644] course_id: c0179 -> c8888 (引用完整性破坏)
+2996. 约束[4196] course_id: c0534 -> c8888 (引用完整性破坏)
+2997. 约束[6594] course_id: c0130 -> c8888 (引用完整性破坏)
+2998. 约束[5523] course_id: LetCriAnt -> c8888 (引用完整性破坏)
+2999. 约束[6501] course_id: c0053 -> c8888 (引用完整性破坏)
+3000. 约束[6045] course_id: StoArcCon -> c8888 (引用完整性破坏)
+3001. 约束[2045] course_id: StoArt -> c8888 (引用完整性破坏)
+3002. 约束[5001] course_id: c0007 -> c8888 (引用完整性破坏)
+3003. 约束[10382] course_id: c0479 -> c8888 (引用完整性破坏)
+3004. 约束[8460] course_id: c0137 -> c8888 (引用完整性破坏)
+3005. 约束[4414] course_id: c0131 -> c8888 (引用完整性破坏)
+3006. 约束[4267] course_id: c0741 -> c8888 (引用完整性破坏)
+3007. 约束[2952] course_id: c0131 -> c8888 (引用完整性破坏)
+3008. 约束[9005] course_id: LET-CST-StoRom -> c8888 (引用完整性破坏)
+3009. 约束[9821] course_id: c0284 -> c8888 (引用完整性破坏)
+3010. 约束[4611] course_id: c0411 -> c8888 (引用完整性破坏)
+3011. 约束[8098] course_id: c0474 -> c8888 (引用完整性破坏)
+3012. 约束[2908] course_id: c0095 -> c8888 (引用完整性破坏)
+3013. 约束[10317] course_id: c0411 -> c8888 (引用完整性破坏)
+3014. 约束[9463] course_id: c0035 -> c8888 (引用完整性破坏)
+3015. 约束[3202] course_id: c0539 -> c8888 (引用完整性破坏)
+3016. 约束[6755] course_id: c0486 -> c8888 (引用完整性破坏)
+3017. 约束[1619] course_id: PrePro -> c8888 (引用完整性破坏)
+3018. 约束[8117] course_id: c0513 -> c8888 (引用完整性破坏)
+3019. 约束[7121] course_id: c0064 -> c8888 (引用完整性破坏)
+3020. 约束[6036] course_id: StoRes -> c8888 (引用完整性破坏)
+3021. 约束[510] course_id: c0323 -> c8888 (引用完整性破坏)
+3022. 约束[468] course_id: c0366 -> c8888 (引用完整性破坏)
+3023. 约束[9502] course_id: c0052 -> c8888 (引用完整性破坏)
+3024. 约束[7050] course_id: c1074 -> c8888 (引用完整性破坏)
+3025. 约束[9843] course_id: c0343 -> c8888 (引用完整性破坏)
+3026. 约束[183] course_id: c0110 -> c8888 (引用完整性破坏)
+3027. 约束[8464] course_id: c0137 -> c8888 (引用完整性破坏)
+3028. 约束[7741] course_id: CamEle1Ev -> c8888 (引用完整性破坏)
+3029. 约束[5925] course_id: StoColIstMus -> c8888 (引用完整性破坏)
+3030. 约束[7535] course_id: RetCal1G1n -> c8888 (引用完整性破坏)
+3031. 约束[8850] course_id: c0821 -> c8888 (引用完整性破坏)
+3032. 约束[5736] course_id: OrientCS -> c8888 (引用完整性破坏)
+3033. 约束[7244] course_id: c0261 -> c8888 (引用完整性破坏)
+3034. 约束[6410] course_id: StoRomCS -> c8888 (引用完整性破坏)
+3035. 约束[9784] course_id: c0063 -> c8888 (引用完整性破坏)
+3036. 约束[8262] course_id: c1033 -> c8888 (引用完整性破坏)
+3037. 约束[916] course_id: ChiInd1Gv -> c8888 (引用完整性破坏)
+3038. 约束[6182] course_id: StoArtMod2CS -> c8888 (引用完整性破坏)
+3039. 约束[5263] course_id: BioarcCS -> c8888 (引用完整性破坏)
+3040. 约束[8374] course_id: c0059 -> c8888 (引用完整性破坏)
+3041. 约束[2333] course_id: c0200 -> c8888 (引用完整性破坏)
+3042. 约束[1106] course_id: c0163 -> c8888 (引用完整性破坏)
+3043. 约束[4515] course_id: c0206 -> c8888 (引用完整性破坏)
+3044. 约束[4817] course_id: c0602 -> c8888 (引用完整性破坏)
+3045. 约束[9966] course_id: c0024 -> c8888 (引用完整性破坏)
+3046. 约束[9448] course_id: CBC-ARC-ArcCla2 -> c8888 (引用完整性破坏)
+3047. 约束[11009] course_id: c0816 -> c8888 (引用完整性破坏)
+3048. 约束[2900] course_id: c0095 -> c8888 (引用完整性破坏)
+3049. 约束[7231] course_id: c0231 -> c8888 (引用完整性破坏)
+3050. 约束[9949] course_id: c0023 -> c8888 (引用完整性破坏)
+3051. 约束[8044] course_id: c0433 -> c8888 (引用完整性破坏)
+3052. 约束[8103] course_id: c0474 -> c8888 (引用完整性破坏)
+3053. 约束[3852] course_id: c0851 -> c8888 (引用完整性破坏)
+3054. 约束[6621] course_id: c0163 -> c8888 (引用完整性破坏)
+3055. 约束[8590] course_id: c0281 -> c8888 (引用完整性破坏)
+3056. 约束[7693] course_id: StoArcCv -> c8888 (引用完整性破坏)
+3057. 约束[9304] course_id: CBC-ART-StoArcMed -> c8888 (引用完整性破坏)
+3058. 约束[8579] course_id: c0935 -> c8888 (引用完整性破坏)
+3059. 约束[8221] course_id: c1009 -> c8888 (引用完整性破坏)
+3060. 约束[5357] course_id: EleInfSciCatBenCulM2 -> c8888 (引用完整性破坏)
+3061. 约束[7280] course_id: c0446 -> c8888 (引用完整性破坏)
+3062. 约束[9405] course_id: CBC-ARC-MatTecAppArc -> c8888 (引用完整性破坏)
+3063. 约束[7553] course_id: ChiG2n -> c8888 (引用完整性破坏)
+3064. 约束[7738] course_id: CamEle1Ev -> c8888 (引用完整性破坏)
+3065. 约束[4985] course_id: c0998 -> c8888 (引用完整性破坏)
+3066. 约束[9538] course_id: c0094 -> c8888 (引用完整性破坏)
+3067. 约束[3266] course_id: c0742 -> c8888 (引用完整性破坏)
+3068. 约束[6178] course_id: nan -> c8888 (引用完整性破坏)
+3069. 约束[8576] course_id: c0898 -> c8888 (引用完整性破坏)
+3070. 约束[10189] course_id: c0178 -> c8888 (引用完整性破坏)
+3071. 约束[7774] course_id: Mac1Mv -> c8888 (引用完整性破坏)
+3072. 约束[8497] course_id: c0184 -> c8888 (引用完整性破坏)
+3073. 约束[8461] course_id: c0137 -> c8888 (引用完整性破坏)
+3074. 约束[2639] course_id: c0524 -> c8888 (引用完整性破坏)
+3075. 约束[4810] course_id: c0058 -> c8888 (引用完整性破坏)
+3076. 约束[2396] course_id: c0427 -> c8888 (引用完整性破坏)
+3077. 约束[10927] course_id: c0452 -> c8888 (引用完整性破坏)
+3078. 约束[7844] course_id: c0059 -> c8888 (引用完整性破坏)
+3079. 约束[8793] course_id: c0793 -> c8888 (引用完整性破坏)
+3080. 约束[4793] course_id: c0554 -> c8888 (引用完整性破坏)
+3081. 约束[5614] course_id: LinGen -> c8888 (引用完整性破坏)
+3082. 约束[6188] course_id: StoArtMod2CS -> c8888 (引用完整性破坏)
+3083. 约束[8690] course_id: c0513 -> c8888 (引用完整性破坏)
+3084. 约束[6419] course_id: StoRomCS -> c8888 (引用完整性破坏)
+3085. 约束[6040] course_id: StoArc -> c8888 (引用完整性破坏)
+3086. 约束[3444] course_id: c0035 -> c8888 (引用完整性破坏)
+3087. 约束[5667] course_id: MatCarCosResEdiSto -> c8888 (引用完整性破坏)
+3088. 约束[6027] course_id: StoRes -> c8888 (引用完整性破坏)
+3089. 约束[32] course_id: c0033 -> c8888 (引用完整性破坏)
+3090. 约束[4602] course_id: c0257 -> c8888 (引用完整性破坏)
+3091. 约束[5129] course_id: ArcCriMed -> c8888 (引用完整性破坏)
+3092. 约束[10902] course_id: c0440 -> c8888 (引用完整性破坏)
+3093. 约束[10034] course_id: c0062 -> c8888 (引用完整性破坏)
+3094. 约束[2727] course_id: c1067 -> c8888 (引用完整性破坏)
+3095. 约束[1593] course_id: LinLatB -> c8888 (引用完整性破坏)
+3096. 约束[7240] course_id: c0261 -> c8888 (引用完整性破坏)
+3097. 约束[6746] course_id: c0457 -> c8888 (引用完整性破坏)
+3098. 约束[2188] course_id: c0085 -> c8888 (引用完整性破坏)
+3099. 约束[158] course_id: c0080 -> c8888 (引用完整性破坏)
+3100. 约束[8910] course_id: LET-GEO-StoCriCin -> c8888 (引用完整性破坏)
+3101. 约束[8312] course_id: c0006 -> c8888 (引用完整性破坏)
+3102. 约束[2259] course_id: c0180 -> c8888 (引用完整性破坏)
+3103. 约束[10775] course_id: c0184 -> c8888 (引用完整性破坏)
+3104. 约束[3237] course_id: c0723 -> c8888 (引用完整性破坏)
+3105. 约束[8433] course_id: c0101 -> c8888 (引用完整性破坏)
+3106. 约束[10510] course_id: c0746 -> c8888 (引用完整性破坏)
+3107. 约束[4686] course_id: c0487 -> c8888 (引用完整性破坏)
+3108. 约束[520] course_id: c0326 -> c8888 (引用完整性破坏)
+3109. 约束[3668] course_id: c0224 -> c8888 (引用完整性破坏)
+3110. 约束[9012] course_id: LET-CST-StoRom -> c8888 (引用完整性破坏)
+3111. 约束[9107] course_id: LET-CLE-FilCla -> c8888 (引用完整性破坏)
+3112. 约束[4559] course_id: c0023 -> c8888 (引用完整性破坏)
+3113. 约束[8606] course_id: c0427 -> c8888 (引用完整性破坏)
+3114. 约束[5729] course_id: OrientCS -> c8888 (引用完整性破坏)
+3115. 约束[8385] course_id: c0064 -> c8888 (引用完整性破坏)
+3116. 约束[5781] course_id: Paleoa -> c8888 (引用完整性破坏)
+3117. 约束[3987] course_id: c0150 -> c8888 (引用完整性破坏)
+3118. 约束[2787] course_id: c0023 -> c8888 (引用完整性破坏)
+3119. 约束[4824] course_id: c0602 -> c8888 (引用完整性破坏)
+3120. 约束[7717] course_id: CalAut1Cv -> c8888 (引用完整性破坏)
+3121. 约束[6927] course_id: c0806 -> c8888 (引用完整性破坏)
+3122. 约束[5192] course_id: Archiv -> c8888 (引用完整性破坏)
+3123. 约束[4694] course_id: c0487 -> c8888 (引用完整性破坏)
+3124. 约束[412] course_id: c0069 -> c8888 (引用完整性破坏)
+3125. 约束[4647] course_id: c0455 -> c8888 (引用完整性破坏)
+3126. 约束[4576] course_id: c0024 -> c8888 (引用完整性破坏)
+3127. 约束[3599] course_id: c0177 -> c8888 (引用完整性破坏)
+3128. 约束[4214] course_id: c0917 -> c8888 (引用完整性破坏)
+3129. 约束[6137] course_id: StoLinItaCS -> c8888 (引用完整性破坏)
+3130. 约束[10169] course_id: c0153 -> c8888 (引用完整性破坏)
+3131. 约束[7223] course_id: c0228 -> c8888 (引用完整性破坏)
+3132. 约束[1819] course_id: StoArtLatAmeA -> c8888 (引用完整性破坏)
+3133. 约束[10547] course_id: c0822 -> c8888 (引用完整性破坏)
+3134. 约束[214] course_id: c0074 -> c8888 (引用完整性破坏)
+3135. 约束[2438] course_id: c1009 -> c8888 (引用完整性破坏)
+3136. 约束[3485] course_id: c0094 -> c8888 (引用完整性破坏)
+3137. 约束[8064] course_id: c0442 -> c8888 (引用完整性破坏)
+3138. 约束[9788] course_id: c0063 -> c8888 (引用完整性破坏)
+3139. 约束[4880] course_id: c0723 -> c8888 (引用完整性破坏)
+3140. 约束[5800] course_id: PapiroCS -> c8888 (引用完整性破坏)
+3141. 约束[7298] course_id: c1089 -> c8888 (引用完整性破坏)
+3142. 约束[6033] course_id: StoRes -> c8888 (引用完整性破坏)
+3143. 约束[2737] course_id: c1068 -> c8888 (引用完整性破坏)
+3144. 约束[8776] course_id: c0767 -> c8888 (引用完整性破坏)
+3145. 约束[5418] course_id: EtrAntIta -> c8888 (引用完整性破坏)
+3146. 约束[9780] course_id: c0624 -> c8888 (引用完整性破坏)
+3147. 约束[5055] course_id: c0113 -> c8888 (引用完整性破坏)
+3148. 约束[5635] course_id: LinIta -> c8888 (引用完整性破坏)
+3149. 约束[10335] course_id: c0430 -> c8888 (引用完整性破坏)
+3150. 约束[2931] course_id: c0113 -> c8888 (引用完整性破坏)
+3151. 约束[9887] course_id: c0352 -> c8888 (引用完整性破坏)
+3152. 约束[10158] course_id: c0132 -> c8888 (引用完整性破坏)
+3153. 约束[5050] course_id: c0113 -> c8888 (引用完整性破坏)
+3154. 约束[2147] course_id: c0050 -> c8888 (引用完整性破坏)
+3155. 约束[3271] course_id: c0789 -> c8888 (引用完整性破坏)
+3156. 约束[1379] course_id: FilTesItaCS -> c8888 (引用完整性破坏)
+3157. 约束[7469] course_id: ArcTecCn -> c8888 (引用完整性破坏)
+3158. 约束[3321] course_id: c0849 -> c8888 (引用完整性破坏)
+3159. 约束[700] course_id: Mat1G2n -> c8888 (引用完整性破坏)
+3160. 约束[2020] course_id: nan -> c8888 (引用完整性破坏)
+3161. 约束[4138] course_id: c0378 -> c8888 (引用完整性破坏)
+3162. 约束[2419] course_id: c0440 -> c8888 (引用完整性破坏)
+3163. 约束[6440] course_id: TopRilMonAnt -> c8888 (引用完整性破坏)
+3164. 约束[8310] course_id: c0006 -> c8888 (引用完整性破坏)
+3165. 约束[8080] course_id: c0452 -> c8888 (引用完整性破坏)
+3166. 约束[7342] course_id: c0516 -> c8888 (引用完整性破坏)
+3167. 约束[593] course_id: TecCosAn -> c8888 (引用完整性破坏)
+3168. 约束[9724] course_id: c0226 -> c8888 (引用完整性破坏)
+3169. 约束[7480] course_id: Mat1En -> c8888 (引用完整性破坏)
+3170. 约束[3527] course_id: c0112 -> c8888 (引用完整性破坏)
+3171. 约束[9108] course_id: LET-CLE-FilCla -> c8888 (引用完整性破坏)
+3172. 约束[3008] course_id: c0191 -> c8888 (引用完整性破坏)
+3173. 约束[10582] course_id: c1053 -> c8888 (引用完整性破坏)
+3174. 约束[9150] course_id: CBC-LIB-InfDoc -> c8888 (引用完整性破坏)
+3175. 约束[5245] course_id: BioarcCS -> c8888 (引用完整性破坏)
+3176. 约束[5119] course_id: ArcCriMed -> c8888 (引用完整性破坏)
+3177. 约束[4889] course_id: c0730 -> c8888 (引用完整性破坏)
+3178. 约束[1034] course_id: c0112 -> c8888 (引用完整性破坏)
+3179. 约束[4412] course_id: c0129 -> c8888 (引用完整性破坏)
+3180. 约束[5455] course_id: Glotto -> c8888 (引用完整性破坏)
+3181. 约束[6231] course_id: StoTecArtM12 -> c8888 (引用完整性破坏)
+3182. 约束[789] course_id: PriIngAns -> c8888 (引用完整性破坏)
+3183. 约束[6629] course_id: c0163 -> c8888 (引用完整性破坏)
+3184. 约束[8771] course_id: c0724 -> c8888 (引用完整性破坏)
+3185. 约束[7822] course_id: c0046 -> c8888 (引用完整性破坏)
+3186. 约束[206] course_id: c0061 -> c8888 (引用完整性破坏)
+3187. 约束[2509] course_id: c1032 -> c8888 (引用完整性破坏)
+3188. 约束[7261] course_id: c0433 -> c8888 (引用完整性破坏)
+3189. 约束[7055] course_id: c1074 -> c8888 (引用完整性破坏)
+3190. 约束[8299] course_id: c1058 -> c8888 (引用完整性破坏)
+3191. 约束[4444] course_id: c0152 -> c8888 (引用完整性破坏)
+3192. 约束[10539] course_id: c0808 -> c8888 (引用完整性破坏)
+3193. 约束[1778] course_id: StoArtMod1 -> c8888 (引用完整性破坏)
+3194. 约束[10006] course_id: c0056 -> c8888 (引用完整性破坏)
+3195. 约束[750] course_id: DisIndMn -> c8888 (引用完整性破坏)
+3196. 约束[9435] course_id: CBC-ARC-ArcCriMed -> c8888 (引用完整性破坏)
+3197. 约束[7421] course_id: FonChiAn -> c8888 (引用完整性破坏)
+3198. 约束[742] course_id: Mat1Mn -> c8888 (引用完整性破坏)
+3199. 约束[10919] course_id: c0450 -> c8888 (引用完整性破坏)
+3200. 约束[7557] course_id: TerAppG2n -> c8888 (引用完整性破坏)
+3201. 约束[5031] course_id: c0038 -> c8888 (引用完整性破坏)
+3202. 约束[3231] course_id: c0723 -> c8888 (引用完整性破坏)
+3203. 约束[1784] course_id: StoArtMod1 -> c8888 (引用完整性破坏)
+3204. 约束[3345] course_id: c1022 -> c8888 (引用完整性破坏)
+3205. 约束[8888] course_id: LET-ITA-EleLinGenFil -> c8888 (引用完整性破坏)
+3206. 约束[1685] course_id: ConBenArcLib -> c8888 (引用完整性破坏)
+3207. 约束[4358] course_id: c0110 -> c8888 (引用完整性破坏)
+3208. 约束[7620] course_id: TecMec1Mn -> c8888 (引用完整性破坏)
+3209. 约束[3481] course_id: c0060 -> c8888 (引用完整性破坏)
+3210. 约束[7462] course_id: TecMatCn -> c8888 (引用完整性破坏)
+3211. 约束[1478] course_id: StoMod1 -> c8888 (引用完整性破坏)
+3212. 约束[7201] course_id: c0199 -> c8888 (引用完整性破坏)
+3213. 约束[7069] course_id: c0018 -> c8888 (引用完整性破坏)
+3214. 约束[1257] course_id: c0773 -> c8888 (引用完整性破坏)
+3215. 约束[4049] course_id: c0214 -> c8888 (引用完整性破坏)
+3216. 约束[5197] course_id: Archiv -> c8888 (引用完整性破坏)
+3217. 约束[9802] course_id: c0309 -> c8888 (引用完整性破坏)
+3218. 约束[5441] course_id: FonSoc -> c8888 (引用完整性破坏)
+3219. 约束[7701] course_id: TeoStr1Cv -> c8888 (引用完整性破坏)
+3220. 约束[8271] course_id: c1067 -> c8888 (引用完整性破坏)
+3221. 约束[10402] course_id: c0515 -> c8888 (引用完整性破坏)
+3222. 约束[10157] course_id: c0132 -> c8888 (引用完整性破坏)
+3223. 约束[2247] course_id: c0142 -> c8888 (引用完整性破坏)
+3224. 约束[538] course_id: c0336 -> c8888 (引用完整性破坏)
+3225. 约束[9785] course_id: c0063 -> c8888 (引用完整性破坏)
+3226. 约束[4914] course_id: c0076 -> c8888 (引用完整性破坏)
+3227. 约束[3493] course_id: c0098 -> c8888 (引用完整性破坏)
+3228. 约束[11064] course_id: c0513 -> c8888 (引用完整性破坏)
+3229. 约束[1391] course_id: FilTesItaCS -> c8888 (引用完整性破坏)
+3230. 约束[5554] course_id: LinLetLatCS -> c8888 (引用完整性破坏)
+3231. 约束[4505] course_id: c0203 -> c8888 (引用完整性破坏)
+3232. 约束[215] course_id: c0074 -> c8888 (引用完整性破坏)
+3233. 约束[7157] course_id: c0099 -> c8888 (引用完整性破坏)
+3234. 约束[8389] course_id: c0073 -> c8888 (引用完整性破坏)
+3235. 约束[3159] course_id: c0479 -> c8888 (引用完整性破坏)
+3236. 约束[887] course_id: IdrAppCv -> c8888 (引用完整性破坏)
+3237. 约束[2355] course_id: c0228 -> c8888 (引用完整性破坏)
+3238. 约束[880] course_id: CosZonCv -> c8888 (引用完整性破坏)
+3239. 约束[2444] course_id: c1020 -> c8888 (引用完整性破坏)
+3240. 约束[9612] course_id: c0117 -> c8888 (引用完整性破坏)
+3241. 约束[9330] course_id: CBC-ART-SocArt -> c8888 (引用完整性破坏)
+3242. 约束[10397] course_id: c0503 -> c8888 (引用完整性破坏)
+3243. 约束[9139] course_id: CBC-LIB-PalLat -> c8888 (引用完整性破坏)
+3244. 约束[9903] course_id: c0353 -> c8888 (引用完整性破坏)
+3245. 约束[4692] course_id: c0487 -> c8888 (引用完整性破坏)
+3246. 约束[959] course_id: c0013 -> c8888 (引用完整性破坏)
+3247. 约束[637] course_id: Mat1En -> c8888 (引用完整性破坏)
+3248. 约束[3421] course_id: c0012 -> c8888 (引用完整性破坏)
+3249. 约束[4317] course_id: c1053 -> c8888 (引用完整性破坏)
+3250. 约束[6556] course_id: c0112 -> c8888 (引用完整性破坏)
+3251. 约束[2493] course_id: c1031 -> c8888 (引用完整性破坏)
+3252. 约束[3247] course_id: c0730 -> c8888 (引用完整性破坏)
+3253. 约束[6808] course_id: c0745 -> c8888 (引用完整性破坏)
+3254. 约束[6793] course_id: c0738 -> c8888 (引用完整性破坏)
+3255. 约束[2494] course_id: c1031 -> c8888 (引用完整性破坏)
+3256. 约束[1089] course_id: c0149 -> c8888 (引用完整性破坏)
+3257. 约束[4274] course_id: c0196 -> c8888 (引用完整性破坏)
+3258. 约束[4480] course_id: c0195 -> c8888 (引用完整性破坏)
+3259. 约束[4978] course_id: c0095 -> c8888 (引用完整性破坏)
+3260. 约束[8638] course_id: c0450 -> c8888 (引用完整性破坏)
+3261. 约束[8900] course_id: LET-ITA-EleLinGenFil -> c8888 (引用完整性破坏)
+3262. 约束[638] course_id: Mat1En -> c8888 (引用完整性破坏)
+3263. 约束[9642] course_id: c0179 -> c8888 (引用完整性破坏)
+3264. 约束[7380] course_id: c0536 -> c8888 (引用完整性破坏)
+3265. 约束[10941] course_id: c0474 -> c8888 (引用完整性破坏)
+3266. 约束[6715] course_id: c0420 -> c8888 (引用完整性破坏)
+3267. 约束[5320] course_id: CodicoCS -> c8888 (引用完整性破坏)
+3268. 约束[7306] course_id: c1089 -> c8888 (引用完整性破坏)
+3269. 约束[3039] course_id: c0203 -> c8888 (引用完整性破坏)
+3270. 约束[9877] course_id: c0369 -> c8888 (引用完整性破坏)
+3271. 约束[2173] course_id: c0064 -> c8888 (引用完整性破坏)
+3272. 约束[9677] course_id: c0210 -> c8888 (引用完整性破坏)
+3273. 约束[7304] course_id: c1089 -> c8888 (引用完整性破坏)
+3274. 约束[9913] course_id: c0381 -> c8888 (引用完整性破坏)
+3275. 约束[5803] course_id: PapiroCS -> c8888 (引用完整性破坏)
+3276. 约束[997] course_id: c0057 -> c8888 (引用完整性破坏)
+3277. 约束[6592] course_id: c0130 -> c8888 (引用完整性破坏)
+3278. 约束[9804] course_id: c0309 -> c8888 (引用完整性破坏)
+3279. 约束[10988] course_id: c0806 -> c8888 (引用完整性破坏)
+3280. 约束[9832] course_id: c0342 -> c8888 (引用完整性破坏)
+3281. 约束[6839] course_id: c0828 -> c8888 (引用完整性破坏)
+3282. 约束[1046] course_id: c0116 -> c8888 (引用完整性破坏)
+3283. 约束[2975] course_id: c0133 -> c8888 (引用完整性破坏)
+3284. 约束[3002] course_id: c0178 -> c8888 (引用完整性破坏)
+3285. 约束[7358] course_id: c0519 -> c8888 (引用完整性破坏)
+3286. 约束[10257] course_id: c0219 -> c8888 (引用完整性破坏)
+3287. 约束[2961] course_id: c0132 -> c8888 (引用完整性破坏)
+3288. 约束[1691] course_id: ResBenArcLib -> c8888 (引用完整性破坏)
+3289. 约束[2343] course_id: c0202 -> c8888 (引用完整性破坏)
+3290. 约束[7815] course_id: c0027 -> c8888 (引用完整性破坏)
+3291. 约束[319] course_id: c0206 -> c8888 (引用完整性破坏)
+3292. 约束[2266] course_id: c0180 -> c8888 (引用完整性破坏)
+3293. 约束[4734] course_id: c0504 -> c8888 (引用完整性破坏)
+3294. 约束[6469] course_id: c0035 -> c8888 (引用完整性破坏)
+3295. 约束[6903] course_id: c1007 -> c8888 (引用完整性破坏)
+3296. 约束[4131] course_id: c0344 -> c8888 (引用完整性破坏)
+3297. 约束[3492] course_id: c0094 -> c8888 (引用完整性破坏)
+3298. 约束[354] course_id: c0238 -> c8888 (引用完整性破坏)
+3299. 约束[6860] course_id: c0869 -> c8888 (引用完整性破坏)
+3300. 约束[695] course_id: RetCal1G1n -> c8888 (引用完整性破坏)
+3301. 约束[7131] course_id: c0073 -> c8888 (引用完整性破坏)
+3302. 约束[93] course_id: c0111 -> c8888 (引用完整性破坏)
+3303. 约束[1584] course_id: LinLatB -> c8888 (引用完整性破坏)
+3304. 约束[9259] course_id: CBC-ART-StoMus -> c8888 (引用完整性破坏)
+3305. 约束[5170] course_id: ArcMedCS -> c8888 (引用完整性破坏)
+3306. 约束[3171] course_id: c0497 -> c8888 (引用完整性破坏)
+3307. 约束[9553] course_id: c0098 -> c8888 (引用完整性破坏)
+3308. 约束[10463] course_id: c0722 -> c8888 (引用完整性破坏)
+3309. 约束[3551] course_id: c0117 -> c8888 (引用完整性破坏)
+3310. 约束[9587] course_id: c0112 -> c8888 (引用完整性破坏)
+3311. 约束[1931] course_id: StoMedCS -> c8888 (引用完整性破坏)
+3312. 约束[8505] course_id: c0185 -> c8888 (引用完整性破坏)
+3313. 约束[10141] course_id: c0131 -> c8888 (引用完整性破坏)
+3314. 约束[6406] course_id: StoRom -> c8888 (引用完整性破坏)
+3315. 约束[3926] course_id: c0055 -> c8888 (引用完整性破坏)
+3316. 约束[3293] course_id: c0807 -> c8888 (引用完整性破坏)
+3317. 约束[10390] course_id: c0496 -> c8888 (引用完整性破坏)
+3318. 约束[4198] course_id: c0534 -> c8888 (引用完整性破坏)
+3319. 约束[8431] course_id: c0101 -> c8888 (引用完整性破坏)
+3320. 约束[1243] course_id: c0527 -> c8888 (引用完整性破坏)
+3321. 约束[3801] course_id: c0773 -> c8888 (引用完整性破坏)
+3322. 约束[7407] course_id: ChiGenAn -> c8888 (引用完整性破坏)
+3323. 约束[6789] course_id: c0527 -> c8888 (引用完整性破坏)
+3324. 约束[5557] course_id: LinLetLatCS -> c8888 (引用完整性破坏)
+3325. 约束[6348] course_id: StoGre -> c8888 (引用完整性破坏)
+3326. 约束[2691] course_id: c0896 -> c8888 (引用完整性破坏)
+3327. 约束[6412] course_id: StoRomCS -> c8888 (引用完整性破坏)
+3328. 约束[5185] course_id: ArcMedCS -> c8888 (引用完整性破坏)
+3329. 约束[7333] course_id: c0495 -> c8888 (引用完整性破坏)
+3330. 约束[6118] course_id: StoFilMedCS -> c8888 (引用完整性破坏)
+3331. 约束[2252] course_id: c0154 -> c8888 (引用完整性破坏)
+3332. 约束[10771] course_id: c0184 -> c8888 (引用完整性破坏)
+3333. 约束[10651] course_id: c0027 -> c8888 (引用完整性破坏)
+3334. 约束[4176] course_id: c0527 -> c8888 (引用完整性破坏)
+3335. 约束[8465] course_id: c0137 -> c8888 (引用完整性破坏)
+3336. 约束[8259] course_id: c1033 -> c8888 (引用完整性破坏)
+3337. 约束[2051] course_id: FonSocAntCulI -> c8888 (引用完整性破坏)
+3338. 约束[4766] course_id: c0532 -> c8888 (引用完整性破坏)
+3339. 约束[6323] course_id: StoTecFot -> c8888 (引用完整性破坏)
+3340. 约束[614] course_id: TecMatCn -> c8888 (引用完整性破坏)
+3341. 约束[5584] course_id: LinLetLat2 -> c8888 (引用完整性破坏)
+3342. 约束[8788] course_id: c0793 -> c8888 (引用完整性破坏)
+3343. 约束[3917] course_id: c0053 -> c8888 (引用完整性破坏)
+3344. 约束[2127] course_id: c0018 -> c8888 (引用完整性破坏)
+3345. 约束[4990] course_id: c0998 -> c8888 (引用完整性破坏)
+3346. 约束[7138] course_id: c0073 -> c8888 (引用完整性破坏)
+3347. 约束[10536] course_id: c0808 -> c8888 (引用完整性破坏)
+3348. 约束[7391] course_id: c0513 -> c8888 (引用完整性破坏)
+3349. 约束[7301] course_id: c1089 -> c8888 (引用完整性破坏)
+3350. 约束[10225] course_id: c0201 -> c8888 (引用完整性破坏)
+3351. 约束[7931] course_id: c0142 -> c8888 (引用完整性破坏)
+3352. 约束[5413] course_id: Esteti -> c8888 (引用完整性破坏)
+3353. 约束[9411] course_id: CBC-ARC-MatTecAppArc -> c8888 (引用完整性破坏)
+3354. 约束[1988] course_id: StoArtMed2CS -> c8888 (引用完整性破坏)
+3355. 约束[9112] course_id: LET-CLE-FilCla -> c8888 (引用完整性破坏)
+3356. 约束[10960] course_id: c0742 -> c8888 (引用完整性破坏)
+3357. 约束[4875] course_id: c0072 -> c8888 (引用完整性破坏)
+3358. 约束[1136] course_id: c0224 -> c8888 (引用完整性破坏)
+3359. 约束[1097] course_id: c0162 -> c8888 (引用完整性破坏)
+3360. 约束[2262] course_id: c0180 -> c8888 (引用完整性破坏)
+3361. 约束[6248] course_id: StoTecArtM3 -> c8888 (引用完整性破坏)
+3362. 约束[4127] course_id: c0344 -> c8888 (引用完整性破坏)
+3363. 约束[8737] course_id: c1033 -> c8888 (引用完整性破坏)
+3364. 约束[4490] course_id: c0201 -> c8888 (引用完整性破坏)
+3365. 约束[4837] course_id: c0062 -> c8888 (引用完整性破坏)
+3366. 约束[7369] course_id: c0524 -> c8888 (引用完整性破坏)
+3367. 约束[5312] course_id: Codico -> c8888 (引用完整性破坏)
+3368. 约束[6483] course_id: c0045 -> c8888 (引用完整性破坏)
+3369. 约束[4714] course_id: c0497 -> c8888 (引用完整性破坏)
+3370. 约束[8125] course_id: c0524 -> c8888 (引用完整性破坏)
+3371. 约束[5886] course_id: StoAntStaItaCS -> c8888 (引用完整性破坏)
+3372. 约束[4657] course_id: c0467 -> c8888 (引用完整性破坏)
+3373. 约束[2745] course_id: c1089 -> c8888 (引用完整性破坏)
+3374. 约束[5692] course_id: MetRicStoArt -> c8888 (引用完整性破坏)
+3375. 约束[10926] course_id: c0452 -> c8888 (引用完整性破坏)
+3376. 约束[6505] course_id: c0055 -> c8888 (引用完整性破坏)
+3377. 约束[9013] course_id: LET-CST-StoRom -> c8888 (引用完整性破坏)
+3378. 约束[10268] course_id: c0232 -> c8888 (引用完整性破坏)
+3379. 约束[8973] course_id: LET-FIL-Est -> c8888 (引用完整性破坏)
+3380. 约束[346] course_id: c0238 -> c8888 (引用完整性破坏)
+3381. 约束[9343] course_id: CBC-ART-MatCarCosResEdiSto -> c8888 (引用完整性破坏)
+3382. 约束[10011] course_id: c0058 -> c8888 (引用完整性破坏)
+3383. 约束[4710] course_id: c0497 -> c8888 (引用完整性破坏)
+3384. 约束[3222] course_id: c0722 -> c8888 (引用完整性破坏)
+3385. 约束[7563] course_id: TerAppG2n -> c8888 (引用完整性破坏)
+3386. 约束[7136] course_id: c0073 -> c8888 (引用完整性破坏)
+3387. 约束[8186] course_id: c0881 -> c8888 (引用完整性破坏)
+3388. 约束[7119] course_id: c0059 -> c8888 (引用完整性破坏)
+3389. 约束[337] course_id: c0266 -> c8888 (引用完整性破坏)
+3390. 约束[6941] course_id: c0821 -> c8888 (引用完整性破坏)
+3391. 约束[10485] course_id: c0730 -> c8888 (引用完整性破坏)
+3392. 约束[1090] course_id: c0150 -> c8888 (引用完整性破坏)
+3393. 约束[6785] course_id: c0527 -> c8888 (引用完整性破坏)
+3394. 约束[3472] course_id: c0057 -> c8888 (引用完整性破坏)
+3395. 约束[8624] course_id: c0440 -> c8888 (引用完整性破坏)
+3396. 约束[2779] course_id: c0020 -> c8888 (引用完整性破坏)
+3397. 约束[595] course_id: Mat1Cn -> c8888 (引用完整性破坏)
+3398. 约束[6099] course_id: StoFilCS -> c8888 (引用完整性破坏)
+3399. 约束[4083] course_id: c0227 -> c8888 (引用完整性破坏)
+3400. 约束[4931] course_id: c0804 -> c8888 (引用完整性破坏)
+3401. 约束[1609] course_id: Numism -> c8888 (引用完整性破坏)
+3402. 约束[1462] course_id: EpiGre -> c8888 (引用完整性破坏)
+3403. 约束[5126] course_id: ArcCriMed -> c8888 (引用完整性破坏)
+3404. 约束[5625] course_id: LinIta -> c8888 (引用完整性破坏)
+3405. 约束[6468] course_id: c0014 -> c8888 (引用完整性破坏)
+3406. 约束[5613] course_id: LinGen -> c8888 (引用完整性破坏)
+3407. 约束[4744] course_id: c0515 -> c8888 (引用完整性破坏)
+3408. 约束[6239] course_id: StoTecArtM3 -> c8888 (引用完整性破坏)
+3409. 约束[3990] course_id: c0150 -> c8888 (引用完整性破坏)
+3410. 约束[625] course_id: ArcTecCn -> c8888 (引用完整性破坏)
+3411. 约束[5757] course_id: Paleoa -> c8888 (引用完整性破坏)
+3412. 约束[3645] course_id: c0210 -> c8888 (引用完整性破坏)
+3413. 约束[1314] course_id: c1041 -> c8888 (引用完整性破坏)
+3414. 约束[582] course_id: StrIndAn -> c8888 (引用完整性破坏)
+3415. 约束[5566] course_id: LinLetLatCS -> c8888 (引用完整性破坏)
+3416. 约束[7247] course_id: nan -> c8888 (引用完整性破坏)
+3417. 约束[8839] course_id: c0821 -> c8888 (引用完整性破坏)
+3418. 约束[2552] course_id: c0450 -> c8888 (引用完整性破坏)
+3419. 约束[4764] course_id: c0532 -> c8888 (引用完整性破坏)
+3420. 约束[8761] course_id: nan -> c8888 (引用完整性破坏)
+3421. 约束[10626] course_id: c0011 -> c8888 (引用完整性破坏)
+3422. 约束[5048] course_id: c0113 -> c8888 (引用完整性破坏)
+3423. 约束[10851] course_id: c0281 -> c8888 (引用完整性破坏)
+3424. 约束[8338] course_id: nan -> c8888 (引用完整性破坏)
+3425. 约束[6293] course_id: StoCriCin -> c8888 (引用完整性破坏)
+3426. 约束[3531] course_id: c0114 -> c8888 (引用完整性破坏)
+3427. 约束[544] course_id: c0336 -> c8888 (引用完整性破坏)
+3428. 约束[9857] course_id: c0344 -> c8888 (引用完整性破坏)
+3429. 约束[5571] course_id: LinLetLatCS -> c8888 (引用完整性破坏)
+3430. 约束[3799] course_id: c0745 -> c8888 (引用完整性破坏)
+3431. 约束[5838] course_id: ProMedCS -> c8888 (引用完整性破坏)
+3432. 约束[1719] course_id: TeoTecCatCla -> c8888 (引用完整性破坏)
+3433. 约束[7930] course_id: c0142 -> c8888 (引用完整性破坏)
+3434. 约束[8963] course_id: LET-FIL-StoSci -> c8888 (引用完整性破坏)
+3435. 约束[6251] course_id: StoTecArtM3 -> c8888 (引用完整性破坏)
+3436. 约束[3483] course_id: c0060 -> c8888 (引用完整性破坏)
+3437. 约束[7253] course_id: c0427 -> c8888 (引用完整性破坏)
+3438. 约束[3060] course_id: c0219 -> c8888 (引用完整性破坏)
+3439. 约束[1419] course_id: LinLetLat1 -> c8888 (引用完整性破坏)
+3440. 约束[1946] course_id: BioArcCS -> c8888 (引用完整性破坏)
+3441. 约束[10003] course_id: nan -> c8888 (引用完整性破坏)
+3442. 约束[7698] course_id: TeoStr1Cv -> c8888 (引用完整性破坏)
+3443. 约束[8087] course_id: c0452 -> c8888 (引用完整性破坏)
+3444. 约束[3937] course_id: c0060 -> c8888 (引用完整性破坏)
+3445. 约束[4798] course_id: c0056 -> c8888 (引用完整性破坏)
+3446. 约束[4867] course_id: c0072 -> c8888 (引用完整性破坏)
+3447. 约束[5488] course_id: LegBenCul2 -> c8888 (引用完整性破坏)
+3448. 约束[4239] course_id: c0938 -> c8888 (引用完整性破坏)
+3449. 约束[8872] course_id: LET-ITA-LinIta -> c8888 (引用完整性破坏)
+3450. 约束[7343] course_id: c0516 -> c8888 (引用完整性破坏)
+3451. 约束[8899] course_id: LET-ITA-EleLinGenFil -> c8888 (引用完整性破坏)
+3452. 约束[6555] course_id: c0112 -> c8888 (引用完整性破坏)
+3453. 约束[10640] course_id: c0027 -> c8888 (引用完整性破坏)
+3454. 约束[10379] course_id: c0479 -> c8888 (引用完整性破坏)
+3455. 约束[574] course_id: CamEleAn -> c8888 (引用完整性破坏)
+3456. 约束[6120] course_id: StoFilMedCS -> c8888 (引用完整性破坏)
+3457. 约束[10320] course_id: c0411 -> c8888 (引用完整性破坏)
+3458. 约束[837] course_id: RetCal2Gns -> c8888 (引用完整性破坏)
+3459. 约束[8209] course_id: c0935 -> c8888 (引用完整性破坏)
+3460. 约束[7204] course_id: c0212 -> c8888 (引用完整性破坏)
+3461. 约束[51] course_id: c0071 -> c8888 (引用完整性破坏)
+3462. 约束[633] course_id: Idr2Cn -> c8888 (引用完整性破坏)
+3463. 约束[5370] course_id: EleInfSciCatBenCulM2 -> c8888 (引用完整性破坏)
+3464. 约束[3096] course_id: c0253 -> c8888 (引用完整性破坏)
+3465. 约束[8666] course_id: c0484 -> c8888 (引用完整性破坏)
+3466. 约束[2936] course_id: c0115 -> c8888 (引用完整性破坏)
+3467. 约束[7941] course_id: c0154 -> c8888 (引用完整性破坏)
+3468. 约束[7256] course_id: c0427 -> c8888 (引用完整性破坏)
+3469. 约束[3360] course_id: c0998 -> c8888 (引用完整性破坏)
+3470. 约束[8405] course_id: c0080 -> c8888 (引用完整性破坏)
+3471. 约束[11016] course_id: c0830 -> c8888 (引用完整性破坏)
+3472. 约束[1990] course_id: StoArtMed2CS -> c8888 (引用完整性破坏)
+3473. 约束[3666] course_id: c0223 -> c8888 (引用完整性破坏)
+3474. 约束[60] course_id: c0211 -> c8888 (引用完整性破坏)
+3475. 约束[2797] course_id: c0024 -> c8888 (引用完整性破坏)
+3476. 约束[107] course_id: c0115 -> c8888 (引用完整性破坏)
+3477. 约束[2877] course_id: c0069 -> c8888 (引用完整性破坏)
+3478. 约束[3655] course_id: c0214 -> c8888 (引用完整性破坏)
+3479. 约束[9895] course_id: c0348 -> c8888 (引用完整性破坏)
+3480. 约束[118] course_id: c0127 -> c8888 (引用完整性破坏)
+3481. 约束[1033] course_id: c0112 -> c8888 (引用完整性破坏)
+3482. 约束[9056] course_id: LET-CLE-LinLetGre2 -> c8888 (引用完整性破坏)
+3483. 约束[2719] course_id: c1058 -> c8888 (引用完整性破坏)
+3484. 约束[9064] course_id: LET-CLE-LinLetGre2 -> c8888 (引用完整性破坏)
+3485. 约束[2129] course_id: c0018 -> c8888 (引用完整性破坏)
+3486. 约束[9250] course_id: CBC-ART-StoMus -> c8888 (引用完整性破坏)
+3487. 约束[10342] course_id: c0432 -> c8888 (引用完整性破坏)
+3488. 约束[8581] course_id: c0935 -> c8888 (引用完整性破坏)
+3489. 约束[2562] course_id: c0452 -> c8888 (引用完整性破坏)
+3490. 约束[6938] course_id: c0821 -> c8888 (引用完整性破坏)
+3491. 约束[2229] course_id: c0128 -> c8888 (引用完整性破坏)
+3492. 约束[602] course_id: Mat1Cn -> c8888 (引用完整性破坏)
+3493. 约束[10115] course_id: c0115 -> c8888 (引用完整性破坏)
+3494. 约束[4641] course_id: c0443 -> c8888 (引用完整性破坏)
+3495. 约束[364] course_id: c0470 -> c8888 (引用完整性破坏)
+3496. 约束[1531] course_id: StoFil1 -> c8888 (引用完整性破坏)
+3497. 约束[9807] course_id: c0301 -> c8888 (引用完整性破坏)
+3498. 约束[6031] course_id: StoRes -> c8888 (引用完整性破坏)
+3499. 约束[5226] course_id: ArchivCS -> c8888 (引用完整性破坏)
+3500. 约束[7694] course_id: StoArcCv -> c8888 (引用完整性破坏)
+3501. 约束[8703] course_id: c0519 -> c8888 (引用完整性破坏)
+3502. 约束[332] course_id: c0266 -> c8888 (引用完整性破坏)
+3503. 约束[136] course_id: c0019 -> c8888 (引用完整性破坏)
+3504. 约束[10202] course_id: c0193 -> c8888 (引用完整性破坏)
+3505. 约束[6265] course_id: StoTecArtM3 -> c8888 (引用完整性破坏)
+3506. 约束[6618] course_id: c0162 -> c8888 (引用完整性破坏)
+3507. 约束[8224] course_id: nan -> c8888 (引用完整性破坏)
+3508. 约束[9718] course_id: c0226 -> c8888 (引用完整性破坏)
+3509. 约束[2536] course_id: c1034 -> c8888 (引用完整性破坏)
+3510. 约束[1824] course_id: StoArtLatAmeA -> c8888 (引用完整性破坏)
+3511. 约束[2456] course_id: c1023 -> c8888 (引用完整性破坏)
+3512. 约束[5860] course_id: PsiTur -> c8888 (引用完整性破坏)
+3513. 约束[2698] course_id: c0896 -> c8888 (引用完整性破坏)
+3514. 约束[2410] course_id: c0433 -> c8888 (引用完整性破坏)
+3515. 约束[9676] course_id: c0210 -> c8888 (引用完整性破坏)
+3516. 约束[5993] course_id: StoLibSta -> c8888 (引用完整性破坏)
+3517. 约束[6347] course_id: StoGre -> c8888 (引用完整性破坏)
+3518. 约束[5354] course_id: EleInfSciCatBenCulM2 -> c8888 (引用完整性破坏)
+3519. 约束[5452] course_id: Glotto -> c8888 (引用完整性破坏)
+3520. 约束[3843] course_id: c0850 -> c8888 (引用完整性破坏)
+3521. 约束[2989] course_id: c0153 -> c8888 (引用完整性破坏)
+3522. 约束[8399] course_id: c0080 -> c8888 (引用完整性破坏)
+3523. 约束[6646] course_id: c0181 -> c8888 (引用完整性破坏)
+3524. 约束[3673] course_id: c0224 -> c8888 (引用完整性破坏)
+3525. 约束[10889] course_id: c0429 -> c8888 (引用完整性破坏)
+3526. 约束[5116] course_id: ArcCla2 -> c8888 (引用完整性破坏)
+3527. 约束[9908] course_id: c0381 -> c8888 (引用完整性破坏)
+3528. 约束[1976] course_id: Antrop -> c8888 (引用完整性破坏)
+3529. 约束[7652] course_id: ArcTecCns -> c8888 (引用完整性破坏)
+3530. 约束[7545] course_id: Mat1G2n -> c8888 (引用完整性破坏)
+3531. 约束[551] course_id: c0336 -> c8888 (引用完整性破坏)
+3532. 约束[2398] course_id: c0427 -> c8888 (引用完整性破坏)
+3533. 约束[5] 创建重复行
+3534. 约束[34] 创建重复行
+3535. 约束[23] 创建重复行
+3536. 约束[12] 创建重复行
+3537. 约束[42] 创建重复行
+3538. 约束[26] 创建重复行
+3539. 约束[28] 创建重复行
+3540. 约束[48] 创建重复行
+3541. 约束[31] 创建重复行
+3542. 约束[47] 创建重复行
+3543. 约束[13] 创建重复行
+3544. 约束[14] 创建重复行
+3545. 约束[24] 创建重复行
+3546. 约束[3] 创建重复行
+3547. 约束[17] 创建重复行
+3548. 约束[46] 创建重复行
+3549. 约束[25] 创建重复行
+3550. 约束[19] 创建重复行
+3551. 约束[1] 创建重复行
+3552. 约束[35] 创建重复行
+3553. 约束[8] 创建重复行
+3554. 约束[36] 创建重复行
+3555. 约束[6] 创建重复行
+3556. 约束[49] 创建重复行
+3557. 约束[20] 创建重复行
+3558. 约束[33] 创建重复行
+3559. 约束[0] 创建重复行
+3560. 约束[32] 创建重复行
+3561. 约束[4] 创建重复行
+3562. 约束[39] 创建重复行
+3563. 约束[22] 创建重复行
+3564. 约束[2] 创建重复行
+3565. 约束[7] 创建重复行
+3566. 约束[45] 创建重复行
+3567. 约束[16] 创建重复行
+3568. 约束[38] 创建重复行
+3569. 约束[9] 创建重复行
+3570. 约束[43] 创建重复行
+3571. 约束[30] 创建重复行
+3572. 约束[18] 创建重复行
+3573. 约束[21] 创建重复行
+3574. 约束[29] 创建重复行
+3575. 约束[37] 创建重复行
+3576. 约束[15] 创建重复行
+3577. 约束[11] 创建重复行
+3578. 约束[27] 创建重复行
+3579. 约束[41] 创建重复行
+3580. 约束[40] 创建重复行
+3581. 约束[44] 创建重复行
+3582. 约束[10] 创建重复行

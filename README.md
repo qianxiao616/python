@@ -1,388 +1,181 @@
-# python
-高校课程表调度系统
+# AIcourse - 课程排课难度预测系统
+
+基于机器学习的 ITC2007 课程排课问题难度预测系统。
+
+## 项目简介
+
+本项目将课程排课问题转化为一个回归任务：不直接求解排课，而是预测排课问题的"难度"。具体做法是从 ITC2007 标准数据集（`.ctt` 文件）中提取问题特征，使用自主实现的贪心求解器求解每个实例，并将求解得到的软约束成本作为难度标签，进而训练多种回归模型预测新实例的排课难度。
+
+项目包含两条完整的流水线：
+
+1. **数据污染与清洗流水线**（`data_cleaning_main.py`）——演示从原始数据到清洗、分析、可视化的完整数据处理流程。
+2. **难度预测流水线**（`main.py`）——特征提取、标签生成、模型训练与评估。
+
+## 核心流程
+
+```
+.ctt 文件
+   ├─[数据流水线]→ CSV 转换 → 数据污染 → 数据清洗 → 分析与可视化
+   └─[预测流水线]→ 特征提取 → 贪心求解 → 软成本标签 → 模型训练 → 难度预测
+```
+
+## 项目结构
+
+```
+AIcourse/
+├── src/                          # 源代码
+│   ├── ctt_parser.py             # CTT 文件解析器（独立实现）
+│   ├── greedy_solver.py          # 贪心排课求解器（独立实现）
+│   ├── constraint_evaluator.py   # 硬/软约束评估器
+│   ├── feature_extractor.py      # 特征提取（20 个特征）
+│   ├── label_generator.py        # 标签生成（基于求解器软成本）
+│   ├── model_trainer.py          # 模型训练与 LOOCV 评估
+│   ├── visualizer.py             # 预测结果可视化
+│   ├── ctt_to_csv.py             # .ctt → CSV 转换
+│   ├── data_polluter.py          # 数据污染（注入缺失/异常/重复/格式错误）
+│   ├── data_cleaner.py           # 数据清洗
+│   └── data_analyzer.py          # 数据分析与可视化
+│
+├── data/                         # 数据目录
+│   ├── comp01.ctt ~ comp21.ctt   # 21 个 ITC2007 排课实例
+│   └── features.csv              # 提取的特征 + 标签数据集
+│
+├── data_cleaning/                # 数据处理流水线产物
+│   ├── clean_*.csv               # 由 .ctt 转换得到的干净 CSV
+│   ├── dirty/                    # 污染后的数据
+│   ├── cleaned/                  # 清洗后的数据
+│   ├── figures/                  # 数据分析图表（5 张）
+│   ├── pollution_log.txt         # 污染日志
+│   ├── cleaning_report.txt       # 清洗报告
+│   └── data_analysis_report.md   # 数据分析报告
+│
+├── results/                      # 预测流水线结果
+│   ├── model_comparison.csv      # 模型性能对比表
+│   ├── feature_importance.csv    # 特征重要性排序
+│   └── figures/                  # 可视化图表（6 张）
+│
+├── models/                       # 保存的模型
+├── main.py                       # 预测流水线入口
+├── data_cleaning_main.py         # 数据处理流水线入口
+├── requirements.txt              # 依赖列表
+└── README.md                     # 本文件
+```
+
+## 特征说明
+
+本项目从每个排课实例提取 **20 个数值特征**，分为四类：
+
+### 1. 规模类特征 (5 个)
+- `n_courses`：课程数量
+- `total_lectures`：讲座总次数
+- `n_rooms`：教室数量
+- `n_curricula`：课程组数量
+- `n_unavailability_constraints`：不可用约束总数
+
+### 2. 约束紧密度特征 (6 个)
+- `avg_curriculum_size`：平均课程组大小
+- `max_curriculum_size`：最大课程组大小
+- `constraint_density`：课程组冲突密度
+- `teacher_conflict_density`：教师冲突密度
+- `avg_unavailable_per_course`：平均每门课不可用时段数
+- `courses_in_curricula_ratio`：被课程组覆盖的课程比例
+
+### 3. 资源匹配特征 (6 个)
+- `room_capacity_mean`：教室平均容量
+- `room_capacity_std`：教室容量标准差
+- `student_count_mean`：课程平均学生数
+- `student_count_std`：学生数标准差
+- `avg_students_per_room_capacity`：学生与教室容量比
+- `room_utilization_pressure`：时段利用压力
+
+### 4. 时间分布特征 (3 个)
+- `avg_min_working_days`：课程平均最少工作天数
+- `lectures_per_timeslot_ratio`：讲座与时段比
+- `time_slack`：时间松弛度
+
+## 标签生成
+
+难度标签由贪心求解器自动生成，而非人工标注：
+
+1. 用贪心求解器求解每个 `.ctt` 实例
+2. 用约束评估器计算软约束成本（教室容量、最少工作天数、课程组紧凑性、教室稳定性）的加权和
+3. 将软成本作为连续的难度标签（`difficulty`），同时记录可行性、硬约束违规数、求解时间等元信息
 
-项目背景
+## 模型与评估
 
-本系统针对高校教务中的经典组合优化问题进行设计与实现，旨在解决课程调度（Course Scheduling）或时间表调度（Timetable Scheduling）问题。该问题涉及在有限的时间资源（时间片）、空间资源（教室）和人力资源（教师）下，安排多门课程的教学活动，同时满足多种约束条件。
+训练并对比以下回归模型：
 
-本项目融合硬约束（如教室容量、教师时间冲突等）与软约束（如学生、教师的时间偏好），采用混合启发式算法生成可行且高质量的排课方案，为高校教务管理提供实用的决策支持工具。
+1. **线性回归** (Linear Regression) — 基线
+2. **岭回归** (Ridge) — L2 正则化
+3. **Lasso 回归** (Lasso) — L1 正则化
+4. **随机森林** (Random Forest)
+5. **梯度提升** (Gradient Boosting)
+6. **支持向量回归** (SVR)
 
-核心功能
+> XGBoost 为可选模型，未安装时自动跳过。
 
-1.  数据建模
-    ◦ 构建课程（Course）、教师（Teacher）、教室（Room）、班级（ClassGroup）和时间片（TimeSlot）等核心实体模型
+**评估方法**：留一法交叉验证 (LOOCV)，适合 21 个样本的小数据集。
+**评估指标**：RMSE、MAE、R²、MAPE。
 
-    ◦ 建立各实体间的关联关系（如课程属于教师、课程对应班级、教室配备特定设施等）
+## 实验结果
 
-2.  约束定义与检测
-    ◦ 硬约束：必须满足的约束条件
+| 排名 | 模型 | RMSE | MAE | R² | MAPE(%) |
+|------|------|------|-----|-----|---------|
+| 1 | Lasso Regression | 121.66 | 81.38 | 0.883 | 21.90 |
+| 2 | Ridge Regression | 159.78 | 105.41 | 0.798 | 29.89 |
+| 3 | Gradient Boosting | 211.03 | 127.15 | 0.648 | 28.22 |
+| 4 | Random Forest | 277.06 | 163.57 | 0.393 | 37.98 |
+| 5 | SVR | 371.67 | 194.43 | -0.093 | 44.95 |
+| 6 | Linear Regression | 1210.20 | 680.58 | -10.587 | 182.77 |
 
-        ▪ 教室容量（教室可容纳学生数 ≥ 课程班级总人数）
+**最佳模型**：Lasso Regression（R² = 0.883，RMSE = 121.66）。结果表明，在小样本场景下正则化对防止过拟合至关重要，Lasso 的特征选择能力使其在 20 维特征下表现最优。
 
-        ▪ 教师时间冲突（同一教师在同一时间只能上一门课）
+## 使用方法
 
-        ▪ 教室占用冲突（同一教室在同一时间只能安排一门课）
+### 1. 安装依赖
 
-        ▪ 班级时间冲突（同一班级在同一时间只能上一门课）
+```bash
+cd AIcourse
+pip install -r requirements.txt
+```
 
-        ▪ 教师不可用时间（教师在其不可用时间段内不能排课）
+### 2. 数据处理流水线（污染 → 清洗 → 分析）
 
-    ◦ 软约束：期望满足的偏好条件
+```bash
+python data_cleaning_main.py
+```
 
-        ▪ 课程偏好的时间段
+产物输出到 `data_cleaning/`，包括干净/污染/清洗后的 CSV、污染日志、清洗报告、分析报告及 5 张图表。
 
-        ▪ 教师偏好的时间段
+### 3. 难度预测流水线
 
-    ◦ 实现evaluate_constraints函数，量化评估排课方案对各项约束的满足程度
+```bash
+# 生成数据集（特征提取 + 标签生成）
+python main.py --generate-data
 
-3.  优化求解
-    ◦ 实现HybridSolver混合求解器，包含构造初始解和局部搜索优化两个阶段
+# 训练并评估模型
+python main.py --train
 
-    ◦ 构造阶段：按课程复杂度（影响班级数、学生数）排序，采用贪心策略为每门课程寻找最优教室和时间
+# 完整流程（生成数据 + 训练）
+python main.py --all
 
-    ◦ 优化阶段：采用爬山法（Hill Climbing）进行局部搜索，尝试调整已安排课程以提升整体满意度
+# 使用更长的求解时间以提高标签质量
+python main.py --all --time-limit 60
+```
 
-    ◦ 输出排课方案（Solution）及其约束满足度评估结果
+预测结果输出到 `results/`，包括模型对比表、特征重要性表及 6 张可视化图表。
 
-4.  输出与可视化
-    ◦ 生成CSV格式的课程安排表
+## 依赖项
 
-    ◦ 生成HTML格式的可视化课表
+- Python 3.7+
+- pandas >= 1.3.0
+- numpy >= 1.21.0
+- scikit-learn >= 1.0.0
+- matplotlib >= 3.4.0
+- seaborn >= 0.11.0
+- scipy >= 1.7.0
+- xgboost >= 1.5.0 (可选)
 
-    ◦ 生成JSON格式的详细约束满足度报告
+## 参考
 
-系统架构
-
-主要数据结构
-
-类名 功能描述 关键属性
-
-TimeSlot 时间片 星期（0-4对应周一至周五），节次（0-7对应第1-8节课）
-
-Course 课程 课程ID、名称、授课教师、对应班级、班级人数、周课时数、偏好时间、所需教室设施等
-
-Teacher 教师 教师ID、姓名、不可用时间、偏好时间等
-
-Room 教室 教室ID、名称、容量、设施等
-
-ClassGroup 班级 班级ID、名称、人数、所上课程等
-
-Assignment 课程安排 课程ID、教室ID、时间片
-
-Timetable 课表模型 包含所有实体及已安排的课程列表
-
-核心算法流程
-
-# 伪代码描述
-timetable = 加载课程、教师、教室、班级等数据
-solver = HybridSolver(timetable, seed=42)
-
-# 求解过程
-1. 按课程复杂度排序（影响班级数、学生数降序）
-2. 对每门课程：
-   2.1 遍历所有可用教室和时间组合
-   2.2 检查是否违反约束（教师不可用、资源冲突等）
-   2.3 评估候选安排的成本（硬约束违反数*100 + 软约束违反数）
-   2.4 选择成本最低的安排
-3. 局部优化（爬山法）：
-   3.1 以当前安排为基准
-   3.2 对每门课程尝试其他教室和时间组合
-   3.3 如果新组合提升评分则采纳
-4. 返回最优解
-
-
-约束评分机制
-
-评分函数evaluate_constraints()返回包含以下指标的字典：
-
-• 硬约束违反数（Hard Constraints Violations）
-
-  • hard_room_occupancy：教室占用冲突
-
-  • hard_teacher_conflict：教师时间冲突
-
-  • hard_group_conflict：班级时间冲突
-
-  • hard_capacity：教室容量不足
-
-  • hard_teacher_unavailable：教师不可用时间冲突
-
-  • hard_total：硬约束违反总数
-
-• 软约束违反数（Soft Constraints Violations）
-
-  • soft_preference_penalty：课程偏好时间违反
-
-  • soft_teacher_preference：教师偏好时间违反
-
-  • soft_total：软约束违反总数
-
-• 综合评分：score = -(hard_total * 100 + soft_total)
-
-  • 分值越高（即负数的绝对值越小）表示排课质量越好
-
-  • 硬约束违反的权重（100倍）显著高于软约束违反
-
-技术栈
-
-• 核心语言：Python 3.8+
-
-• 优化算法：贪心构造 + 爬山法局部搜索
-
-• 约束处理：自定义约束检测与评估框架
-
-• 数据处理：标准数据结构（dataclasses, dict, list等）
-
-• 文件格式：CSV, HTML, JSON
-
-• 测试框架：unittest
-
-• 可扩展集成：
-
-  • 可与python-constraint等约束求解库集成
-
-  • 可与DEAP等进化计算框架集成
-
-  • 可与Pandas等数据分析库集成进行结果分析
-
-快速开始
-
-安装与运行
-
-# 克隆项目
-git clone https://github.com/yourusername/timetable-scheduler.git
-cd timetable-scheduler
-
-# 运行示例
-python scheduler.py
-
-# 运行测试
-python test_system.py
-
-
-基本使用
-
-from scheduler import DataLoader, HybridSolver, OutputGenerator
-
-# 1. 加载数据
-timetable = DataLoader.create_sample_data()
-
-# 2. 求解
-solver = HybridSolver(timetable, seed=42)
-solution = solver.solve(time_limit=5)  # 最多运行5秒
-
-# 3. 输出结果
-OutputGenerator.generate_timetable_csv(solution, "output/timetable.csv")
-OutputGenerator.generate_timetable_html(solution, "output/timetable.html")
-OutputGenerator.generate_constraint_report(solution, "output/report.json")
-
-
-自定义数据
-
-from scheduler import Timetable, Course, Teacher, Room, ClassGroup, TimeSlot
-
-# 创建空课表
-timetable = Timetable()
-
-# 添加教师
-teacher = Teacher(id="T001", name="王老师", 
-                  unavailable={TimeSlot(0, 0), TimeSlot(2, 2)})  # 周一第1节，周三第3节不可用
-timetable.add_teacher(teacher)
-
-# 添加教室
-room = Room(id="R101", name="教学楼101", capacity=50, features={"投影", "空调"})
-timetable.add_room(room)
-
-# 添加班级
-group = ClassGroup(id="G2023CS01", name="2023级计算机1班", size=45)
-timetable.add_group(group)
-
-# 添加课程
-course = Course(
-    id="CS101", 
-    name="计算机导论", 
-    teacher_id="T001", 
-    group_ids=["G2023CS01"], 
-    size=45,
-    sessions_per_week=2,
-    preferred_slots=[TimeSlot(1, 1), TimeSlot(3, 1)],  # 偏好周二第2节，周四第2节
-    preferred_room_features=["投影"]
-)
-timetable.add_course(course)
-
-# 求解（同上）
-
-
-测试
-
-项目包含完整的单元测试，确保核心功能正确性：
-# 运行所有测试
-python -m pytest test_system.py -v
-
-# 或直接运行测试模块
-python test_system.py
-
-
-测试覆盖：
-• 数据加载与模型构建
-
-• 约束冲突检测
-
-• 求解器可行性
-
-• 多种格式输出生成
-
-项目结构
-
-
-timetable-scheduler/
-├── scheduler.py          # 核心调度算法与数据模型
-├── test_system.py       # 单元测试
-├── requirements.txt     # 依赖包列表
-├── README.md           # 项目说明（本文件）
-├── examples/           # 使用示例
-│   ├── basic_usage.py
-│   └── custom_data.py
-└── output/             # 输出目录（自动生成）
-    ├── timetable.csv
-    ├── timetable.html
-    └── report.json
-
-
-扩展与定制
-
-1. 添加新约束类型
-
-# 在Timetable.evaluate_constraints()方法中添加
-def evaluate_constraints(self):
-    # ... 现有评估逻辑 ...
-    
-    # 添加新硬约束：特殊教室要求
-    hard_special_room = 0
-    for assignment in self.assignments.values():
-        course = self.courses[assignment.course_id]
-        room = self.rooms[assignment.room_id]
-        
-        # 检查课程要求的特殊设施
-        for feature in course.preferred_room_features:
-            if feature not in room.features:
-                hard_special_room += 1
-                
-    # 更新返回结果
-    return {
-        # ... 现有指标 ...
-        "hard_special_room": hard_special_room,
-        "hard_total": hard_total + hard_special_room,
-        "score": -(hard_total * 100 + soft_total + hard_special_room * 50)
-    }
-
-
-2. 集成外部优化库
-
-# 示例：与python-constraint集成
-from constraint import Problem, AllDifferentConstraint
-
-def solve_with_csp(timetable):
-    problem = Problem()
-    
-    # 为每门课程添加变量（可能的教室+时间组合）
-    for course in timetable.courses.values():
-        domain = []
-        for room in timetable.rooms.values():
-            for timeslot in timetable.timeslots:
-                if room.capacity >= course.size:
-                    domain.append((room.id, timeslot))
-        problem.addVariable(course.id, domain)
-    
-    # 添加约束
-    for course in timetable.courses.values():
-        # 教师不可用时间约束
-        teacher = timetable.teachers[course.teacher_id]
-        # ... 添加约束逻辑
-    
-    return problem.getSolution()
-
-
-3. 多目标优化
-
-# 扩展评分函数以支持多目标优化
-def evaluate_multi_objective(self):
-    metrics = self.evaluate_constraints()
-    
-    # 新增目标：教室利用率均衡
-    room_usage = {}
-    for assignment in self.assignments.values():
-        room_usage[assignment.room_id] = room_usage.get(assignment.room_id, 0) + 1
-    
-    usage_std = np.std(list(room_usage.values())) if room_usage else 0
-    metrics["room_balance"] = usage_std
-    
-    return metrics
-
-
-性能与优化
-
-• 时间复杂度：O(C×R×T)其中C为课程数，R为教室数，T为时间片数
-
-• 空间复杂度：O(C+R+T)主要存储各实体及安排信息
-
-• 优化方向：
-
-  • 使用启发式规则预过滤候选安排
-
-  • 实现并行化评估
-
-  • 集成元启发式算法（遗传算法、模拟退火等）
-
-应用场景
-
-1. 高校教务管理：自动化生成学期课表
-2. 培训机构：安排课程与教室资源
-3. 会议室调度：企业会议室资源分配
-4. 考试安排：考场与监考教师调度
-5. 研究平台：组合优化算法实验与比较
-
-未来改进方向
-
-1. 算法增强
-   • 集成遗传算法、模拟退火等元启发式算法
-
-   • 实现多目标优化（Pareto前沿）
-
-   • 添加自适应参数调整机制
-
-2. 功能扩展
-   • 支持连续多节课程安排
-
-   • 添加课程间前后置关系约束
-
-   • 支持教师工作量均衡约束
-
-   • 添加可视化冲突检测界面
-
-3. 工程优化
-   • 添加RESTful API接口
-
-   • 提供Web管理界面
-
-   • 支持数据库持久化存储
-
-   • 实现增量式排课更新
-
-许可证
-
-本项目采用MIT许可证。详见LICENSE文件。
-
-贡献指南
-
-欢迎提交Issue和Pull Request！贡献内容包括但不限于：
-• 新的优化算法实现
-
-• 额外约束类型支持
-
-• 性能优化
-
-• 文档改进
-
-• 测试用例补充
-本项目为高校课程调度问题的参考实现，旨在平衡算法效率与解的质量，适用于中小规模排课场景。对于大规模复杂场景，建议结合更先进的优化算法和并行计算技术。
+- ITC2007 Curriculum-Based Course Timetabling (Track 3)

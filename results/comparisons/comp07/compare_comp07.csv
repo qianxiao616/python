@@ -1,0 +1,4 @@
+model,soft_cost,hard_violations,satisfaction,room_capacity,min_working_days,curriculum_compactness,room_stability
+Greedy模型,736,2,100.0,0,130,572,34
+随机模型,6444,4,0.0,5264,300,602,278
+紧凑性模型,849,2,98.5,73,540,196,40
